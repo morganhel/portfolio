@@ -1,0 +1,26 @@
+.presentation{
+    @include container;
+
+    &__content{
+        display:flex;
+        align-items: center;
+        gap:50px;
+
+        &__photo{
+            width:250px;
+            border-radius: 50%;
+        }
+
+        &__txt{
+            text-align:center;
+            line-height: 1.75;
+
+            &--bold{
+                font-weight: 600;
+                margin-bottom: 15px;
+            }
+        }
+        
+    }
+
+}

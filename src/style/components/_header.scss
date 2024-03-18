@@ -1,13 +1,14 @@
 
 .header{
-    width: 1200px;
     height: 67px;
-    padding:0 20px;
+    margin: auto;
+    max-width: 1200px;
 
     &__name{
         font-family: "Poppins", sans-serif;
         font-weight: 800;
         font-style: normal;
+        font-size: 20px;
         padding-top:5px;
     }
     &__nav{
