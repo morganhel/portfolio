@@ -78,6 +78,32 @@ h2 {
   font-size: 14px;
 }
 
+.card {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  width: 400px;
+  color: white;
+  background-color: black;
+}
+.card__top {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.card__top--img {
+  height: 100%;
+  width: auto;
+}
+.card__top--logo {
+  width: 40px;
+  cursor: pointer;
+}
+.card__bottom {
+  padding: 15px;
+}
+
 .presentation {
   display: flex;
   flex-direction: column;
@@ -101,4 +127,19 @@ h2 {
 .presentation__content__txt--bold {
   font-weight: 600;
   margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.realisations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 0;
+}
+.realisations__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
 }/*# sourceMappingURL=index.css.map */
