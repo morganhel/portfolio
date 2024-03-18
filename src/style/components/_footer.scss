@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 50px 0;
+
+    &__txt{
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+    }
+}
