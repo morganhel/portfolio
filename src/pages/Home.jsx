@@ -1,7 +1,9 @@
 import React from 'react';
 import Me from '../assets/images/Me.jpg';
-import Card from '../components/card/Card'
-import Ecran from '../assets/images/ecran.png'
+import Card from '../components/card/Card';
+import Ecran from '../assets/images/ecran.png';
+import Projets from '../data/projets.json';
+
 
 function Home() {
   return (
@@ -26,6 +28,13 @@ function Home() {
       <section className='realisations'>
         <h2>REALISATIONS</h2>
         <div className='realisations__content'>
+          {Projets.map((projet)=>{
+            return (
+              <Card title={projet.title} txt={projet.description} img={projet.img} repo={projet.repo} />
+            )
+          })}
+
+
           <Card title="Projet" img={Ecran} txt="blablabli blablablou" repo="https://github.com/"/>
           <Card title="Projet" img={Ecran} txt="blablabli blablablou" repo="https://github.com/"/>
         </div>
