@@ -17,11 +17,11 @@ function Home() {
             <br />DEVELOPPEUR FRONT-END</p>
             <p>En 2022, je suis devenu maman. Et depuis ma vision de ma vie a changé
             <br />Je me suis consacrée à ma casquette de maman plusieurs mois,
-            <br />ce qui m'a donné le temps de réfléchir à mon "dream job" :
+            <br />ce qui m&apos;a donné le temps de réfléchir à mon &quot;dream job&quot; :
             <br />DEVELOPPEUR FULL STACK FREELANCE
             <br />Pour arriver à celui-ci dans quelques années, 
-            <br />j'ai entamé la formation diplômante "Intégrateur Web" d'Open Classrooms</p>
-            <p>Voici <a>mon CV</a> pour entrevoir ma quête du "dream job".</p>
+            <br />j&apos;ai entamé la formation diplômante &quot;Intégrateur Web&quot; d&apos;Open Classrooms</p>
+            <p>Voici <a>mon CV</a> pour entrevoir ma quête du &quot;dream job&quot;.</p>
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ function Home() {
         <div className='realisations__content'>
           {Projets.map((projet)=>{
             return (
-              <Card title={projet.title} txt={projet.description} img={projet.img} repo={projet.repo} />
+              <Card key={projet.id} title={projet.title} txt={projet.description} img={projet.img} repo={projet.repo} />
             )
           })}
 
