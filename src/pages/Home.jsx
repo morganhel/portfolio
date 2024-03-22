@@ -30,7 +30,7 @@ function Home() {
         <div className='realisations__content'>
           {Projets.map((projet)=>{
             return (
-              <Card key={projet.id} title={projet.title} txt={projet.description} img={projet.img} repo={projet.repo} />
+              <Card key={projet.id} title={projet.title} txt={projet.description.mission} img={projet.img} repo={projet.repo} />
             )
           })}
 

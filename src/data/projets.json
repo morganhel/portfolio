@@ -2,16 +2,78 @@
     {
         "id": "1",
         "title": "Booki",
-        "description": "La start-up Booki, agence de voyage souhaite développer un site Internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix. Votre mission principale sera d'intégrer l'interface responsive de leur site. Vous aurez à disposition les maquettes Figma pour mobile, tablette et desktop, ainsi que les images et une note de synthèse sur les spécificités du projet.  Vous serez amenez à créer vos propres composants d'interface avec HTML et CSS afin d'avoir un rendu correspondant à la maquette Cela vous donnera une compréhension plus profonde de la manière dont le code est structuré et stylisé pour répondre aux exigences de design. En travaillant sur ce projet, vous développerez des compétences essentielles en design responsive, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran",
+        "description": {
+            "client":"Start-up Booki, agence de voyage.",
+            "besoin":":Un site internet qui permettent aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+            "mission":"Intégrer l'interface responsive du site à partir des maquettes produites par l’UI Designer ",
+            "details":"Après connaissance de la note de synthèse laissé par la CTO de Booki pour comprendre l’avancée du projet et mon rôle dans ce projet, j’ai été amené à créer mes propres composants d'interface avec HTML et CSS afin d'avoir un rendu correspondant à la maquette. /nCela m’a apporté une compréhension plus profonde de la manière dont le code est structuré et stylisé pour répondre aux exigences de design. /nEn travaillant sur ce projet, j’ai développé des compétences essentielles en design responsive, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran."
+        },
+        "img": "../portfolio/assets/images/projects/sophie-bluel/ecran.png",
+        "repo": ""
+    },
+
+    {
+        "id": "2",
+        "title": "Ohmyfood",
+        "description": {
+            "client":"Start-up Ohmyfood, qui voudrait s'imposer sur le marché de la restauration",
+            "besoin":"Un site qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
+            "mission":"Intégrer une maquette en mobile-first à partir des maquettes pour mobile et Desktop et du prototype Figma ",
+            "details":" Avec l’approche mobile-first j’ai conçu un site web adaptatif et réactif. /nAprès avoir réalisé l’intégration de la page d’accueil et des pages de chaque restaurant, j’ai mis en œuvre des animations CSS pour enrichir l'expérience utilisateur du site. Ces animations donnent vie à l'interface et rende la navigation plus interactive et engageante. /nJ’ai utilisé SASS, un pré-processeur CSS afin d’étendre les fonctionnalités de base du CSS. Cela permet  d’écrire des styles plus organisés et maintenables. Ce qui m’a facilité la réalisation du responsive tablette et Desktop. /nEnfin, j’ai versionné le projet avec Git et GitHub, outils essentiels pour la gestion et la collaboration sur des projets de développement web."
+        },
+        "img": "..../portfolio/assets/images/ecran.png",
+        "repo": "https://github.com/morganhel/Projet_4_heleine_morgan.git"
+    },
+
+    {
+        "id": "3",
+        "title": "Portfolio Sophie Bluel",
+        "description": {
+            "client":"Sophie Bluel, architecte d’Intérieur.",
+            "besoin":"Une page web dynamique pour son Portfolio",
+            "mission":"Développer la partie Front-End en utilisant JavaScript et en communiquant avec une API",
+            "details":"J’ai d’abord développé la page de présentation des travaux de l'architecte à partir du HTML fourni. Cela implique la gestion des événements utilisateurs et la manipulation des éléments du DOM avec JavaScript. /nEnsuite, j’ai créé la page de connexion pour l'administrateur du site ainsi qu'une modale permettant d'uploader de nouveaux médias. /nPour la première fois, j’ai eu accès à un code back-end pour tester les fonctionnalités. J’ai appris  à communiquer avec une API, ce qui est crucial pour les applications web modernes. /nEnfin, j’ai versionné le projet avec Git et GitHub, outils essentiels pour la gestion et la collaboration sur des projets de développement web."
+        },
         "img": "../portfolio/assets/images/projects/sophie-bluel/ecran.png",
         "repo": "https://github.com/morganhel/Projet_6_heleine_morgan.git"
     },
 
     {
-        "id": "2",
-        "title": "Booki",
-        "description": "blablabli blablablou",
-        "img": "..../portfolio/assets/images/ecran.png",
-        "repo": "https://github.com/morganhel/Projet_4_heleine_morgan.git"
+        "id": "4",
+        "title": "MenuMaker by QWENTA",
+        "description": {
+            "client":"Qwenta, entreprise d’impression de supports pour les professionnels.",
+            "besoin":"Menu Maker : un outil en ligne qui permettra à ses clients restaurateurs de publier et de choisir par eux-mêmes la mise en forme de leurs menus, d’où le nom “Menu Maker”",
+            "mission":"Planifier le développement du site web, sans intervenir directement dans le codage. Grâce à la maquette, aux spécifications fonctionnelles et aux User Stories du site.",
+            "details":": J’ai réalisé une veille technologique pour rester informé des dernières tendances et technologies pertinentes pour le projet. Cela implique l'utilisation d'un système de veille pour suivre les évolutions dans le domaine du développement web. /nEnsuite j’ai rédigé les spécifications techniques du projet. Cela comprend l'identification des besoins fonctionnels et la décomposition des fonctionnalités en tâches spécifiques. /nPuis j’ai utilisé un outil de gestion de projet, Notion, pour organiser le projet et créer un tableau Kanban. Afin de permettre à l’équipe mais aussi au client de suivre le déroulement du projet de manière structurée et efficace. /nEnfin, j’ai réalisé une présentation de la solution technique, sous forme de diaporama. Cette présentation synthétise ma planification et mon approche pour le développement du site."
+        },
+        "img": "../portfolio/assets/images/projects/sophie-bluel/ecran.png",
+        "repo": ""
+    },
+
+    {
+        "id": "5",
+        "title": "Kasa",
+        "description": {
+            "client":"Kasa, entreprise de location d’appartements entre particuliers.",
+            "besoin":"Refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
+            "mission":"Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et les contraintes techniques.",
+            "details":"J’ai débuté le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. J’ai également utilisé Node.js pour exécuter du code JavaScript en dehors du navigateur. /nLe but étant de créer une expérience utilisateur moderne et réactive, j’ai implémenté le front-end. Et ça, en me basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON. /nJ’ai utilisé React Router pour configurer la navigation entre les différentes pages de l'application. J’ai pu comprendre comment gérer efficacement le routage dans une application web moderne. /nJ’ai travaillé sur la logique de présentation des données et les composants React (une bibliothèque JavaScript populaire pour la création d'interfaces utilisateur)."
+        },
+        "img": "../portfolio/assets/images/projects/sophie-bluel/ecran.png",
+        "repo": "https://github.com/morganhel/Projet_8_heleine_morgan.git"
+    },
+
+    {
+        "id": "6",
+        "title": "ArgentBank",
+        "description": {
+            "client":"Argent Bank, une nouvelle banque en ligne.",
+            "besoin":"Application bancaire complète.",
+            "mission":"Intégrer le front-end et avec le back-end via des appels API et fournir un document décrivant les routes API pour les manipulations sur les transactions.",
+            "details":"J’ai utilisé React pour développer l'interface utilisateur de l'application bancaire, en me concentrant sur la création de la page d’accueil, du formulaire de connexion et d'un tableau de bord complet et responsive pour les utilisateurs. /nJ’ai utilisé Redux pour gérer les données de l'application. Cela m’a permis de maintenir un état global cohérent à travers l'application. /nJ’ai utilisé utiliserez Node.js pour exécuter le code JavaScript côté serveur. Cela m’a donné une expérience pratique de la gestion d'une application full-stack. /nJ’ai écrit des appels à l'API REST pour connecter les deux parties de l'application, assurant une communication fluide entre le client et le serveur. /nUne fonctionnalité pour les transactions est encore en conception, j’ai donné mon avis sur la façon dont les routes API devraient être modélisées du côté back-end. /nPour définir les points d'accès de l'API et modéliser les interactions avec les données des transactions, j’ai utilisé Swagger. Cet outil m’a aidé à décrire les différentes routes et actions nécessaires pour l'API"
+        },
+        "img": "../portfolio/assets/images/projects/sophie-bluel/ecran.png",
+        "repo": "https://github.com/morganhel/ArgentBank-website.git"
     }
 ]

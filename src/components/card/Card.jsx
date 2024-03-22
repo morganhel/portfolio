@@ -16,7 +16,7 @@ function Card({img,title,txt,repo}) {
             </div>
             <div className='card__bottom'>
             <h3>{title}</h3>
-            <p>{txt}</p>
+            <p>Ma mission : {txt}</p>
             </div>
         </article>
     )
