@@ -1,5 +1,5 @@
 import logoGit from '../../assets/images/logo_github.png';
-import { ReactPropTypes } from 'react';
+
 // import projets from '../../data/projets.json'
 
 
@@ -22,11 +22,5 @@ function Card({img,title,txt,repo}) {
     )
 }
 
-Card.propTypes={
-    img: ReactPropTypes.string.isRequired,
-    title: ReactPropTypes.string.isRequired,
-    txt: ReactPropTypes.string.isRequired,
-    repo: ReactPropTypes.string.isRequired,
-}
 
 export default Card
