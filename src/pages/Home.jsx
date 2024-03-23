@@ -1,14 +1,13 @@
 import React from 'react';
 import Me from '../assets/images/Me.jpg';
 import Card from '../components/card/Card';
-import Ecran from '../assets/images/ecran.png';
 import Projets from '../data/projets.json';
 
 
 function Home() {
   return (
     <main>
-      <section className='presentation'>
+      <section className='presentation' id='presentation'>
         <h2>PRESENTATION</h2>
         <div className='presentation__content'>
           <img className='presentation__content__photo' src={Me} alt="Morgan"/>
@@ -25,7 +24,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className='realisations'>
+      <section className='realisations' id='realisation'>
         <h2>REALISATIONS</h2>
         <div className='realisations__content'>
           {Projets.map((projet)=>{
@@ -33,11 +32,10 @@ function Home() {
               <Card key={projet.id} title={projet.title} txt={projet.description.mission} img={projet.img} repo={projet.repo} />
             )
           })}
-
-
-          <Card title="Projet" img={Ecran} txt="blablabli blablablou" repo="https://github.com/"/>
-          <Card title="Projet" img={Ecran} txt="blablabli blablablou" repo="https://github.com/"/>
         </div>
+      </section>
+      <section className='competences' id='competence'>
+
       </section>
     </main>
   );
