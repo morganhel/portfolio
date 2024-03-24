@@ -2,7 +2,8 @@ import React from 'react';
 import Me from '../assets/images/Me.jpg';
 import Card from '../components/card/Card';
 import Projets from '../data/projets.json';
-
+import Skills from '../data/skills.json';
+import Skill from '../components/skill/Skill';
 
 function Home() {
   return (
@@ -24,17 +25,28 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className='realisations' id='realisation'>
+      <section className='realisations' id='realisations'>
         <h2>REALISATIONS</h2>
         <div className='realisations__content'>
           {Projets.map((projet)=>{
             return (
-              <Card key={projet.id} title={projet.title} txt={projet.description.mission} img={projet.img} repo={projet.repo} />
+              <Card key={projet.title} title={projet.title} txt={projet.description.mission} img={projet.img} repo={projet.repo} />
             )
           })}
         </div>
       </section>
-      <section className='competences' id='competence'>
+      <section className='competences' id='competences'>
+        <h2>COMPETENCES</h2>
+        <div>
+          <div>
+          {Skills.map((skill)=>{
+            console.log(skill.name)
+            return (
+              <Skill key={skill.id} logo={skill.logo} name={skill.name}/>
+            )
+          })}
+          </div>
+        </div>
 
       </section>
     </main>

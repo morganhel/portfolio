@@ -1,0 +1,56 @@
+[
+    {
+        "id":"1",
+        "name":"VsCode",
+        "logo":"../assets/images/Logo/html.webp"
+
+    },
+    {
+        "id":"1",
+        "name":"HTML",
+        "logo":"../assets/images/Logo/html.webp"
+
+    },
+    {
+        "id":"2",
+        "name":"CSS",
+        "logo":"../assets/images/Logo/css.webp"
+
+    },
+    {
+        "id":"3",
+        "name":"SASS",
+        "logo":"../assets/images/Logo/sass.webp"
+
+    },
+    {
+        "id":"4",
+        "name":"JAVASCRIPT",
+        "logo":"../assets/images/Logo/js.webp"
+
+    },
+    {
+        "id":"5",
+        "name":"REACT",
+        "logo":"../assets/images/Logo/react.webp"
+
+    },
+    {
+        "id":"6",
+        "name":"REDUX",
+        "logo":"../assets/images/Logo/redux.webp"
+
+    },
+    {
+        "id":"7",
+        "name":"NODE.JS",
+        "logo":"../assets/images/Logo/node.webp"
+
+    },
+    {
+        "id":"8",
+        "name":"GITHUB",
+        "logo":"../assets/images/Logo/github.webp"
+
+    }
+]

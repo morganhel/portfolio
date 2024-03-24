@@ -35,3 +35,7 @@
         grid-gap: 30px;
     }
 }
+
+.competences{
+    @include container;
+}
