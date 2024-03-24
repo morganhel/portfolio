@@ -37,16 +37,35 @@ function Home() {
       </section>
       <section className='competences' id='competences'>
         <h2>COMPETENCES</h2>
-        <div>
-          <div>
-          {Skills.map((skill)=>{
-            console.log(skill.name)
-            return (
-              <Skill key={skill.id} logo={skill.logo} name={skill.name}/>
-            )
-          })}
+        <div className='competences__content'>
+          <div className='competences__content--hardSkills'>
+            <h3>HARD SKILLS</h3>
+            <div className='competences__content--hardSkills--grid'>
+            {Skills.map((skill)=>{
+              console.log(skill.name)
+              return (
+                <Skill logo={skill.logo} name={skill.name} />
+              )
+            })}
+            </div>
+          </div>
+          <div className='competences__content--softSkills'>
+            <h3>SOFT SKILLS</h3>
+            <ul className='competences__content--softSkills--grid'>
+                <li>Adaptabilité</li>
+                <li>Autonomie</li>
+                <li>Créativité</li>
+                <li>Ingéniosité</li>
+                <li>Proactivité</li>
+                <li>Méticulosité</li>
+                <li>Sociabilité</li>
+            </ul>
           </div>
         </div>
+      </section>
+      <section className='contact' id='contact'>
+        <h2>CONTACT</h2>
+        <div></div>
 
       </section>
     </main>

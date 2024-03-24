@@ -1,10 +1,6 @@
 import logoGit from '../../assets/images/logo_github.png';
 
-// import projets from '../../data/projets.json'
-
-
 function Card({img,title,txt,repo}) {
-    // const cheminImage=projets[0].img;
 
     return (
         <article className="card">

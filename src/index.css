@@ -31,6 +31,10 @@ h2 {
   font-style: normal;
 }
 
+h3 {
+  font-size: 22px;
+}
+
 .header {
   height: 67px;
   margin: auto;
@@ -105,11 +109,10 @@ h2 {
 }
 
 .skill {
-  height: 50px;
-  width: 50px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   perspective: 1000px;
-  border: 1px solid red;
 }
 .skillInner {
   position: relative;
@@ -128,6 +131,7 @@ h2 {
 .skillInner__logo img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 }
 .skillInner__name {
   position: absolute;
@@ -141,6 +145,9 @@ h2 {
   display: flex;
   backface-visibility: hidden;
   transform: rotateY(180deg);
+}
+.skillInner__name p {
+  font-size: 12px;
 }
 .skill:hover .skillInner {
   transform: rotateY(180deg);
@@ -192,4 +199,36 @@ h2 {
   align-items: center;
   gap: 30px;
   margin: 25px 0;
+}
+.competences__content {
+  display: flex;
+  width: 100%;
+  padding: 0 150px;
+  justify-content: space-around;
+}
+.competences__content--hardSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.competences__content--hardSkills--grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 15px;
+}
+.competences__content--softSkills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+.competences__content--softSkills--grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  padding-top: 20px;
+}
+.competences__content--softSkills--grid li {
+  font-size: 16px;
 }/*# sourceMappingURL=index.css.map */
