@@ -5,7 +5,9 @@ import Projets from '../data/projets.json';
 import Skills from '../data/skills.json';
 import Thumbnail from '../components/thumbnail/Thumbnail';
 import ContactForm from '../components/contactForm/ContactForm';
-import Linkedin from '../assets/images/Logo/linkedin.webp'
+import Linkedin from '../assets/images/Logo/linkedin.webp';
+// import Typewriter from '../components/typewriter/Typewriter';
+import { ReactTyped} from "react-typed";
 
 function Home() {
   return (
@@ -17,13 +19,12 @@ function Home() {
           <div className='presentation__content__txt'>
             <p className='presentation__content__txt--bold'>Bonjour, je suis MORGAN HELEINE 
             <br />DEVELOPPEUR FRONT-END</p>
-            <p>En 2022, je suis devenu maman. Et depuis ma vision de ma vie a changé
-            <br />Je me suis consacrée à ma casquette de maman plusieurs mois,
-            <br />ce qui m&apos;a donné le temps de réfléchir à mon &quot;dream job&quot; :
-            <br />DEVELOPPEUR FULL STACK FREELANCE
-            <br />Pour arriver à celui-ci dans quelques années, 
-            <br />j&apos;ai entamé la formation diplômante &quot;Intégrateur Web&quot; d&apos;Open Classrooms</p>
-            <p>Voici <a>mon CV</a> pour entrevoir ma quête du &quot;dream job&quot;.</p>
+            <ReactTyped 
+            strings={["En 2022, je suis devenu maman. Et depuis ma vision de ma vie a changé. <br />Je me suis consacrée à ma casquette de maman plusieurs mois,<br />ce qui m&apos;a donné le temps de réfléchir à mon &quot;dream job&quot; :<br />DEVELOPPEUR FULL STACK FREELANCE<br />Pour arriver jusqu'à celui-ci,j&apos;ai entamé la formation diplômante &quot;Intégrateur Web&quot; d&apos;Open Classrooms. <br />Voici <a href='#'>mon CV</a> pour entrevoir ma quête du &quot;dream job&quot;."]}
+            typeSpeed={40}
+            cursorChar="|"
+            showCursor={true}
+            />
           </div>
         </div>
       </section>
