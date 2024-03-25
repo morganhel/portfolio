@@ -32,7 +32,15 @@ function Home() {
         <div className='realisations__content'>
           {Projets.map((projet)=>{
             return (
-              <Card key={projet.title} title={projet.title} txt={projet.description.mission} img={projet.img} repo={projet.repo} />
+              <Card 
+                key={projet.title} 
+                title={projet.title} 
+                client={projet.client}
+                besoin={projet.besoin}
+                mission={projet.mission} 
+                details={projet.details}
+                img={projet.img} 
+                repo={projet.repo} />
             )
           })}
         </div>
@@ -69,7 +77,7 @@ function Home() {
         <div className='contact__content'>
           <ContactForm />
           <div className='contact__content--link'>
-            <h3>RETROUVER MOI SUR </h3>
+            <h3>RETROUVEZ MOI SUR </h3>
             <a href="https://github.com/morganhel">
               <Thumbnail logo={Skills[8].logo} name={Skills[8].name}/>
             </a>
