@@ -4,6 +4,7 @@ import Card from '../components/card/Card';
 import Projets from '../data/projets.json';
 import Skills from '../data/skills.json';
 import Skill from '../components/skill/Skill';
+import ContactForm from '../components/contactForm/ContactForm';
 
 function Home() {
   return (
@@ -42,7 +43,6 @@ function Home() {
             <h3>HARD SKILLS</h3>
             <div className='competences__content--hardSkills--grid'>
             {Skills.map((skill)=>{
-              console.log(skill.name)
               return (
                 <Skill logo={skill.logo} name={skill.name} />
               )
@@ -65,7 +65,12 @@ function Home() {
       </section>
       <section className='contact' id='contact'>
         <h2>CONTACT</h2>
-        <div></div>
+        <div>
+          <ContactForm />
+          <div>
+            
+          </div>
+        </div>
 
       </section>
     </main>

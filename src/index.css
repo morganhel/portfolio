@@ -153,6 +153,44 @@ h3 {
   transform: rotateY(180deg);
 }
 
+.contactForm {
+  border: 1px solid black;
+  width: 300px;
+  background-color: #fff;
+  margin: 0 auto;
+  box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
+}
+.contactForm__title {
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+.contactForm__content {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.contactForm__content--input {
+  border: 2px solid rgba(0, 0, 0, 0.6);
+  background-image: none;
+  background-color: #dadad3;
+  box-shadow: none;
+  padding: 5px;
+}
+.contactForm__content .button {
+  margin-top: 10px;
+  align-self: flex-end;
+  cursor: pointer;
+  font-weight: 500;
+}
+.contactForm__content textarea {
+  min-height: 50px;
+  resize: vertical;
+}
+
 .presentation {
   display: flex;
   flex-direction: column;
@@ -231,4 +269,12 @@ h3 {
 }
 .competences__content--softSkills--grid li {
   font-size: 16px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 0;
 }/*# sourceMappingURL=index.css.map */
