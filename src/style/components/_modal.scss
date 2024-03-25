@@ -30,9 +30,15 @@
 
         &--title{
             font-weight: 700;
+            font-size: 40px;
         }
 
         &--txt{
+            max-height: 90%;
+            overflow-y: auto;
+        }
+
+        &--paragraph{
             margin-top:20px;
         }
     }

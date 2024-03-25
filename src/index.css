@@ -81,6 +81,12 @@ h3 {
   font-weight: 300;
   font-size: 14px;
 }
+.footer__txt--button {
+  cursor: pointer;
+}
+.footer__txt--button:hover {
+  color: pink;
+}
 
 .card {
   border: 2px solid black;
@@ -220,8 +226,13 @@ h3 {
 }
 .modal__content--title {
   font-weight: 700;
+  font-size: 40px;
 }
 .modal__content--txt {
+  max-height: 90%;
+  overflow-y: auto;
+}
+.modal__content--paragraph {
   margin-top: 20px;
 }
 
