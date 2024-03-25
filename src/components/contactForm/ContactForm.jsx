@@ -23,7 +23,7 @@ function Form() {
 
   return (
     <form ref={form} onSubmit={sendEmail} className='contactForm'>
-      <p className='contactForm__title'> ENVOYER UN MAIL </p>
+      <h3 className='contactForm__title'> ENVOYER UN MAIL </h3>
       <div className='contactForm__content'>
         <input className='contactForm__content--input' type="text" name="user_name" placeholder='NOM'/>
         <input className='contactForm__content--input' type="email" name="user_email" placeholder='EMAIL'/>

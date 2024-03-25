@@ -3,8 +3,9 @@ import Me from '../assets/images/Me.jpg';
 import Card from '../components/card/Card';
 import Projets from '../data/projets.json';
 import Skills from '../data/skills.json';
-import Skill from '../components/skill/Skill';
+import Thumbnail from '../components/thumbnail/Thumbnail';
 import ContactForm from '../components/contactForm/ContactForm';
+import Linkedin from '../assets/images/Logo/linkedin.webp'
 
 function Home() {
   return (
@@ -44,7 +45,7 @@ function Home() {
             <div className='competences__content--hardSkills--grid'>
             {Skills.map((skill)=>{
               return (
-                <Skill logo={skill.logo} name={skill.name} />
+                <Thumbnail logo={skill.logo} name={skill.name} />
               )
             })}
             </div>
@@ -65,10 +66,16 @@ function Home() {
       </section>
       <section className='contact' id='contact'>
         <h2>CONTACT</h2>
-        <div>
+        <div className='contact__content'>
           <ContactForm />
-          <div>
-            
+          <div className='contact__content--link'>
+            <h3>RETROUVER MOI SUR </h3>
+            <a href="https://github.com/morganhel">
+              <Thumbnail logo={Skills[8].logo} name={Skills[8].name}/>
+            </a>
+            <a href='https://www.linkedin.com/in/morgan-heleine-230a13138/'>
+              <Thumbnail logo={Linkedin} name='LINKEDIN'/>
+            </a>
           </div>
         </div>
 
