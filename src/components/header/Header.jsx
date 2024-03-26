@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header className='header'>
-            <p className='header__name'>MORGAN HELEINE</p>
+            <p className='header__name'>MH</p>
             <nav >
                 <ul className='header__nav'>
                     <li><a href="../#presentation" className='header__nav--link'>PRESENTATION</a></li>

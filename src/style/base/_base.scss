@@ -18,6 +18,7 @@ main{
     flex-direction: column;
     margin: auto;
     max-width: 1200px;
+    padding-top: 40px;
 }
 
 li{
@@ -30,6 +31,10 @@ h2{
     font-family: "Gruppo", sans-serif;
     font-weight: 500;
     font-style: normal;
+
+    @media (max-width: $bp-m) {
+        font-size: 40px;
+    }
 }
 
 h3{

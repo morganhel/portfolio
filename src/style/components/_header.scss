@@ -2,18 +2,46 @@
 .header{
     height: 67px;
     margin: auto;
-    max-width: 1200px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index:500;
+    top:0;
+
+    @media (max-width: $bp-t) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (max-width: $bp-m) {
+        height: auto;
+    }
+
+
 
     &__name{
         font-family: "Poppins", sans-serif;
         font-weight: 800;
         font-style: normal;
         font-size: 20px;
-        padding-top:5px;
+        padding: 5px;
     }
     &__nav{
         display: flex;
         justify-content: flex-end;
+        margin-top:38px;
+
+        @media (min-width: $bp-m) and (max-width: $bp-t) {
+            justify-content: center;
+            margin:auto;
+            padding-bottom: 10px;
+        }
+
+        @media (max-width: $bp-m) {
+            display: none;
+        }
 
         &--link{
             font-family: "Poppins", sans-serif;
