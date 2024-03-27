@@ -1,3 +1,5 @@
+import CV from "../../assets/pdf/CV.pdf";
+
 function Header() {
     return (
         <header className='header'>
@@ -8,7 +10,7 @@ function Header() {
                     <li><a href="../#realisations" className='header__nav--link'>REALISATIONS</a></li>
                     <li><a href="../#competences" className='header__nav--link'>COMPETENCES</a></li>
                     <li><a href="../#contact" className='header__nav--link'>CONTACT</a></li>
-                    <li><a href="#" className='header__nav--link'>CV</a></li>
+                    <li><a href={CV} className='header__nav--link'>CV</a></li>
                 </ul>
             </nav>
         </header>
