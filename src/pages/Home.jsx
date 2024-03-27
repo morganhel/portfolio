@@ -7,8 +7,8 @@ import Thumbnail from '../components/thumbnail/Thumbnail';
 import ContactForm from '../components/contactForm/ContactForm';
 import Linkedin from '../assets/images/Logo/linkedin.webp';
 import { ReactTyped} from "react-typed";
-import Bg from "../assets/images/bg1.jpg";
-import Bg2 from "../assets/images/bg3.jpg";
+import Bg from "../assets/images/bg1.webp";
+import Bg2 from "../assets/images/bg2.webp";
 
 function Home() {
   const bg = {
