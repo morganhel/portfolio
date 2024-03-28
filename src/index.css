@@ -55,7 +55,7 @@ h3 {
   justify-content: space-between;
   position: fixed;
   background-color: white;
-  z-index: 500;
+  z-index: 2;
   top: 0;
   left: 0;
 }
@@ -208,7 +208,7 @@ h3 {
   width: 80px;
   border-radius: 50%;
   perspective: 1000px;
-  z-index: 25;
+  z-index: 1;
 }
 @media (max-width: 1024px) {
   .skill {
@@ -301,6 +301,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 .modal__content {
   position: relative;
