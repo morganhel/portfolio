@@ -17,7 +17,7 @@ function ModalMentions({onClose}) {
                     <div className="modal__content--paragraph">
                         <p>Ce site est édifié par HELEINE Morgan</p>
                         <p>Email : morgan.heleine@gmail.com</p>
-                        <p>Hebergeur du site : Github pages</p>
+                        <p>Hebergeur du site : HOSTINGER INTERNATIONAL LTD <br />Siège social : 61 Lordou Vironos Street, 6023 Larnaca, Chypre <br />Contact : https://wwwhostingerfr/contact</p>
                     </div>
                     <div className="modal__content--paragraph">
                         <h3>Propriété intellectuelle </h3>
