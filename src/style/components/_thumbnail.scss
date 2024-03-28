@@ -3,6 +3,12 @@
     width: 80px;
     border-radius: 50%;
     perspective: 1000px;
+    z-index:25;
+
+    @media (max-width: $bp-t) {
+        height: 50px;
+        width: 50px;
+    }
 
     &Inner{
         position: relative;
