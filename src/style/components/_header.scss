@@ -9,6 +9,7 @@
     background-color: white;
     z-index:500;
     top:0;
+    left:0;
 
     @media (max-width: $bp-t) {
         flex-direction: column;
@@ -42,8 +43,8 @@
         @media (max-width: $bp-m) {
             flex-wrap: wrap;
             justify-content: center;
-            margin: auto;
             gap:8px;
+            margin-top: 15px;
         }
 
         &--link{
