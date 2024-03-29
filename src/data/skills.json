@@ -49,13 +49,6 @@
     },
 
     {
-        "id":"7",
-        "name":"NODE.JS",
-        "logo":"../assets/images/Logo/node.webp"
-
-    },
-
-    {
         "id":"8",
         "name":"GITHUB",
         "logo":"../assets/images/Logo/github.webp"
