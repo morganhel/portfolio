@@ -107,7 +107,7 @@ function Home() {
           <div className='contact__content--link'>
             <h3>RETROUVEZ MOI SUR </h3>
             <a href="https://github.com/morganhel">
-              <Thumbnail logo={Skills[8].logo} name={Skills[8].name}/>
+              <Thumbnail logo={Skills[7].logo} name={Skills[7].name}/>
             </a>
             <a href='https://www.linkedin.com/in/morgan-heleine-230a13138/'>
               <Thumbnail logo={Linkedin} name='LINKEDIN'/>
