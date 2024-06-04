@@ -125,7 +125,12 @@
     margin-right: 0;
     margin-left: 0;
     background-color: $color-first;
-    padding-top: 40px
+    padding: 40px 100px;
+
+    &__content{
+        display: flex;
+        gap:30px;
+    }
 }
 
 .contact{
