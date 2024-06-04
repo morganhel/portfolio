@@ -12,6 +12,9 @@ body{
     box-sizing: border-box;
     margin: auto;
     overflow-x: hidden;
+    margin:0;
+    padding:0;
+    background-color: #eddddd;
 }
 
 main{
@@ -19,7 +22,7 @@ main{
     flex-direction: column;
     margin: auto;
     max-width: 1200px;
-    padding-top: 60px;
+
 
     
     @media (max-width: $bp-m) {

@@ -1,39 +1,47 @@
 .presentation{
     @include container;
+    position: relative;
+    border:2px solid green;
+
+    &::before{
+        content:'';
+        position: absolute;
+        border-bottom: 3.5px solid black;
+        margin:20px;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+    }
+
 
     &__content{
         @include content;
         width: 100%;
 
-        &__bg{
-            width: 450px;
-            height: 350px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
         &__photo{
-            width:250px;
-            height: 250px;
+            width:300px;
+            height: 300px;
             object-fit:cover;
             border-radius: 50%;
         }
 
         &__txt{
-            width: 75%;
-            padding-top: 50px;
+            width: 60%;
             text-align:center;
             line-height: 1.75;
-
-            &--bold{
-                font-weight: 600;
-                margin-bottom: 15px;
-                font-size: 16px;
-                line-height: 1.5;
-            }
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
         }
-        
+    }
+
+    &__details{
+        font-size: 18px;
+
+        &--color{
+            color: $color-first;
+        }
     }
 }
 
@@ -41,9 +49,9 @@
     @include container;
 
     &__content{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
         @media (max-width: $bp-t) {
             display: flex;

@@ -1,15 +1,14 @@
 
 .header{
-    height: 67px;
+    height: 40px;
     padding: 10px;
-    width:100%;
     display:flex;
     justify-content: space-between;
-    position: fixed;
-    background-color: white;
+    align-items: center;
     z-index:2;
+    position:sticky;
     top:0;
-    left:0;
+    background-color:  #f5d6d6;
 
     @media (max-width: $bp-t) {
         flex-direction: column;
@@ -22,16 +21,13 @@
 
 
 
-    &__name{
-        font-family: "Poppins", sans-serif;
-        font-weight: 800;
-        font-style: normal;
-        font-size: 30px;
+    &__logo{
+        height: 100%;
     }
+
     &__nav{
         display: flex;
         justify-content: flex-end;
-        margin-top:38px;
         margin-right: 20px;
 
         @media (min-width: $bp-m) and (max-width: $bp-t) {
@@ -53,7 +49,8 @@
             font-size: 20px;
             color: black;
             list-style: none;
-            padding: 10px 15px;
+            height: 40px;
+            padding: 16px 15px;
 
             @media (max-width: $bp-t) {
                 font-size: 12px;
@@ -66,12 +63,12 @@
 
             &:hover{
                 color: white;
-                background-color: black;
+                background-color: #9d97cf;
             }
 
             &:active{
                 color: white;
-                background-color: black;
+                background-color: #9d97cf;
             }
         }
     }

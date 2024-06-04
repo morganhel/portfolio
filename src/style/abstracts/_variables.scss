@@ -1,4 +1,11 @@
+$color-first: #9d97cf;
+
 $shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
+
+$bg-gradient: linear-gradient(90deg, rgba(68,32,99,1) 0%, rgba(52,37,103,1) 28%, rgba(29,50,99,1) 44%, rgba(31,45,81,1) 100%);
+// $bg-gradient: linear-gradient(90deg, rgba(157,151,207,1) 0%, rgba(68,32,99,1) 18%, rgba(52,37,103,1) 41%, rgba(29,50,99,1) 54%, rgba(31,45,81,1) 100%);
+
+// linear-gradient(90deg, rgba(157,151,207,1) 0%, rgba(72,64,140,1) 28%, rgba(29,50,99,1) 44%, rgba(31,45,81,1) 100%);
 
 $bp-m: 767.98px;
 $bp-t: 1024px;

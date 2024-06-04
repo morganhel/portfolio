@@ -1,4 +1,6 @@
 import React from 'react';
+import Banner from '../components/banner/Banner';
+import Header from '../components/header/Header';
 import Me from '../assets/images/Me.webp';
 import Card from '../components/card/Card';
 import Projets from '../data/projets.json';
@@ -6,57 +8,34 @@ import Skills from '../data/skills.json';
 import Thumbnail from '../components/thumbnail/Thumbnail';
 import ContactForm from '../components/contactForm/ContactForm';
 import Linkedin from '../assets/images/Logo/linkedin.webp';
-import { ReactTyped} from "react-typed";
-import Bg from "../assets/images/bg1.webp";
-import Bg2 from "../assets/images/bg2.webp";
 
 function Home() {
-  const bg = {
-    backgroundImage: `url(${Bg})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: '140%',
-    backgroundPositionY:'center',
-    backgroundPositionX:'center',
-  }
-
-  const bg2 = {
-    backgroundImage: `url(${Bg2})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'contain',
-    backgroundPosition: 'top 18px right 150px'
-  }
-
-  const bg3 = {
-    backgroundImage: `url(${Bg})`,
-    backgroundRepeat: 'no-repeat',
-    backgroundSize: 'contain',
-    backgroundPositionX:'center',
-  }
 
   return (
+    <>
+    <Banner />
+    <Header />
     <main>
       <section className='presentation' id='presentation'>
-        <h2>PRESENTATION</h2>
+        <h2>UN PEU DE MOI</h2>
         <div className='presentation__content'>
-          <div className='presentation__content__bg' style={bg}>
-            <img className='presentation__content__photo' src={Me} alt="Morgan" />
-          </div>
+          <img className='presentation__content__photo' src={Me} alt="Morgan" />
           <div className='presentation__content__txt'>
-            <p className='presentation__content__txt--bold'>Bonjour, je suis MORGAN HELEINE 
-            <br />DEVELOPPEUR FRONT-END</p>
-            <ReactTyped 
-            strings={["En 2022, je suis devenu maman. Et depuis ma vision de ma vie a changé. <br />Je me suis consacrée à ma casquette de maman plusieurs mois,<br />ce qui m&apos;a donné le temps de réfléchir à mon &quot;dream job&quot; :<br />DEVELOPPEUR FULL STACK FREELANCE<br />Pour arriver jusqu'à celui-ci,j&apos;ai entamé la formation diplômante &quot;Intégrateur Web&quot; d&apos;Open Classrooms."]}
-            typeDelay={30}
-            typeSpeed={40}
-            cursorChar="|"
-            showCursor={true}
-            delay={30}
-            />
-          </div>
+            <p>Je m'appelle Morgan et je suis ravie de vous rencontrer ici. 
+            <br />En tant que jeune maman, j'ai entrepris un changement de parcours professionnel pour me recentrer et me reconnecter avec moi-même. C'est ainsi que j'ai redécouvert ma passion pour le développement web. </p>
+            <p>Je suis une <strong>créatrice de sites vitrines</strong> passionnée, spécialisée dans la création de présences en ligne percutantes pour les entrepreneurs et les petites entreprises. Mon objectif est de vous aider à vous démarquer sur le web et à atteindre vos objectifs commerciaux. </p>
+            <p>Que vous soyez un entrepreneur en herbe ou une petite entreprise établie, je suis là pour vous accompagner à chaque étape du processus, de la conception à la mise en ligne. Je crois fermement que chaque entreprise mérite une présence en ligne professionnelle et je suis là pour vous aider à la réaliser. </p>
+            </div>
         </div>
+        <p className='presentation__details presentation__details--color'>Si vous recherchez une approche personnalisée, une collaboration étroite et des résultats à la hauteur de vos attentes, je suis là pour vous aider à concrétiser vos ambitions en ligne.</p>
+        <p  className='presentation__details'>N'hésitez pas à me contacter pour discuter de votre projet et commencer cette belle aventure ensemble !</p>
+        <div>
+          <p>contact</p>
+        </div>
+
       </section>
-      <section className='realisations' id='realisations' style={bg2}>
-        <h2>REALISATIONS</h2>
+      <section className='realisations' id='realisations'>
+        <h2>MES DERNIERS PROJETS</h2>
         <div className='realisations__content'>
           {Projets.map((projet)=>{
             return (
@@ -100,7 +79,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className='contact' id='contact'   style={bg3}>
+      <section className='contact' id='contact'>
         <h2>CONTACT</h2>
         <div className='contact__content'>
           <ContactForm />
@@ -117,6 +96,7 @@ function Home() {
 
       </section>
     </main>
+    </>
   );
 }
 

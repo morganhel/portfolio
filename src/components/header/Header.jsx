@@ -1,9 +1,10 @@
 import CV from "../../assets/pdf/CV.pdf";
+import LogoSmall from '../../assets/images/MyLogo/LOGO_carré_petit.png'
 
 function Header() {
     return (
         <header className='header'>
-            <p className='header__name'>MH</p>
+            <img className='header__logo' src={LogoSmall} alt="MH Logo"/>
             <nav >
                 <ul className='header__nav'>
                     <li><a href="../#presentation" className='header__nav--link'>PRESENTATION</a></li>
