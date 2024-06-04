@@ -51,12 +51,13 @@ function Home() {
             )
           })}
         </div>
+        <button className='realisations__button'>VOIR PLUS DE PROJETS</button>
       </section>
       <section className='competences' id='competences'>
-        <h2>COMPETENCES</h2>
+        <h2>MES COMPETENCES</h2>
         <div className='competences__content'>
           <div className='competences__content--hardSkills'>
-            <h3>HARD SKILLS</h3>
+            <h3>hard skills</h3>
             <div className='competences__content--hardSkills--grid'>
             {Skills.map((skill)=>{
               return (
@@ -66,7 +67,7 @@ function Home() {
             </div>
           </div>
           <div className='competences__content--softSkills'>
-            <h3>SOFT SKILLS</h3>
+            <h3>soft skills</h3>
             <ul className='competences__content--softSkills--grid'>
                 <li>Adaptabilité</li>
                 <li>Autonomie</li>
@@ -79,12 +80,15 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className='offres' id='offres'>
+        <h2>CE QUE JE VOUS PROPOSE</h2>
+      </section>
       <section className='contact' id='contact'>
         <h2>CONTACT</h2>
         <div className='contact__content'>
           <ContactForm />
           <div className='contact__content--link'>
-            <h3>RETROUVEZ MOI SUR </h3>
+            <h3>Retrouvez moi ici ↓ </h3>
             <a href="https://github.com/morganhel">
               <Thumbnail logo={Skills[7].logo} name={Skills[7].name}/>
             </a>

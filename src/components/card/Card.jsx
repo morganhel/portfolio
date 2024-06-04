@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logoGit from '../../assets/images/logo_github.png';
+import logoGit from '../../assets/images/Logo/github.webp';
 import Modal from '../modal/Modal';
 import Thumbnail from '../thumbnail/Thumbnail'
 
@@ -10,40 +10,23 @@ function Card({img,title,client,besoin,mission,details,repo}) {
     const closeModal = () => {setShowModal(false)};
 
     return (
-        // <>
+        <>
         <article className="card">
             <div className='card__content'>
-                <h3>{title}</h3>
-                <p>{mission}</p>
-                <div>
-                    <p>Le projet en détails</p>
-                    {showModal && <Modal onClose={closeModal} title={title} img={img} client={client} besoin={besoin} mission={mission} details={details}/>}
-                </div>
-                <a href={repo}>
+                <h3 className='card__content--title'>{title}</h3>
+                <p className='card__content--txt'>{mission}</p>
+                <div className='card__content--buttons'>
+                    <button className='card__content--buttons--details' onClick={handleClick}>Le projet en détails</button>
+                    <a href={repo}>
                     <Thumbnail logo={logoGit} name='repo github' />
                     {/* <img className='card__top--logo' src={logoGit} alt='logo Github' /> */}
-                </a>
+                    </a>
+                </div>
             </div>
             <img className='card__img' src={img} alt='apercu du site'/>
         </article>
-
-        //     <div className='card__top'>
-        //         <img className='card__top--img' src={img} alt='apercu du site'/>
-        //         <a href={repo}>
-        //             <Thumbnail logo={logoGit} name='repo github' />
-        //             {/* <img className='card__top--logo' src={logoGit} alt='logo Github' /> */}
-        //         </a>
-        //     </div>
-        //     <div className='card__bottom'   onClick={handleClick}>
-        //         <div  className='card__bottom--txt'>
-        //             <h3>{title}</h3>
-        //             <p>Ma mission : {mission}</p>
-        //         </div>
-        //         <p className='card__bottom--plus'>+</p>
-        //     </div>
-        // </article>
-        // {showModal && <Modal onClose={closeModal} title={title} img={img} client={client} besoin={besoin} mission={mission} details={details}/>}
-        // </>
+        {showModal && <Modal onClose={closeModal} title={title} img={img} client={client} besoin={besoin} mission={mission} details={details}/>}
+        </>
     )
 }
 
