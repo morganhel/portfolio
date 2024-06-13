@@ -25,6 +25,7 @@ function Home() {
           <div className='presentation__content__txt'>
             <p>Je m'appelle Morgan et je suis ravie de vous rencontrer ici. 
             <br />En tant que jeune maman, j'ai entrepris un changement de parcours professionnel pour me recentrer et me reconnecter avec moi-même. C'est ainsi que j'ai redécouvert ma passion pour le développement web. </p>
+            <p>Si vous souhaitez en savoir un peu plus sur mon parcours et mes compétences, on se retrouve juste ici →</p>
             <p>Je suis une <strong>créatrice de sites vitrines</strong> passionnée, spécialisée dans la création de présences en ligne percutantes pour les entrepreneurs et les petites entreprises. Mon objectif est de vous aider à vous démarquer sur le web et à atteindre vos objectifs commerciaux. </p>
             <p>Que vous soyez un entrepreneur en herbe ou une petite entreprise établie, je suis là pour vous accompagner à chaque étape du processus, de la conception à la mise en ligne. Je crois fermement que chaque entreprise mérite une présence en ligne professionnelle et je suis là pour vous aider à la réaliser. </p>
             </div>
@@ -55,7 +56,7 @@ function Home() {
         </div>
         <button className='realisations__button'>VOIR PLUS DE PROJETS</button>
       </section>
-      <section className='competences' id='competences'>
+      {/* <section className='competences' id='competences'>
         <h2>MES COMPETENCES</h2>
         <div className='competences__content'>
           <div className='competences__content--hardSkills'>
@@ -81,7 +82,7 @@ function Home() {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className='offres' id='offres'>
         <h2 className='offres__title'>CE QUE JE VOUS PROPOSE</h2>
         <div className='offres__content'>
