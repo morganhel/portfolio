@@ -9,9 +9,7 @@ import Thumbnail from '../components/thumbnail/Thumbnail';
 import ContactForm from '../components/contactForm/ContactForm';
 import Linkedin from '../assets/images/Logo/linkedin.webp';
 import OfferCard from '../components/offercard/OfferCard';
-import Icon1 from '../assets/images/Icones/Pageweb.png';
-import Icon2 from '../assets/images/Icones/maintenance.png';
-import Icon3 from '../assets/images/Icones/Optimisation.png';
+import Offres from '../data/offres.json';
 
 function Home() {
 
@@ -87,10 +85,16 @@ function Home() {
       <section className='offres' id='offres'>
         <h2 className='offres__title'>CE QUE JE VOUS PROPOSE</h2>
         <div className='offres__content'>
-          <OfferCard img={Icon1} title='Création de votre site vitrine' txt='bleblbdjbglsdjbgjlzebgjo' />
-          <OfferCard img={Icon2} title='Maintenance de votre nouveau site' txt='bleblbdjbglsdjbgjlzebgjo' />
-          <OfferCard img={Icon3} title='Optimisation de votre site actuel' txt='bleblbdjbglsdjbgjlzebgjo' />
-        </div>
+        {Offres.map((offre)=>{
+            return (
+              <OfferCard 
+                key={offre.title} 
+                img={offre.img}
+                title={offre.title} 
+                txt={offre.txt} />
+            )
+          })}
+          </div>
       </section>
       <section className='contact' id='contact'>
         <h2>CONTACT</h2>

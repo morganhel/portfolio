@@ -1,0 +1,22 @@
+[
+    {
+        "id": "1",
+        "img": "../assets/images/Icones/Pageweb.png",
+        "title": "Création de votre site vitrine",
+        "txt":"Vous cherchez à donner à votre entreprise une présence en ligne professionnelle et attrayante ? \n\nMon service de création de sites internet vitrine est la solution idéale pour vous. \n\nJe concois des sites web élégants et fonctionnels qui mettent en valeur votre activité, vos produits et vos services. \n\nGrâce à un design responsive et personnalisé, j'assure une expérience utilisateur optimale sur tous les appareils. De plus, votre site sera optimisé pour le référencement naturel, vous garantissant une visibilité accrue sur les moteurs de recherche. \n\nFaites moi confiance pour propulser votre entreprise sur le web !"
+    },
+
+    {
+        "id": "2",
+        "img": "../assets/images/Icones/maintenance.png",
+        "title": "Maintenance de votre nouveau site",
+        "txt":"Votre site internet est la vitrine de votre entreprise sur le web. \n\nPour garantir son bon fonctionnement et offrir la meilleure expérience utilisateur, il est essentiel de le maintenir régulièrement à jour. \n\nMon offre de maintenance de site internet vous assure une tranquillité d’esprit en prenant en charge tous les aspects techniques et sécuritaires de votre site. \n\nNe laissez pas les problèmes techniques ralentir votre activité. Confiez-moi la maintenance de votre site et concentrez-vous sur ce qui compte vraiment : développer votre activité. \n\nContactez-moi dès maintenant pour une tranquillité d'esprit totale !"
+    },
+
+    {
+        "id": "3",
+        "img": "../assets/images/Icones/Optimisation.png",
+        "title": "Optimisation de votre site actuel",
+        "txt":"Dans le monde numérique actuel, la rapidité et l’efficacité de votre site web sont cruciales pour retenir l’attention de vos visiteurs. \n\nVotre site internet mérite d'être performant, rapide et bien référencé pour attirer et retenir vos visiteurs. \n\nMon offre d’optimisation de site existant vise à améliorer chaque aspect de votre site pour maximiser son efficacité et son impact. Ce service vous aide à éliminer les lenteurs, à améliorer la navigation et à augmenter votre visibilité sur les moteurs de recherche. \n\nProfitez d’un site performant et sécurisé qui convertit vos visiteurs en clients fidèles. \n\nContactez-moi maintenant pour un audit gratuit !"
+    }
+]
