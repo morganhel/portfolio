@@ -1,16 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 .offercard{
     width: 300px;
-    // border: 1.5px black solid;
+    border: 1.5px black solid;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding:20px;
     gap:20px;
-    border-radius: 25px;
+    // border-radius: 25px;
     background: radial-gradient(circle, rgba(157,151,207,1) 30%, 	rgb(128, 115, 191) 100%);
 
+    &__title{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: $color-third;
+
+    }
+
     &__img{
-        width:50%;
+        width:30%;
     }
 
     &__content{
@@ -18,16 +29,16 @@
         flex-direction: column;
         gap:20px;
 
-        &--title{
-        text-align: center;
-        font-size: 30px;
-        font-weight: 600;
-        color: $color-third;
-
+        &--price{
+            font-family: "Raleway", sans-serif;
+            font-size: 35px;
+            font-weight: 600;
+            text-align: center;
+            color: rgba(68,32,99,1);
         }
 
         &--txt{
-            color: white;
+            color: $color-second;
             text-align: justify;
         }
     }
