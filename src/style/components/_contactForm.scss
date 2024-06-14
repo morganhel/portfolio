@@ -1,7 +1,7 @@
 .contactForm{
     border: 1px solid black;
-    width:300px;
-    background-color: #fff;
+    width:500px;
+    background-color: rgba(229,205,205,1);
     margin: 0;
     box-shadow: $shadow;
 
@@ -21,10 +21,9 @@
         &--input{
             border: 2px solid rgba(0, 0, 0, 0.6);
             background-image:none;
-            background-color: #dadad3;
+            background-color: $color-second;
             box-shadow: none;
             padding: 5px;
-
         }
 
         .button{

@@ -244,8 +244,8 @@ h3 {
 
 .contactForm {
   border: 1px solid black;
-  width: 300px;
-  background-color: #fff;
+  width: 500px;
+  background-color: rgb(229, 205, 205);
   margin: 0;
   box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
 }
@@ -263,7 +263,7 @@ h3 {
 .contactForm__content--input {
   border: 2px solid rgba(0, 0, 0, 0.6);
   background-image: none;
-  background-color: #dadad3;
+  background-color: #eddddd;
   box-shadow: none;
   padding: 5px;
 }
