@@ -1,7 +1,8 @@
 .contactForm{
     border: 1px solid black;
     width:500px;
-    background-color: rgba(229,205,205,1);
+    // background-color: rgba(229,205,205,1);
+    background-color: $color-second-dark;
     margin: 0;
     box-shadow: $shadow;
 

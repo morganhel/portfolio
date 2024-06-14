@@ -17,7 +17,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  background-color: #eddddd;
+  background-color: #efdedc;
 }
 
 main {
@@ -246,7 +246,7 @@ h3 {
 .contactForm {
   border: 1px solid black;
   width: 500px;
-  background-color: rgb(229, 205, 205);
+  background-color: #e7cdcb;
   margin: 0;
   box-shadow: -0.6rem 0.6rem 0 rgba(29, 30, 28, 0.26);
 }
@@ -264,7 +264,7 @@ h3 {
 .contactForm__content--input {
   border: 2px solid rgba(0, 0, 0, 0.6);
   background-image: none;
-  background-color: #eddddd;
+  background-color: #efdedc;
   box-shadow: none;
   padding: 5px;
 }
@@ -399,7 +399,7 @@ h3 {
   color: rgb(68, 32, 99);
 }
 .offercard__content--txt {
-  color: #eddddd;
+  color: #efdedc;
   text-align: justify;
 }
 

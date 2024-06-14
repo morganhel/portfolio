@@ -1,17 +1,6 @@
 [
     {
         "id": "1",
-        "title": "Booki",
-        "client":"Start-up Booki, agence de voyage.",
-        "besoin":"Un site internet qui permettent aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
-        "mission":"Intégrer l'interface responsive du site à partir des maquettes produites par l’UI Designer ",
-        "details":"Après avoir pris connaissance de la note de synthèse laissé par la CTO de Booki pour comprendre l’avancée du projet et mon rôle dans ce projet, j’ai été amené à créer mes propres composants d'interface avec HTML et CSS afin d'avoir un rendu correspondant à la maquette. \n\nCela m’a apporté une compréhension plus profonde de la manière dont le code est structuré et stylisé pour répondre aux exigences de design. \n\nEn travaillant sur ce projet, j’ai développé des compétences essentielles en design responsive, assurant que la page d'accueil fonctionne bien sur tous les appareils et tailles d'écran.",
-        "img": "../assets/images/projects/booki/preview.png",
-        "repo": "#"
-    },
-
-    {
-        "id": "2",
         "title": "Ohmyfood",
         "client":"Start-up Ohmyfood, qui voudrait s'imposer sur le marché de la restauration",
         "besoin":"Un site qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée.",
@@ -22,7 +11,7 @@
     },
 
     {
-        "id": "3",
+        "id": "2",
         "title": "Portfolio Sophie Bluel",
         "client":"Sophie Bluel, architecte d’Intérieur.",
         "besoin":"Une page web dynamique pour son Portfolio",
@@ -32,19 +21,9 @@
         "repo": "https://github.com/morganhel/Projet_6_heleine_morgan.git"
     },
 
-    {
-        "id": "4",
-        "title": "MenuMaker by QWENTA",
-        "client":"Qwenta, entreprise d’impression de supports pour les professionnels.",
-        "besoin":"Menu Maker : un outil en ligne qui permettra à ses clients restaurateurs de publier et de choisir par eux-mêmes la mise en forme de leurs menus, d’où le nom “Menu Maker”",
-        "mission":"Planifier le développement du site web, sans intervenir directement dans le codage. Grâce à la maquette, aux spécifications fonctionnelles et aux User Stories du site.",
-        "details":": J’ai réalisé une veille technologique pour rester informé des dernières tendances et technologies pertinentes pour le projet. Cela implique l'utilisation d'un système de veille pour suivre les évolutions dans le domaine du développement web. \n\nEnsuite j’ai rédigé les spécifications techniques du projet. Cela comprend l'identification des besoins fonctionnels et la décomposition des fonctionnalités en tâches spécifiques. \n\nPuis j’ai utilisé un outil de gestion de projet, Notion, pour organiser le projet et créer un tableau Kanban. Afin de permettre à l’équipe mais aussi au client de suivre le déroulement du projet de manière structurée et efficace. \n\nEnfin, j’ai réalisé une présentation de la solution technique, sous forme de diaporama. Cette présentation synthétise ma planification et mon approche pour le développement du site.",
-        "img": "../assets/images/projects/menu-maker/preview.png",
-        "repo": "#"
-    },
 
     {
-        "id": "5",
+        "id": "3",
         "title": "Kasa",
         "client":"Kasa, entreprise de location d’appartements entre particuliers.",
         "besoin":"Refonte totale du site pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end",
@@ -55,7 +34,7 @@
     },
 
     {
-        "id": "6",
+        "id": "4",
         "title": "ArgentBank",
         "client":"Argent Bank, une nouvelle banque en ligne.",
         "besoin":"Application bancaire complète.",
