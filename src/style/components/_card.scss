@@ -8,11 +8,19 @@
     align-items: center;
     justify-content: space-between;
 
+    @media (max-width: $bp-t) {
+        flex-direction: column-reverse;
+    }
+
     &__content{
         width:40%;
         display: flex;
         flex-direction: column;
         gap:30px;
+
+        @media (max-width: $bp-t) {
+            width:auto;
+        }
 
         &--txt{
             font-family: "Gruppo", sans-serif;
@@ -51,6 +59,10 @@
     &__img{
         width:50%;
         height: auto;
+
+        @media (max-width: $bp-t) {
+            width: 100%;
+        }
     }
 
 }

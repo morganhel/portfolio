@@ -5,6 +5,10 @@
     gap:40px;
     margin: 25px 100px;
     padding-bottom: 50px;
+
+    @media (max-width: $bp-t) {
+        margin:25px;
+    }
 }
 
 @mixin content {
@@ -13,7 +17,7 @@
     padding: 0 150px;
     justify-content: space-around;
 
-    @media (max-width: $bp-t) {
+    @media (max-width: $bp-m) {
         flex-direction: column;
         align-items: center;
         gap: 20px;

@@ -140,11 +140,21 @@ h3 {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 1024px) {
+  .card {
+    flex-direction: column-reverse;
+  }
+}
 .card__content {
   width: 40%;
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+@media (max-width: 1024px) {
+  .card__content {
+    width: auto;
+  }
 }
 .card__content--txt {
   font-family: "Gruppo", sans-serif;
@@ -176,6 +186,11 @@ h3 {
 .card__img {
   width: 50%;
   height: auto;
+}
+@media (max-width: 1024px) {
+  .card__img {
+    width: 100%;
+  }
 }
 
 .skill {
@@ -360,6 +375,11 @@ h3 {
 }
 @media (max-width: 1024px) {
   .banner__content {
+    margin: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .banner__content {
     width: auto;
     padding: 0;
     margin: 10px;
@@ -422,6 +442,11 @@ h3 {
   padding-bottom: 50px;
   position: relative;
 }
+@media (max-width: 1024px) {
+  .presentation {
+    margin: 25px;
+  }
+}
 .presentation::before {
   content: "";
   position: absolute;
@@ -439,9 +464,15 @@ h3 {
   justify-content: space-around;
   width: 100%;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767.98px) {
   .presentation__content {
     flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .presentation__content {
     align-items: center;
     gap: 20px;
   }
@@ -453,6 +484,12 @@ h3 {
      object-fit: cover;
   border-radius: 50%;
 }
+@media (max-width: 1024px) {
+  .presentation__content__photo {
+    width: 200px;
+    height: 200px;
+  }
+}
 .presentation__content__txt {
   width: 60%;
   text-align: center;
@@ -460,6 +497,11 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+@media (max-width: 1024px) {
+  .presentation__content__txt {
+    width: auto;
+  }
 }
 .presentation__details {
   font-size: 18px;
@@ -469,6 +511,11 @@ h3 {
   margin: 0 150px;
   text-align: center;
 }
+@media (max-width: 1024px) {
+  .presentation__details--color {
+    margin: auto;
+  }
+}
 
 .realisations {
   display: flex;
@@ -477,6 +524,11 @@ h3 {
   gap: 40px;
   margin: 25px 100px;
   padding-bottom: 50px;
+}
+@media (max-width: 1024px) {
+  .realisations {
+    margin: 25px;
+  }
 }
 .realisations__content {
   display: flex;
@@ -507,13 +559,18 @@ h3 {
   margin: 25px 100px;
   padding-bottom: 50px;
 }
+@media (max-width: 1024px) {
+  .competences {
+    margin: 25px;
+  }
+}
 .competences__content {
   display: flex;
   width: 100%;
   padding: 0 150px;
   justify-content: space-around;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767.98px) {
   .competences__content {
     flex-direction: column;
     align-items: center;
@@ -571,6 +628,11 @@ h3 {
   background-color: #9d97cf;
   padding: 40px 100px;
 }
+@media (max-width: 1024px) {
+  .offres {
+    margin: 25px;
+  }
+}
 .offres__content {
   display: flex;
   gap: 30px;
@@ -584,13 +646,18 @@ h3 {
   margin: 25px 100px;
   padding-bottom: 50px;
 }
+@media (max-width: 1024px) {
+  .contact {
+    margin: 25px;
+  }
+}
 .contact__content {
   display: flex;
   width: 100%;
   padding: 0 150px;
   justify-content: space-around;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767.98px) {
   .contact__content {
     flex-direction: column;
     align-items: center;
