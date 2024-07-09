@@ -4,10 +4,12 @@ function OfferCard ({img,title,txt1,price,txt2}){
 
     return(
         <article className="offercard">
-            <h3 className="offercard__title">{title}</h3>
-            <img src={img} className="offercard__img" alt='icon'/>
+            <div className="offercard__header">
+                <h3 className="offercard__header--title">{title}</h3>
+                <img src={img} className="offercard__header--img" alt='icon'/>
+                <p className="offercard__header--price">{price}</p>
+            </div>
             <div className="offercard__content">
-                <p className="offercard__content--price">{price}</p>
                 {paragraphes1.map((paragraphe1,index) => (
                 <p className="offercard__content--txt" key={index}>{paragraphe1}</p>
                 ))}

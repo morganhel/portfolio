@@ -6,6 +6,10 @@
     margin: 0;
     box-shadow: $shadow;
 
+    @media (max-width: $bp-m) {
+        width: auto;
+    }
+
     &__title{
         text-align: center;
         padding: 8px;

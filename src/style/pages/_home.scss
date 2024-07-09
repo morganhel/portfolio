@@ -150,6 +150,10 @@
     &__content{
         display: flex;
         gap:30px;
+
+        @media (max-width: $bp-t) {
+            flex-direction: column;
+        }
     }
 }
 
