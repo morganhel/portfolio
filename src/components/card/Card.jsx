@@ -14,7 +14,8 @@ function Card({img,title,client,besoin,mission,details,repo}) {
         <article className="card">
             <div className='card__content'>
                 <h3 className='card__content--title'>{title}</h3>
-                <p className='card__content--txt'>{mission}</p>
+                <p className='card__content--txt'>{client}</p>
+                <p className='card__content--txt'>Son besoin : <br />{besoin}</p>
                 <div className='card__content--buttons'>
                     <button className='card__content--buttons--details' onClick={handleClick}>Le projet en détails</button>
                     <a href={repo}>

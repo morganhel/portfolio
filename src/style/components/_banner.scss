@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
 .banner{
-    border: 2px solid black;
     background: $bg-gradient;
     display: flex;
     width:100%;
@@ -13,11 +12,20 @@
     // left:0;
     height: 100vh;
 
+    @media (max-width: $bp-t) {
+        flex-direction: column;
+        justify-content: center;
+    }
+
     &__logo{
         width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @media (max-width: $bp-m) {
+            width: 100%;
+        }
 
         &--img{
             width: 55%;
@@ -30,11 +38,22 @@
         @include container;
         padding-right: 100px;
 
+        @media (max-width: $bp-t) {
+            width: auto;
+            padding: 0;
+            margin: 10px;
+        }
+
 
         &--title{
             font-size: 50px;
             font-weight: 400;
             font-family: 'Times New Roman', Times, serif;
+
+            @media (max-width: $bp-t) {
+                font-size: 30px;
+                text-align: center;
+            }
         }
     }
 

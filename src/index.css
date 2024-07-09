@@ -332,7 +332,6 @@ h3 {
 }
 
 .banner {
-  border: 2px solid black;
   background: linear-gradient(90deg, rgb(68, 32, 99) 0%, rgb(52, 37, 103) 28%, rgb(29, 50, 99) 44%, rgb(31, 45, 81) 100%);
   display: flex;
   width: 100%;
@@ -341,11 +340,22 @@ h3 {
   top: 0;
   height: 100vh;
 }
+@media (max-width: 1024px) {
+  .banner {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
 .banner__logo {
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 767.98px) {
+  .banner__logo {
+    width: 100%;
+  }
 }
 .banner__logo--img {
   width: 55%;
@@ -361,10 +371,23 @@ h3 {
   padding-bottom: 50px;
   padding-right: 100px;
 }
+@media (max-width: 1024px) {
+  .banner__content {
+    width: auto;
+    padding: 0;
+    margin: 10px;
+  }
+}
 .banner__content--title {
   font-size: 50px;
   font-weight: 400;
   font-family: "Times New Roman", Times, serif;
+}
+@media (max-width: 1024px) {
+  .banner__content--title {
+    font-size: 30px;
+    text-align: center;
+  }
 }
 
 .offercard {
