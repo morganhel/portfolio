@@ -94,7 +94,8 @@ function Home() {
                 title={offre.title} 
                 txt1={offre.txt1}
                 txt2={offre.txt2}
-                txt3={offre.txt3} 
+                txt3={offre.txt3}
+                page={offre.page}
               />
             )
           })}

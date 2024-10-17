@@ -1,6 +1,6 @@
 import Button from '../button/Button'
 
-function OfferCard ({img,title,txt1,txt2,txt3,lien}){
+function OfferCard ({img,title,txt1,txt2,txt3,page}){
     const paragraphes1=txt1.split('\n\n');
     const paragraphes2=txt2.split('\n\n');
 
@@ -20,7 +20,7 @@ function OfferCard ({img,title,txt1,txt2,txt3,lien}){
                 <p className="offercard__content--txt3">{txt3}</p>
                 <Button 
                     txt="DECOUVRIR LES FORMULES"
-                    lien={lien} />
+                    lien={page} />
             </div>
         </article>
     )
