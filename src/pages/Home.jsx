@@ -92,9 +92,10 @@ function Home() {
                 key={offre.title} 
                 img={offre.img}
                 title={offre.title} 
-                price={offre.price}
                 txt1={offre.txt1}
-                txt2={offre.txt2} />
+                txt2={offre.txt2}
+                txt3={offre.txt3} 
+              />
             )
           })}
           </div>

@@ -1,28 +1,28 @@
 [
     {
         "id": "1",
-        "img": "../assets/images/Icones/Pageweb.png",
+        "img": "../assets/images/Icones/Pageweb.svg",
         "title": "Création de votre site vitrine",
-        "txt1":"Vous cherchez à donner à votre entreprise une présence en ligne professionnelle et attrayante ? Ce service est fait pour vous !",
-        "price": "400€",
-        "txt2":"→ Analyse de vos besoins et de vos objectifs \n\n→ Design sur mesure et responsive \n\n→ Nom de domaine (1 an) \n\n→ Hébergement web sécurisé (1 an) \n\n→ Fonctionnalités avancées \n\n→ Référencement SEO \n\n→ Support technique (3 mois)"
+        "txt1":"Faites briller votre présence en ligne avec un site vitrine personnalisé !",
+        "txt2":"✿ Design élégant et professionnel \n\n✿ Site entièrement responsive, adapté à tous les appareils \n\n✿ Optimisation de la navigation pour une meilleure expérience utilisateur \n\n✿ Représentation fidèle de votre marque et de votre identité visuelle \n\n✿ Facile à mettre à jour, avec des bases solides pour votre croissance en ligne",
+        "txt3":"Votre site idéal est à portée de clic ! Explorez nos formules et choisissez celle qui donnera vie à votre projet."
     },
 
     {
         "id": "2",
-        "img": "../assets/images/Icones/maintenance.png",
+        "img": "../assets/images/Icones/Maintenance.svg",
         "title": "Maintenance de votre nouveau site",
-        "txt1":"Votre site internet est la vitrine de votre entreprise sur le web. Ne laissez pas les problèmes techniques ralentir votre activité. \n\nConfiez-moi la maintenance de votre site et concentrez-vous sur ce qui compte vraiment : développer votre activité.",
-        "price": "50€ / mois",
-        "txt2":"→ Mise à jour logiciel \n\n→ Surveillance et sécurité \n\n→ Optimisation de la performance \n\n→ Support et assistance technique \n\n→ Contenu et SEO"
+        "txt1":"Gardez votre site sécurisé, rapide et toujours performant !",
+        "txt2":"✿ Mises à jour régulières pour garder votre site en sécurité \n\n✿ Sauvegardes automatiques pour protéger vos données \n\n✿ Surveillance des performances et résolution des bugs \n\n✿ Support technique disponible pour répondre à vos besoins \n\n✿ Vous vous concentrez sur votre business, on s’occupe du reste",
+        "txt3":"Ne laissez pas votre site vieillir ! Découvrez nos formules de maintenance pour qu'il reste toujours à la pointe."
     },
 
     {
         "id": "3",
-        "img": "../assets/images/Icones/Optimisation.png",
-        "title": "Optimisation de votre site actuel",
-        "txt1":"Dans le monde numérique actuel, la rapidité et l’efficacité de votre site web sont cruciales pour retenir l’attention de vos visiteurs. \n\nAvec ce service Profitez d’un site performant et sécurisé qui convertit vos visiteurs en clients fidèles. !",
-        "price": "150€",
-        "txt2":"→ Analyse de performance \n\n→ Amélioration de la vitesse \n\n→ SEO et référencement \n\n→ Expérience utilisateur \n\n→ Sécurité et fiabilité"
+        "img": "../assets/images/Icones/Optimisation.svg",
+        "title": "Optimisation ou refonte de votre site actuel",
+        "txt1":"Redonnez vie à votre site pour qu’il soit à la hauteur de vos ambitions !",
+        "txt2":"✿ Amélioration du design pour un look plus moderne et professionnel \n\n✿ Optimisation des temps de chargement et des performances globales \n\n✿ Refonte de l’architecture du site pour une meilleure navigation \n\n✿ SEO repensé pour améliorer votre visibilité sur les moteurs de recherche \n\n✿ Ajout de nouvelles fonctionnalités selon vos besoins en constante évolution",
+        "txt3":"Redonnez un nouveau souffle à votre site ! Parcourez nos options pour transformer votre présence en ligne."
     }
 ]
