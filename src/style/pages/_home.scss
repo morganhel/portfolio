@@ -141,11 +141,8 @@
 }
 
 .offres{
-    @include container;
-    margin-right: 0;
-    margin-left: 0;
+    @include container-large;
     background-color: $color-first;
-    padding: 40px 100px;
 
     &__content{
         display: flex;

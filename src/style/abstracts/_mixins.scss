@@ -2,9 +2,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1440px;
+    margin: 25px auto;
+    padding:0 40px 50px 40px;
     gap:40px;
-    margin: 25px 100px;
-    padding-bottom: 50px;
+
+    @media (max-width: $bp-t) {
+        margin:25px;
+    }
+}
+
+@mixin container-large {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px 0;
+    padding:40px 100px;
+    gap:40px;
+
 
     @media (max-width: $bp-t) {
         margin:25px;
