@@ -1,0 +1,105 @@
+[
+    {
+        "id": "1",
+        "offre":"crea",
+        "title": "STARTER",
+        "stitle": "L'essentiel, simplement",
+        "price": "400€",
+        "txt1":"Simplifiez votre présence en ligne avec un site vitrine élégant et efficace, le tout en une seule page !",
+        "txt2":"✿ Impact immédiat : Un site unique et attrayant qui capte l’attention. \n\n✿ Contenu structuré : Sections bien définies pour présenter l’essentiel. \n\n✿ Consultation rapide : Informations accessibles d’un simple défilement. \n\n✿ Optimisation SEO de base : Amélioration de votre visibilité sur les moteurs de recherche. \n\n✿ Maintenance essentielle : Mises à jour et support technique garantis. \n\n✿ Coût abordable : Solution économique pour une présence en ligne efficace.",
+        "page": "/offreCreation#starter",
+        "class": "formulacard"
+    },
+
+    {
+        "id": "2",
+        "offre":"crea",
+        "title": "MIDDLE",
+        "stitle": "Le juste équilibre",
+        "price":"700€",
+        "txt1":"Développez votre présence en ligne avec un site vitrine complet et professionnel, adapté à toutes vos ambitions !",
+        "txt2":"✿ Design sur mesure : Un site élégant et en accord avec votre image de marque. \n\n✿ Jusqu'à 5 pages : Présentez vos services en profondeur. \n\n✿ Fonctionnalités enrichies :  Interactivité et contenu riche pour captiver vos visiteurs. \n\n✿ Visibilité accrue : Attirez plus de clients grâce à un référencement optimisé. \n\n✿ Confiance et crédibilité : Un site professionnel qui inspire confiance. \n\n✿ Évolutivité : Adaptable aux besoins croissants de votre entreprise.",
+        "page": "/offreCreation#middle",
+        "class": "formulacard formulacard__special"
+    },
+
+    {
+        "id": "3",
+        "offre":"crea",
+        "title": "PRENIUM",
+        "price":"900€",
+        "stitle": "L'expérience sur mesure",
+        "txt1":"Élevez votre présence en ligne avec un site vitrine sur mesure, conçu pour vous propulser vers le succès !",
+        "txt2":"✿ Design personnalisé : Un site unique qui reflète votre identité. \n\n✿ Jusqu'à 15 pages : Structure complète pour détailler vos services. \n\n✿ Fonctionnalités avancées : Blog, galeries multimédias, et formulaires interactifs. \n\n✿ Visibilité optimisée : Attirez plus de clients potentiels. \n\n✿ Accompagnement stratégique : Conseils pour la gestion et l’évolution de votre site. \n\n✿ Maintenance premium : Support continu pour garantir la performance. \n\n✿ Flexibilité : Un site évolutif qui s’adapte à vos besoins.",
+        "page": "/offreCreation#prenium",
+        "class": "formulacard"
+    },
+
+    {
+        "id": "4",
+        "offre":"maint",
+        "title": "STARTER",
+        "stitle": "Sécurité et mises à jour essentielles",
+        "price": "50€ / mois",
+        "txt1":"Assurez le bon fonctionnement de votre site avec des mises à jour régulières et une protection basique pour une tranquillité d’esprit au quotidien.",
+        "txt2":"✿ Mises à jour régulières : Maintenez votre site à jour avec les dernières versions de sécurité et plugins. \n\n✿ Sauvegardes automatiques : Protégez vos données avec des sauvegardes automatiques régulières. \n\n✿ Surveillance basique : Détection des anomalies pour éviter les problèmes de performance. \n\n✿ Support technique limité : Assistance rapide pour résoudre les problèmes techniques mineurs.",
+        "page": "/offreMaintenance#starter"
+    },
+
+    {
+        "id": "5",
+        "offre":"maint",
+        "title": "MIDDLE",
+        "stitle": "Performance et optimisation",
+        "price":"100€ / mois",
+        "txt1":"Boostez la performance et la sécurité de votre site avec un suivi complet et des optimisations régulières pour une navigation fluide et sécurisée.",
+        "txt2":"✿ Mises à jour automatiques complètes : Inclut thèmes, plugins et sécurité. \n\n✿ Sauvegardes fréquentes : Restauration rapide en cas de problème. \n\n✿ Surveillance active 24/7 : Détection proactive des anomalies. \n\n✿ Optimisation des performances : Améliorez le temps de chargement et l’expérience utilisateur. \n\n✿ Support technique prioritaire : Réponse rapide aux demandes d’assistance.",
+        "page": "/offreMaintenance#middle"
+    },
+
+    {
+        "id": "6",
+        "offre":"maint",
+        "img": "../assets/images/Icones/Optimisation.svg",
+        "title": "PRENIUM",
+        "stitle": "Suivi complet et protection renforcée",
+        "price":"150€ / mois",
+        "txt1":"Offrez à votre site une protection premium, une surveillance constante et un support illimité pour des performances optimales en toute circonstance.",
+        "txt2":"✿ Mises à jour automatiques complètes : Tout le nécessaire pour un site toujours à jour. \n\n✿  Sauvegardes fréquentes et automatiques : Restauration immédiate de votre site en cas de besoin. \n\n✿  Surveillance continue 24/7 : Protection maximale avec intervention immédiate en cas d’anomalies. \n\n✿ Optimisation continue des performances : Assurez une navigation rapide et fluide pour vos utilisateurs. \n\n✿ Support technique illimité et prioritaire : Assistance complète, quelle que soit la nature du problème. \n\n✿ Rapports mensuels détaillés : Suivi transparent des actions effectuées sur votre site.",
+        "page": "/offreMaintenance#prenium"
+    },
+
+    {
+        "id": "7",
+        "offre":"refo",
+        "title": "STARTER",
+        "stitle": "Redynamisation rapide",
+        "price": "500€",
+        "txt1":"Modernisez votre site sans tout révolutionner et offrez-lui un coup de jeune !",
+        "txt2":"✿ Analyse de l’existant : Identification des points à améliorer pour une expérience utilisateur optimale. \n\n✿  Design moderne et responsive : Création d'une interface attrayante et adaptable sur tous les appareils. \n\n✿ Optimisation des contenus : Amélioration de vos textes et images pour un meilleur référencement. \n\n✿  Intégration des meilleures pratiques SEO : Techniques de base pour augmenter la visibilité sur les moteurs de recherche. \n\n✿ Formation rapide : Session pour vous familiariser avec les nouvelles fonctionnalités.",
+        "page": "/offreRefonte#starter"
+    },
+
+    {
+        "id": "8",
+        "offre":"refo",
+        "title": "MIDDLE",
+        "stitle": "Mise à jour structurée et impactante",
+        "price":"800€",
+        "txt1":"Donnez à votre site un souffle nouveau avec des fonctionnalités avancées et une optimisation approfondie !",
+        "txt2":"✿ Analyse complète de l’existant : Évaluation approfondie de la structure et des performances de votre site. \n\n✿  Design personnalisé : Création d’un design sur mesure en accord avec votre identité visuelle. \n\n✿ Optimisation SEO avancée : Stratégies pour améliorer votre positionnement sur les moteurs de recherche. \n\n✿ Amélioration des performances : Optimisation de la vitesse de chargement et de la fluidité de navigation. \n\n✿  Intégration de nouvelles fonctionnalités : Ajout de fonctionnalités spécifiques pour répondre à vos besoins. \n\n✿ → Support et formation : Assistance à la mise en place et prise en main des nouvelles fonctionnalités.",
+        "page": "/offreRefonte#middle"
+    },
+
+    {
+        "id": "9",
+        "offre":"refo",
+        "img": "../assets/images/Icones/Optimisation.svg",
+        "title": "PRENIUM",
+        "stitle": "Transformation complète et optimisation maximale",
+        "price":"1100€",
+        "txt1":"Transformez votre site de fond en comble pour répondre à vos objectifs stratégiques !",
+        "txt2":"✿ Audit complet du site : Analyse détaillée de tous les aspects (technique, design, contenu, SEO). \n\n✿ Design entièrement repensé : Création d’un nouveau design moderne et engageant. \n\n✿ Optimisation maximale pour le référencement : Stratégie complète pour augmenter votre visibilité. \n\n✿ Intégration des dernières technologies : Utilisation des outils modernes pour une performance optimale. \n\n✿ Stratégie de contenu : Refonte complète des contenus pour un engagement maximal des utilisateurs. \n\n✿ Support continu : Suivi après la mise en ligne pour garantir un fonctionnement optimal.",
+        "page": "/offreRefonte#prenium"
+    }
+]

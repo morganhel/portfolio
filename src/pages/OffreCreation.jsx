@@ -1,7 +1,11 @@
 import React from 'react';
 import Header from '../components/header/Header';
+import Formules from '../data/formules.json';
+import FormulaCard from '../components/offercard/FormulaCard';
 
-function OffreCreation() {
+function formuleCreation() {
+
+    const CreaFormules =  Formules.filter(formule => formule.offre === "crea")
 
     return(
         <>
@@ -20,7 +24,22 @@ function OffreCreation() {
                     <br />✿ Intégration des fonctionnalités essentielles (formulaire de contact, galeries, etc.).
                 </p>
             <p className='formules__content--center formules__content--center--color'>Ne laissez pas votre présence en ligne au hasard – démarquez-vous dès aujourd’hui avec un site vitrine sur mesure !</p>
-            <div></div>
+            <div className='formules__content--formules'>
+                {CreaFormules.map((formule)=>{
+                    return (
+                    <FormulaCard 
+                        key={formule.id} 
+                        title={formule.title}
+                        stitle={formule.stitle}
+                        price={formule.price}
+                        txt1={formule.txt1}
+                        txt2={formule.txt2}
+                        page={formule.page}
+                        fclass={formule.class}
+                    />
+                    )
+                })}
+          </div>
         </section>
         <section>
             <h2>COMMENT CA SE DEROULE ?</h2>
@@ -87,4 +106,4 @@ function OffreCreation() {
     )
 }
 
-export default OffreCreation;
+export default formuleCreation;

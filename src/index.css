@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -59,6 +60,12 @@ h2 {
 h3 {
   font-family: "Gruppo", sans-serif;
   font-size: 40px;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Gruppo", sans-serif;
+  font-size: 30px;
   font-weight: 500;
 }
 
@@ -416,7 +423,7 @@ h3 {
   border-radius: 75px 25px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
   padding: 20px;
   gap: 15px;
   background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
@@ -450,6 +457,7 @@ h3 {
 .offercard__content {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 18px;
 }
 .offercard__content--txt1 {
@@ -471,17 +479,80 @@ h3 {
   font-weight: 500;
 }
 
-.button {
+.formulacard {
+  width: 400px;
+  height: 720px;
+  border-radius: 75px 25px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 15px;
+  background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
 }
-.button__txt {
+.formulacard__special {
+  width: 450px;
+  height: 800px;
+  background: radial-gradient(circle, rgb(138, 201, 184) 30%, rgb(72, 157, 135) 100%);
+  box-shadow: 1.2rem 1.2rem 0.3rem rgba(29, 30, 28, 0.26);
+}
+.formulacard__special h3 {
+  font-size: 50px;
+}
+.formulacard__special h4 {
+  font-size: 40px;
+}
+.formulacard__special .formulacard__header--price {
+  font-size: 45px;
+}
+.formulacard__special .formulacard__content--txt1 {
+  font-size: 21px;
+}
+.formulacard__special .formulacard__content--txt2 {
+  font-size: 18px;
+}
+@media (min-width: 767.98px) and (max-width: 1024px) {
+  .formulacard {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+.formulacard__title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  color: #eddeea;
+}
+.formulacard__price {
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+}
+.formulacard__content--txt1 {
+  color: #eddeea;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #3E618B;
+}
+.formulacard__content--txt2 {
+  color: #eddeea;
+  text-align: justify;
+  margin: 0 20px;
+}
+
+.button {
   background-color: #8AC9B8;
   padding: 15px 25px;
   border-radius: 50px;
   border: none;
   color: #3E618B;
   font-weight: 500;
+}
+.button__color {
+  background-color: #3E618B;
+  color: #eddeea;
 }
 
 .presentation {
@@ -746,4 +817,10 @@ h3 {
 .formules__content--point {
   margin-left: 40px;
   line-height: 2em;
+}
+.formules__content--formules {
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */

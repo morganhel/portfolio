@@ -1,13 +1,13 @@
 .button{
-    display: flex;
-    justify-content: center;
+    background-color: $color-fith;
+    padding: 15px 25px;
+    border-radius: 50px;
+    border: none;
+    color: $color-third;
+    font-weight: 500;
 
-    &__txt{
-        background-color: $color-fith;
-        padding: 15px 25px;
-        border-radius: 50px;
-        border: none;
-        color: $color-third;
-        font-weight: 500;
+    &__color{
+        background-color: $color-third;
+        color:$color-second;
     }
 }
