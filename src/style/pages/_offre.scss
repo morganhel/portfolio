@@ -66,10 +66,40 @@
             }
         }
 
+        &__part2{
+            padding:0 200px;
+            text-align: justify;
+        }
+
 
     }
 }
 
 .reverse{
     flex-direction: row-reverse;
+}
+
+.details{
+    @include container;
+
+
+    &__formule{
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+        margin-bottom: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid $color-third;
+
+
+        &--title{
+            font-size: 30px;
+        }
+
+        &--content{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 30px;
+        }
+}
 }

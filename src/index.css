@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 * {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
@@ -544,6 +545,49 @@ h4 {
   font-size: 14px;
 }
 
+.formuladetailscard {
+  width: 400px;
+  height: 500px;
+  border-radius: 75px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
+}
+@media (min-width: 767.98px) and (max-width: 1024px) {
+  .formuladetailscard {
+    flex-direction: row;
+    width: 100%;
+  }
+}
+.formuladetailscard__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: #eddeea;
+  margin: 50px 20px 0 20px;
+}
+.formuladetailscard__txt {
+  color: #3E618B;
+  text-align: justify;
+  margin: 0 50px;
+  font-size: 14px;
+}
+.formuladetailscard__conclusion {
+  background: none;
+  color: #3E618B;
+  justify-content: center;
+}
+.formuladetailscard__conclusion .formuladetailscard__title {
+  color: #8863AB;
+  margin: 0;
+}
+.formuladetailscard__conclusion .formuladetailscard__txt {
+  color: #3E618B;
+  margin: 0;
+}
+
 .button {
   background-color: #8AC9B8;
   padding: 15px 25px;
@@ -878,7 +922,42 @@ h4 {
   font-size: 16px;
   text-align: justify;
 }
+.deroulement__etape__part2 {
+  padding: 0 200px;
+  text-align: justify;
+}
 
 .reverse {
   flex-direction: row-reverse;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1440px;
+  margin: 25px auto;
+  padding: 0 40px 50px 40px;
+  gap: 40px;
+}
+@media (max-width: 1024px) {
+  .details {
+    margin: 25px;
+  }
+}
+.details__formule {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #3E618B;
+}
+.details__formule--title {
+  font-size: 30px;
+}
+.details__formule--content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
 }/*# sourceMappingURL=index.css.map */

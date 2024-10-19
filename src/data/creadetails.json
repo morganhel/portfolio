@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "formule":"starter",
+        "title": "Un Design Impactant en Une Seule Page",
+        "txt":"✿ Design épuré et professionnel : Chaque section est clairement délimitée pour organiser vos informations de manière intuitive et visuelle. \n\n✿ Parcours utilisateur simplifié  Tout est accessible en un seul défilement, facilitant la consultation rapide des services, produits ou informations. \n\n✿ Identité visuelle sur mesure   Nous créons un design qui reflète parfaitement votre marque et votre univers.",
+        "page": "/offreCreation#starter",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "2",
+        "formule":"starter",
+        "title": "Contenu Essentiel et Bien Structuré",
+        "txt":"✿ Sections bien définies : Présentez vos services, vos réalisations, un appel à l’action et vos coordonnées, le tout sur une seule page. \n\n✿ Texte optimisé : Des textes clairs et percutants, rédigés pour attirer l’attention des visiteurs et les inciter à passer à l’action. \n\n✿ Mise en avant des éléments clés Vos offres, valeurs et points forts sont mis en valeur grâce à un design percutant.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "3",
+        "formule":"starter",
+        "title": "Performances Optimales pour Tous les Appareils",
+        "txt":"✿ Site responsive : Un affichage optimisé sur tous les appareils pour garantir une expérience utilisateur sans accroc. \n\n✿ Optimisation des performances : Temps de chargement rapide, pour éviter la frustration des utilisateurs et favoriser l'engagement. \n\n✿ Sécurité et fiabilité : Un site protégé et performant, prêt à accueillir vos visiteurs sans souci technique.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "4",
+        "formule":"starter",
+        "title": "Optimisation SEO Essentielle",
+        "txt":"✿ SEO de base inclus : Optimisation des balises titres, méta-descriptions, et contenu pour maximiser votre visibilité. \n\n✿ Indexation rapide : Votre page sera indexée par Google pour que vos clients puissent vous trouver rapidement en ligne.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "5",
+        "formule":"starter",
+        "title": "Maintenance Essentielle et Suivi",
+        "txt":"✿ Maintenance de base : Mises à jour techniques et sécurité pour assurer le bon fonctionnement de votre site. \n\n✿ Support technique : Assistance disponible en cas de besoin pour répondre à vos questions ou résoudre des problèmes.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "6",
+        "formule":"starter",
+        "title": "Conclusion : Un Site One Page, Simple et Efficace",
+        "txt":"La Formule One Page est idéale pour ceux qui recherchent une solution simple mais impactante pour établir leur présence en ligne. Avec un design professionnel, une structure claire et des performances optimisées, vous disposerez d'un site vitrine capable de capter l’attention de vos clients et de les convertir en un minimum de clics. \n\n Prêt à démarrer avec une solution simple et rapide ? \n\n Contactez-nous dès aujourd’hui pour lancer votre projet avec la Formule One Page !",
+        "class": "formuladetailscard formuladetailscard__conclusion"
+    }
+   
+]
