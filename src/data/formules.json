@@ -43,7 +43,8 @@
         "price": "50€ / mois",
         "txt1":"Assurez le bon fonctionnement de votre site avec des mises à jour régulières et une protection basique pour une tranquillité d’esprit au quotidien.",
         "txt2":"✿ Mises à jour régulières : Maintenez votre site à jour avec les dernières versions de sécurité et plugins. \n\n✿ Sauvegardes automatiques : Protégez vos données avec des sauvegardes automatiques régulières. \n\n✿ Surveillance basique : Détection des anomalies pour éviter les problèmes de performance. \n\n✿ Support technique limité : Assistance rapide pour résoudre les problèmes techniques mineurs.",
-        "page": "/offreMaintenance#starter"
+        "page": "/offreMaintenance#starter",
+        "class": "formulacard"
     },
 
     {
@@ -54,7 +55,8 @@
         "price":"100€ / mois",
         "txt1":"Boostez la performance et la sécurité de votre site avec un suivi complet et des optimisations régulières pour une navigation fluide et sécurisée.",
         "txt2":"✿ Mises à jour automatiques complètes : Inclut thèmes, plugins et sécurité. \n\n✿ Sauvegardes fréquentes : Restauration rapide en cas de problème. \n\n✿ Surveillance active 24/7 : Détection proactive des anomalies. \n\n✿ Optimisation des performances : Améliorez le temps de chargement et l’expérience utilisateur. \n\n✿ Support technique prioritaire : Réponse rapide aux demandes d’assistance.",
-        "page": "/offreMaintenance#middle"
+        "page": "/offreMaintenance#middle",
+        "class": "formulacard  formulacard__special"
     },
 
     {
@@ -64,9 +66,10 @@
         "title": "PRENIUM",
         "stitle": "Suivi complet et protection renforcée",
         "price":"150€ / mois",
-        "txt1":"Offrez à votre site une protection premium, une surveillance constante et un support illimité pour des performances optimales en toute circonstance.",
-        "txt2":"✿ Mises à jour automatiques complètes : Tout le nécessaire pour un site toujours à jour. \n\n✿  Sauvegardes fréquentes et automatiques : Restauration immédiate de votre site en cas de besoin. \n\n✿  Surveillance continue 24/7 : Protection maximale avec intervention immédiate en cas d’anomalies. \n\n✿ Optimisation continue des performances : Assurez une navigation rapide et fluide pour vos utilisateurs. \n\n✿ Support technique illimité et prioritaire : Assistance complète, quelle que soit la nature du problème. \n\n✿ Rapports mensuels détaillés : Suivi transparent des actions effectuées sur votre site.",
-        "page": "/offreMaintenance#prenium"
+        "txt1":"Offrez à votre site une surveillance constante et un support illimité pour des performances optimales en toute circonstance.",
+        "txt2":"✿ Mises à jour automatiques complètes : Tout le nécessaire pour un site toujours à jour. \n\n✿  Sauvegardes automatiques : Restauration immédiate de votre site en cas de besoin. \n\n✿  Surveillance continue 24/7 : Protection maximale avec intervention immédiate en cas d’anomalies. \n\n✿ Optimisation continue des performances : Assurez une navigation rapide et fluide pour vos utilisateurs. \n\n✿ Support technique illimité et prioritaire : Assistance complète, quelle que soit la nature du problème. \n\n✿ Rapports mensuels détaillés : Suivi transparent des actions effectuées sur votre site.",
+        "page": "/offreMaintenance#prenium",
+        "class": "formulacard"
     },
 
     {
@@ -77,18 +80,20 @@
         "price": "500€",
         "txt1":"Modernisez votre site sans tout révolutionner et offrez-lui un coup de jeune !",
         "txt2":"✿ Analyse de l’existant : Identification des points à améliorer pour une expérience utilisateur optimale. \n\n✿  Design moderne et responsive : Création d'une interface attrayante et adaptable sur tous les appareils. \n\n✿ Optimisation des contenus : Amélioration de vos textes et images pour un meilleur référencement. \n\n✿  Intégration des meilleures pratiques SEO : Techniques de base pour augmenter la visibilité sur les moteurs de recherche. \n\n✿ Formation rapide : Session pour vous familiariser avec les nouvelles fonctionnalités.",
-        "page": "/offreRefonte#starter"
+        "page": "/offreRefonte#starter",
+        "class": "formulacard"
     },
 
     {
         "id": "8",
         "offre":"refo",
         "title": "MIDDLE",
-        "stitle": "Mise à jour structurée et impactante",
+        "stitle": "Mise à jour impactante",
         "price":"800€",
         "txt1":"Donnez à votre site un souffle nouveau avec des fonctionnalités avancées et une optimisation approfondie !",
-        "txt2":"✿ Analyse complète de l’existant : Évaluation approfondie de la structure et des performances de votre site. \n\n✿  Design personnalisé : Création d’un design sur mesure en accord avec votre identité visuelle. \n\n✿ Optimisation SEO avancée : Stratégies pour améliorer votre positionnement sur les moteurs de recherche. \n\n✿ Amélioration des performances : Optimisation de la vitesse de chargement et de la fluidité de navigation. \n\n✿  Intégration de nouvelles fonctionnalités : Ajout de fonctionnalités spécifiques pour répondre à vos besoins. \n\n✿ → Support et formation : Assistance à la mise en place et prise en main des nouvelles fonctionnalités.",
-        "page": "/offreRefonte#middle"
+        "txt2":"✿ Analyse complète de l’existant : Évaluation approfondie de la structure et des performances de votre site. \n\n✿  Design personnalisé : Création d’un design sur mesure en accord avec votre identité visuelle. \n\n✿ Optimisation SEO avancée : Stratégies pour améliorer votre positionnement sur les moteurs de recherche. \n\n✿ Amélioration des performances : Optimisation de la vitesse de chargement et de la fluidité de navigation. \n\n✿  Intégration de nouvelles fonctionnalités : Ajout de fonctionnalités spécifiques pour répondre à vos besoins.",
+        "page": "/offreRefonte#middle",
+        "class": "formulacard formulacard__special"
     },
 
     {
@@ -98,8 +103,9 @@
         "title": "PRENIUM",
         "stitle": "Transformation complète et optimisation maximale",
         "price":"1100€",
-        "txt1":"Transformez votre site de fond en comble pour répondre à vos objectifs stratégiques !",
+        "txt1":"Transformez votre site de fond en comble pour répondre à vos objectifs !",
         "txt2":"✿ Audit complet du site : Analyse détaillée de tous les aspects (technique, design, contenu, SEO). \n\n✿ Design entièrement repensé : Création d’un nouveau design moderne et engageant. \n\n✿ Optimisation maximale pour le référencement : Stratégie complète pour augmenter votre visibilité. \n\n✿ Intégration des dernières technologies : Utilisation des outils modernes pour une performance optimale. \n\n✿ Stratégie de contenu : Refonte complète des contenus pour un engagement maximal des utilisateurs. \n\n✿ Support continu : Suivi après la mise en ligne pour garantir un fonctionnement optimal.",
-        "page": "/offreRefonte#prenium"
+        "page": "/offreRefonte#prenium",
+        "class": "formulacard"
     }
 ]

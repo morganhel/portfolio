@@ -13,7 +13,7 @@ import Icone6 from '../assets/images/Icones/creation/6.svg';
 
 function formuleCreation() {
 
-    const CreaFormules =  Formules.filter(formule => formule.offre === "crea")
+    const CreaFormules =  Formules.filter(formule => formule.offre === "maint")
 
     const StarterDetails = CreaDetails.filter(part => part.formule === "starter")
     const MiddleDetails = CreaDetails.filter(part => part.formule === "middle")
@@ -22,7 +22,7 @@ function formuleCreation() {
     return(
         <>
         <Header />
-        <h1>CREATION DE VOTRE SITE VITRINE</h1>
+        <h1>MAINTENANCE DE VOTRE NOUVEAU SITE</h1>
         <section className='formules'>
             <h2 className='formules__title'>QU'EST CE QUE JE VOUS PROPOSE ?</h2>
             <p className='formules__content--center'>Mettez votre activité en lumière avec un site vitrine unique, moderne et optimisé pour capter l'attention de vos clients.</p>

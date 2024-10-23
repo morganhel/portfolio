@@ -1,5 +1,5 @@
 import CV from "../../assets/pdf/CV.pdf";
-import LogoSmall from '../../assets/images/MyLogo/LOGO_carré_petit.png'
+import LogoSmall from '../../assets/images/MyLogo/LOGO_carré_petit.svg'
 
 function Header() {
     return (

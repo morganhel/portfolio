@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home';
 import OffreCreation from './pages/OffreCreation';
+import OffreMaintenance from './pages/OffreMaintenance';
+import OffreRefonte from './pages/OffreRefonte';
 import Footer from './components/footer/Footer';
 import './index.css';
 
@@ -14,6 +16,8 @@ root.render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/offreCreation" element={<OffreCreation />} />
+        <Route path="/offreMaintenance" element={<OffreMaintenance />} />
+        <Route path="/offreRefonte" element={<OffreRefonte />} />
       </Routes>
       <Footer />
     </Router>

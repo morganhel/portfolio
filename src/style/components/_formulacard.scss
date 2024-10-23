@@ -4,7 +4,7 @@
 
 .formulacard{
     width: 350px;
-    height: 700px;
+    height: 750px;
     border-radius: 75px 25px;
     display: flex;
     flex-direction: column;
@@ -25,7 +25,7 @@
             font-size: 50px;
         }
         h4{
-            font-size: 40px;
+            font-size: 38px;
         }
         .formulacard__header--price{
             font-size: 45px;
@@ -51,6 +51,10 @@
         color: $color-second;
     }
 
+    &__stitle{
+        text-align:center;
+    }
+
     &__price{
         font-family: "Raleway", sans-serif;
         font-size: 35px;
@@ -71,7 +75,6 @@
         &--txt2{
             color: $color-second;
             text-align: justify;
-            margin: 0 20px;
             font-size: 14px;
         }
     }
