@@ -1,18 +1,5 @@
 .presentation{
     @include container;
-    position: relative;
-
-    &::before{
-        content:'';
-        position: absolute;
-        border-bottom: 3.5px solid black;
-        margin:20px;
-        top: 0;
-        left: 0;
-        right:0;
-        bottom: 0;
-    }
-
 
     &__content{
         @include content;

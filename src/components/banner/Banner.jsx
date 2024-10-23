@@ -21,7 +21,8 @@ function Banner(){
                     style={{
                         fontFamily: 'Courier New',
                         fontSize: '20px',
-                        fontWeight: '50'
+                        fontWeight: '50',
+                        color:'#9d97cf'
                     }}
                 />
                 </div>

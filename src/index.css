@@ -50,7 +50,7 @@ h2 {
   font-size: 40px;
   font-family: "Gruppo", sans-serif;
   font-weight: 500;
-  color: #8863AB;
+  color: rgb(68, 32, 99);
 }
 @media (max-width: 767.98px) {
   h2 {
@@ -419,6 +419,9 @@ h4 {
     text-align: center;
   }
 }
+.banner__content--txt {
+  color: #9d97cf;
+}
 
 .offercard {
   width: 400px;
@@ -582,7 +585,7 @@ h4 {
   justify-content: center;
 }
 .formuladetailscard--conclusion .formuladetailscard__title {
-  color: #8863AB;
+  color: rgb(68, 32, 99);
   margin: 0;
 }
 .formuladetailscard--conclusion .formuladetailscard__txt {
@@ -615,22 +618,11 @@ h4 {
   margin: 25px auto;
   padding: 0 40px 50px 40px;
   gap: 40px;
-  position: relative;
 }
 @media (max-width: 1024px) {
   .presentation {
     margin: 25px;
   }
-}
-.presentation::before {
-  content: "";
-  position: absolute;
-  border-bottom: 3.5px solid black;
-  margin: 20px;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 .presentation__content {
   display: flex;
@@ -875,7 +867,7 @@ h4 {
   padding: 20px 0;
 }
 .formules__content--center--color {
-  color: #8863AB;
+  color: rgb(68, 32, 99);
 }
 .formules__content--point {
   margin-left: 40px;
@@ -921,7 +913,7 @@ h4 {
   gap: 50px;
 }
 .deroulement__etape__part1--content h3 {
-  color: #8863AB;
+  color: rgb(68, 32, 99);
 }
 .deroulement__etape__part1--content p {
   font-size: 16px;

@@ -37,6 +37,24 @@ function Home() {
         </div>
 
       </section>
+      <section className='offres' id='offres'>
+        <h2 className='offres__title'>MES SERVICES</h2>
+        <div className='offres__content'>
+        {Offres.map((offre)=>{
+            return (
+              <OfferCard 
+                key={offre.title} 
+                img={offre.img}
+                title={offre.title} 
+                txt1={offre.txt1}
+                txt2={offre.txt2}
+                txt3={offre.txt3}
+                page={offre.page}
+              />
+            )
+          })}
+          </div>
+      </section>
       <section className='realisations' id='realisations'>
         <h2>MES DERNIERS PROJETS</h2>
         <div className='realisations__content'>
@@ -83,24 +101,6 @@ function Home() {
           </div>
         </div>
       </section> */}
-      <section className='offres' id='offres'>
-        <h2 className='offres__title'>CE QUE JE VOUS PROPOSE</h2>
-        <div className='offres__content'>
-        {Offres.map((offre)=>{
-            return (
-              <OfferCard 
-                key={offre.title} 
-                img={offre.img}
-                title={offre.title} 
-                txt1={offre.txt1}
-                txt2={offre.txt2}
-                txt3={offre.txt3}
-                page={offre.page}
-              />
-            )
-          })}
-          </div>
-      </section>
       <section className='contact' id='contact'>
         <h2>CONTACT</h2>
         <div className='contact__content'>
