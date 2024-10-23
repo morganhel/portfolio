@@ -566,7 +566,7 @@ h4 {
   font-size: 28px;
   font-weight: 600;
   color: #eddeea;
-  margin: 50px 20px 0 20px;
+  margin: 50px 10px 0 10px;
 }
 .formuladetailscard__txt {
   color: #3E618B;
@@ -574,18 +574,21 @@ h4 {
   margin: 0 50px;
   font-size: 14px;
 }
-.formuladetailscard__conclusion {
+.formuladetailscard--conclusion {
   background: none;
   color: #3E618B;
   justify-content: center;
 }
-.formuladetailscard__conclusion .formuladetailscard__title {
+.formuladetailscard--conclusion .formuladetailscard__title {
   color: #8863AB;
   margin: 0;
 }
-.formuladetailscard__conclusion .formuladetailscard__txt {
+.formuladetailscard--conclusion .formuladetailscard__txt {
   color: #3E618B;
   margin: 0;
+}
+.formuladetailscard--green {
+  background: radial-gradient(circle, rgb(138, 201, 184) 30%, rgb(72, 157, 135) 100%);
 }
 
 .button {

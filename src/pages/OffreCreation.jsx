@@ -16,6 +16,8 @@ function formuleCreation() {
     const CreaFormules =  Formules.filter(formule => formule.offre === "crea")
 
     const StarterDetails = CreaDetails.filter(part => part.formule === "starter")
+    const MiddleDetails = CreaDetails.filter(part => part.formule === "middle")
+    const PreniumDetails = CreaDetails.filter(part => part.formule === "prenium")
 
     return(
         <>
@@ -187,7 +189,7 @@ function formuleCreation() {
                     <br />UN SITE VITRINE STRUCTURE ET POLYVALENT POUR VOTRE ENTREPRISE
                 </h3>
                 <div className='details__formule--content'>
-                    {StarterDetails.map((formule)=>{
+                    {MiddleDetails.map((formule)=>{
                         return (
                         <FormulaCardDetails 
                         key={formule.id} 
@@ -204,7 +206,7 @@ function formuleCreation() {
                     <br />L'EXCELLENCE POUR VOTRE SITE VITRINE
                 </h3>
                 <div className='details__formule--content'>
-                    {StarterDetails.map((formule)=>{
+                    {PreniumDetails.map((formule)=>{
                         return (
                         <FormulaCardDetails 
                         key={formule.id} 
