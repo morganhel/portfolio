@@ -54,7 +54,8 @@ function formuleCreation() {
           </div>
         </section>
         <section className='deroulement'>
-            <h2>COMMENT CA SE DEROULE ?</h2>
+            <h2 className='deroulement__title'>COMMENT CA SE DEROULE ?</h2>
+            <p>La création d'un site vitrine est un projet essentiel pour tout entrepreneur cherchant à établir ou renforcer sa présence en ligne. Avec mon offre de création, chaque étape est conçue pour vous accompagner, du premier concept jusqu'à la mise en ligne, en passant par la conception visuelle, le développement technique et les tests finaux. Découvrez le déroulement complet de l’offre de création de site vitrine, intégrant les options des trois formules pour un site unique, performant et à votre image.</p>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
                     <img   className='deroulement__etape__part1--img' src={Icone1} alt='Illustration étape 1'/>

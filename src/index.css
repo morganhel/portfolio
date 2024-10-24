@@ -50,7 +50,7 @@ h2 {
   font-size: 40px;
   font-family: "Gruppo", sans-serif;
   font-weight: 500;
-  color: rgb(68, 32, 99);
+  color: #8863AB;
 }
 @media (max-width: 767.98px) {
   h2 {
@@ -62,6 +62,7 @@ h3 {
   font-family: "Gruppo", sans-serif;
   font-size: 40px;
   font-weight: 500;
+  color: #3E618B;
 }
 
 h4 {
@@ -582,7 +583,7 @@ h4 {
   justify-content: center;
 }
 .formuladetailscard--conclusion .formuladetailscard__title {
-  color: rgb(68, 32, 99);
+  color: #8863AB;
   margin: 0;
 }
 .formuladetailscard--conclusion .formuladetailscard__txt {
@@ -864,7 +865,7 @@ h4 {
   padding: 20px 0;
 }
 .formules__content--center--color {
-  color: rgb(68, 32, 99);
+  color: #8863AB;
 }
 .formules__content--point {
   margin-left: 40px;
@@ -881,15 +882,27 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 25px 0;
+  padding: 40px 100px;
   gap: 40px;
+  padding: 40px 300px;
+  background-color: #3E618B;
 }
 @media (max-width: 1024px) {
   .deroulement {
     margin: 25px;
   }
+}
+.deroulement h3, .deroulement p, .deroulement strong {
+  color: #eddeea;
+}
+.deroulement__intro {
+  color: #eddeea;
+  text-align: center;
+  padding: 0 150px;
+}
+.deroulement__title {
+  color: #eddeea;
 }
 .deroulement__etape {
   display: flex;
@@ -909,15 +922,12 @@ h4 {
   flex-direction: column;
   gap: 50px;
 }
-.deroulement__etape__part1--content h3 {
-  color: rgb(68, 32, 99);
-}
 .deroulement__etape__part1--content p {
   font-size: 16px;
   text-align: justify;
 }
 .deroulement__etape__part2 {
-  padding: 0 200px;
+  padding: 0 150px;
   text-align: justify;
 }
 

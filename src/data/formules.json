@@ -6,7 +6,7 @@
         "stitle": "L'essentiel, simplement",
         "price": "400€",
         "txt1":"Simplifiez votre présence en ligne avec un site vitrine élégant et efficace, le tout en une seule page !",
-        "txt2":"✿ Impact immédiat : Un site unique et attrayant qui capte l’attention. \n\n✿ Contenu structuré : Sections bien définies pour présenter l’essentiel. \n\n✿ Consultation rapide : Informations accessibles d’un simple défilement. \n\n✿ Optimisation SEO de base : Amélioration de votre visibilité sur les moteurs de recherche. \n\n✿ Maintenance essentielle : Mises à jour et support technique garantis. \n\n✿ Coût abordable : Solution économique pour une présence en ligne efficace.",
+        "txt2":"✿ Design attractif et responsive : Création d'une page unique optimisée pour tous les appareils. \n\n✿ Présentation des services : Mise en avant claire et concise de vos services ou produits. \n\n✿ Formulaire de contact : Intégration d'un formulaire pour faciliter la prise de contact. \n\n✿ Référencement de base : Optimisation pour un meilleur positionnement sur les moteurs de recherche.",
         "page": "/offreCreation#starter",
         "class": "formulacard"
     },
@@ -18,7 +18,7 @@
         "stitle": "Le juste équilibre",
         "price":"700€",
         "txt1":"Développez votre présence en ligne avec un site vitrine complet et professionnel, adapté à toutes vos ambitions !",
-        "txt2":"✿ Design sur mesure : Un site élégant et en accord avec votre image de marque. \n\n✿ Jusqu'à 5 pages : Présentez vos services en profondeur. \n\n✿ Fonctionnalités enrichies :  Interactivité et contenu riche pour captiver vos visiteurs. \n\n✿ Visibilité accrue : Attirez plus de clients grâce à un référencement optimisé. \n\n✿ Confiance et crédibilité : Un site professionnel qui inspire confiance. \n\n✿ Évolutivité : Adaptable aux besoins croissants de votre entreprise.",
+        "txt2":"✿Toutes les options de la Formule Starter, plus :\n\n✿ Pages supplémentaires : Création de plusieurs pages pour détailler vos services, l’entreprise, les témoignages, etc. \n\n✿ Menu de navigation : Ajout d'un menu intuitif pour faciliter la navigation. \n\n✿ Optimisation SEO avancée : Amélioration de votre visibilité sur les moteurs de recherche grâce à une stratégie SEO plus poussée.",
         "page": "/offreCreation#middle",
         "class": "formulacard formulacard__special"
     },
@@ -30,7 +30,7 @@
         "price":"900€",
         "stitle": "L'expérience sur mesure",
         "txt1":"Élevez votre présence en ligne avec un site vitrine sur mesure, conçu pour vous propulser vers le succès !",
-        "txt2":"✿ Design personnalisé : Un site unique qui reflète votre identité. \n\n✿ Jusqu'à 15 pages : Structure complète pour détailler vos services. \n\n✿ Fonctionnalités avancées : Blog, galeries multimédias, et formulaires interactifs. \n\n✿ Visibilité optimisée : Attirez plus de clients potentiels. \n\n✿ Accompagnement stratégique : Conseils pour la gestion et l’évolution de votre site. \n\n✿ Maintenance premium : Support continu pour garantir la performance. \n\n✿ Flexibilité : Un site évolutif qui s’adapte à vos besoins.",
+        "txt2":"✿ Toutes les options des Formules Starter et Middle, plus : \n\n✿ Design entièrement personnalisé : Création d’un design unique selon vos besoins et votre identité visuelle. \n\n✿ Accompagnement et support : Assistance dans la gestion du site et conseils pour son évolution future. \n\n✿ CMS (système de gestion de contenu) : Option d'intégration d’un CMS pour gérer facilement vos contenus. \n\n✿ Audit SEO et conseils : Analyse et recommandations pour optimiser le référencement de votre site.",
         "page": "/offreCreation#prenium",
         "class": "formulacard"
     },
@@ -54,7 +54,7 @@
         "stitle": "Performance et optimisation",
         "price":"100€ / mois",
         "txt1":"Boostez la performance et la sécurité de votre site avec un suivi complet et des optimisations régulières pour une navigation fluide et sécurisée.",
-        "txt2":"✿ Toutes les options de la Formule Essentielle, \n\n+ \n\n✿ Optimisation des performances : Amélioration des temps de chargement et de la fluidité du site. \n\n✿ Maintenance technique complète : Suivi des mises à jour de fonctionnalités et des plugins.\n\n✿ Analyse SEO de base : Vérification et amélioration du référencement du site.",
+        "txt2":"✿ Toutes les options de la Formule Starter, plus :\n\n✿ Optimisation des performances : Amélioration des temps de chargement et de la fluidité du site. \n\n✿ Maintenance technique complète : Suivi des mises à jour de fonctionnalités et des plugins.\n\n✿ Analyse SEO de base : Vérification et amélioration du référencement du site.",
         "page": "/offreMaintenance#middle",
         "class": "formulacard  formulacard__special"
     },
@@ -67,7 +67,7 @@
         "stitle": "Suivi complet et protection renforcée",
         "price":"150€ / mois",
         "txt1":"Offrez à votre site une surveillance constante et un support illimité pour des performances optimales en toute circonstance.",
-        "txt2":"✿ Toutes les options des Formules Essentielle et Avancée \n\n+ \n\n✿ Audit complet du site : Analyse approfondie des performances, de la sécurité et du SEO. \n\n✿ Accompagnement personnalisé : Conseils et suivi pour faire évoluer votre site selon vos besoins. \n\n✿ Modifications et ajouts de contenus : Gestion de contenus (texte, images) et mises à jour régulières.",
+        "txt2":"✿ Toutes les options des Formules Starter et Middle, plus :\n\n✿ Audit complet du site : Analyse approfondie des performances, de la sécurité et du SEO. \n\n✿ Accompagnement personnalisé : Conseils et suivi pour faire évoluer votre site selon vos besoins. \n\n✿ Modifications et ajouts de contenus : Gestion de contenus (texte, images) et mises à jour régulières.",
         "page": "/offreMaintenance#prenium",
         "class": "formulacard"
     },
@@ -76,10 +76,10 @@
         "id": "7",
         "offre":"refo",
         "title": "STARTER",
-        "stitle": "Redynamisation rapide",
+        "stitle": "Refonte visuelle essentielle",
         "price": "500€",
-        "txt1":"Modernisez votre site sans tout révolutionner et offrez-lui un coup de jeune !",
-        "txt2":"✿ Analyse de l’existant : Identification des points à améliorer pour une expérience utilisateur optimale. \n\n✿  Design moderne et responsive : Création d'une interface attrayante et adaptable sur tous les appareils. \n\n✿ Optimisation des contenus : Amélioration de vos textes et images pour un meilleur référencement. \n\n✿  Intégration des meilleures pratiques SEO : Techniques de base pour augmenter la visibilité sur les moteurs de recherche. \n\n✿ Formation rapide : Session pour vous familiariser avec les nouvelles fonctionnalités.",
+        "txt1":"Offrez à votre site un nouveau souffle avec un design moderne et une meilleure ergonomie.",
+        "txt2":"✿ Modernisation du design : Mise à jour de l'apparence du site avec un look plus moderne et attrayant. \n\n✿ Amélioration de l'ergonomie : Simplification de la navigation et amélioration de l'expérience utilisateur. \n\n✿ Mise à jour des contenus : Actualisation des textes, images et autres médias pour mieux refléter votre activité actuelle. \n\n✿ Adaptation mobile : Vérification de la compatibilité mobile pour garantir un bon affichage sur smartphones et tablettes.",
         "page": "/offreRefonte#starter",
         "class": "formulacard"
     },
@@ -90,8 +90,8 @@
         "title": "MIDDLE",
         "stitle": "Mise à jour impactante",
         "price":"800€",
-        "txt1":"Donnez à votre site un souffle nouveau avec des fonctionnalités avancées et une optimisation approfondie !",
-        "txt2":"✿ Analyse complète de l’existant : Évaluation approfondie de la structure et des performances de votre site. \n\n✿  Design personnalisé : Création d’un design sur mesure en accord avec votre identité visuelle. \n\n✿ Optimisation SEO avancée : Stratégies pour améliorer votre positionnement sur les moteurs de recherche. \n\n✿ Amélioration des performances : Optimisation de la vitesse de chargement et de la fluidité de navigation. \n\n✿  Intégration de nouvelles fonctionnalités : Ajout de fonctionnalités spécifiques pour répondre à vos besoins.",
+        "txt1":"Transformez votre site en optimisant ses performances et en intégrant des fonctionnalités essentielles pour une meilleure expérience utilisateur ! ",
+        "txt2":"✿ Tout ce qui est proposé dans la Formule Basique, plus : \n\n✿ Optimisation des performances : Réduction des temps de chargement et amélioration de la vitesse du site. \n\n✿ Refonte de la structure : Réorganisation des pages et de la navigation pour mieux structurer l'information. \n\n✿ Intégration de nouvelles fonctionnalités : Ajout d'éléments interactifs comme des formulaires, des galeries ou des boutons d'appel à l'action. \n\n✿ Amélioration SEO : Audit et ajustements SEO basiques pour améliorer la visibilité dans les moteurs de recherche.",
         "page": "/offreRefonte#middle",
         "class": "formulacard formulacard__special"
     },
@@ -104,7 +104,7 @@
         "stitle": "Transformation complète et optimisation maximale",
         "price":"1100€",
         "txt1":"Transformez votre site de fond en comble pour répondre à vos objectifs !",
-        "txt2":"✿ Audit complet du site : Analyse détaillée de tous les aspects (technique, design, contenu, SEO). \n\n✿ Design entièrement repensé : Création d’un nouveau design moderne et engageant. \n\n✿ Optimisation maximale pour le référencement : Stratégie complète pour augmenter votre visibilité. \n\n✿ Intégration des dernières technologies : Utilisation des outils modernes pour une performance optimale. \n\n✿ Stratégie de contenu : Refonte complète des contenus pour un engagement maximal des utilisateurs. \n\n✿ Support continu : Suivi après la mise en ligne pour garantir un fonctionnement optimal.",
+        "txt2":"✿ Tout ce qui est proposé dans les Formules Basique et Intermédiaire, plus : \n\n✿ Design sur-mesure : Création d'un design unique et personnalisé pour votre marque. \n\n✿ Optimisation technique avancée : Mise en place d'outils et de techniques de pointe pour maximiser les performances du site (chargement, sécurité). \n\n✿ Audit SEO complet : Analyse approfondie et mise en place de stratégies pour optimiser le référencement naturel sur le long terme. \n\n✿ Accompagnement personnalisé : Support et conseils continus pour accompagner l'évolution de votre site web.",
         "page": "/offreRefonte#prenium",
         "class": "formulacard"
     }

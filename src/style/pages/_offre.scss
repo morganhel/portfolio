@@ -34,12 +34,29 @@
 }
 
 .deroulement{
-    @include container;
+    @include container-large;
+    padding: 40px 300px;
+    background-color: $color-third;
+
+    h3,p,strong{
+        color: $color-second;
+    }
+
+    &__intro{
+        color: $color-second;
+        text-align: center;
+        padding:0 150px;
+    }
+
+    &__title{
+        color:$color-second;
+    }
 
     &__etape{
         display: flex;
         flex-direction: column;
         align-items: center;
+
         
         &__part1{
             display: flex;
@@ -55,9 +72,6 @@
                 flex-direction: column;
                 gap:50px;
 
-                h3{
-                    color: $color-fourth;
-                }
 
                 p{
                     font-size: 16px;
@@ -67,7 +81,7 @@
         }
 
         &__part2{
-            padding:0 200px;
+            padding:0 150px;
             text-align: justify;
         }
 

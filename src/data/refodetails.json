@@ -1,0 +1,160 @@
+[
+    {
+        "id": "1",
+        "formule":"starter",
+        "title": "Pourquoi opter pour une refonte essentielle ?",
+        "txt":"La formule Essentielle est idéale si votre site fonctionne bien mais nécessite quelques ajustements pour rester moderne et efficace. Que ce soit pour un design un peu daté, des performances légèrement dégradées, ou un besoin d’optimisation SEO, cette formule permet de remettre votre site au goût du jour sans engager une refonte complète.",
+        "page": "/offreCreation#starter",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "2",
+        "formule":"starter",
+        "title": "Optimisation du design existant",
+        "txt":"✿ Ajustements visuels mineurs : Mise à jour des couleurs, polices et agencement pour un rendu plus actuel. \n\n✿ Amélioration de l’ergonomie : Réorganisation de la navigation pour une meilleure expérience utilisateur. \n\n✿ Design responsive : Adaptation du design pour une navigation fluide sur mobile et tablette.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "3",
+        "formule":"starter",
+        "title": "Optimisation des performances techniques",
+        "txt":"✿ Amélioration des temps de chargement : Optimisation des images, fichiers CSS et JavaScript pour rendre le site plus rapide. \n\n✿ Mise à jour de la sécurité : Installation des derniers correctifs de sécurité pour protéger votre site des menaces. \n\n✿ Nettoyage des bases de données : Réduction de la taille des bases de données pour accélérer l’accès aux informations.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "4",
+        "formule":"starter",
+        "title": "SEO et optimisation du contenu",
+        "txt":"✿ Mise à jour des balises SEO : Révision des balises de titre, méta descriptions, et mots-clés pour un meilleur référencement. \n\n✿ Optimisation des contenus : Ajustements du texte et des images pour une meilleure visibilité dans les moteurs de recherche. \n\n✿ Création de liens internes : Amélioration de la structure des liens pour une navigation plus fluide et mieux référencée.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "5",
+        "formule":"starter",
+        "title": "Support technique et suivi",
+        "txt":"✿ Assistance technique : Support pendant la phase de refonte pour répondre à vos questions ou résoudre des problèmes. \n\n✿ Formation de base : Explication des modifications effectuées et des meilleures pratiques pour maintenir le site. \n\n✿ Suivi des performances : Vérification des résultats des optimisations (SEO, temps de chargement, sécurité) après la refonte.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "6",
+        "formule":"starter",
+        "title": "Conclusion : Réveillez le Potentiel de Votre Site !",
+        "txt":"La Formule Essentielle constitue un point de départ solide pour quiconque souhaite moderniser son site sans trop de complications. Grâce à un audit minutieux, un design responsive et une optimisation SEO de base, vous disposez des fondations nécessaires pour attirer et retenir vos visiteurs.\n\n Prêt à donner un nouveau souffle à votre site ? \n\n Ne laissez pas votre site rester à l’écart. Contactez-nous dès aujourd'hui pour lancer votre projet de refonte !",
+        "class": "formuladetailscard formuladetailscard--conclusion"
+    },
+    
+    {
+        "id": "7",
+        "formule":"middle",
+        "title": "Une refonte intermédiaire pour un impact visible",
+        "txt":"La formule intermédiaire va plus loin que l’essentiel, en vous offrant une refonte partielle du design et des fonctionnalités. Elle est parfaite pour les sites qui ont besoin d’une modernisation graphique, d’une optimisation SEO plus poussée, et d’améliorations dans la gestion des contenus et fonctionnalités.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "8",
+        "formule":"middle",
+        "title": "Refonte graphique et modernisation visuelle",
+        "txt":"✿ Design rafraîchi : Modification plus importante de l’interface, avec un travail sur la charte graphique et l’agencement des pages. \n\n✿ Optimisation de l’expérience utilisateur (UX) : Ajustements pour rendre la navigation plus intuitive et agréable. \n\n✿ Création de nouvelles sections : Ajout ou modification de pages spécifiques pour mieux refléter votre activité actuelle.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "9",
+        "formule":"middle",
+        "title": "Amélioration des fonctionnalités",
+        "txt":"✿ Optimisation des fonctionnalités existantes : Mise à jour ou optimisation des plugins, widgets, ou autres outils de votre site. \n\n✿ Ajout de fonctionnalités simples : Intégration de nouvelles fonctionnalités telles que des formulaires de contact améliorés, des modules de réservation ou de nouvelles galeries d’images. \n\n✿ Adaptation mobile renforcée : Optimisation spécifique pour les utilisateurs sur mobile et tablette.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "10",
+        "formule":"middle",
+        "title": "SEO et contenu améliorés",
+        "txt":"✿ Audit SEO détaillé : Analyse complète de votre SEO avec des recommandations pour améliorer votre positionnement. \n\n✿ Réécriture de certains contenus : Amélioration des textes pour un meilleur référencement et une meilleure lisibilité. \n\n✿ Stratégie de mots-clés : Implémentation d’une stratégie de mots-clés plus efficace pour attirer plus de visiteurs qualifiés.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "11",
+        "formule":"middle",
+        "title": "Suivi, formation et support",
+        "txt":"✿ Support technique dédié : Assistance pendant toute la durée de la refonte pour vous guider dans les changements. \n\n✿ Formation avancée : Séance de formation pour vous aider à gérer les nouvelles fonctionnalités et les contenus. \n\n✿ Suivi de la performance SEO : Monitoring des résultats SEO pour évaluer les gains après la refonte.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "12",
+        "formule":"middle",
+        "title": "Conclusion : Faites Passer Votre Site à la Vitesse Supérieure !",
+        "txt":"La Formule Avancée est parfaite pour ceux qui veulent non seulement une refonte, mais également un site performant et engageant. Avec des optimisations de vitesse, des fonctionnalités avancées et un suivi des performances, vous bénéficiez d’un site qui répond aux attentes de vos utilisateurs tout en se distinguant de la concurrence. \n\n Vous êtes prêt à faire passer votre site au niveau supérieur ? \n\nN’attendez plus ! Contactez-nous pour explorer comment la Formule Avancée peut transformer votre présence en ligne.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--conclusion"
+    },
+
+    {
+        "id": "13",
+        "formule":"prenium",
+        "title": "Pourquoi choisir la refonte complète ?",
+        "txt":"La formule avancée s’adresse aux entreprises souhaitant transformer complètement leur site web. Si votre site est obsolète, peu performant ou n’est plus adapté à vos besoins actuels, cette refonte complète le transformera en un outil moderne, dynamique et en phase avec votre stratégie.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "14",
+        "formule":"prenium",
+        "title": "Refonte intégrale du design et de l’expérience utilisateur",
+        "txt":"✿ Nouveau design sur mesure : Création d’une identité visuelle entièrement repensée et alignée sur votre image de marque. \n\n✿ Amélioration UX/UI : Développement d’une interface utilisateur intuitive et fluide, pour une expérience de navigation optimale. \n\n✿ Création de nouveaux modèles de page : Chaque page est retravaillée ou créée de zéro pour correspondre parfaitement à vos objectifs.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "15",
+        "formule":"prenium",
+        "title": "Nouvelles fonctionnalités puissantes",
+        "txt":"✿ Développement de fonctionnalités avancées : Intégration de nouvelles fonctionnalités complexes (e-commerce, espace membre, etc.). \n\n✿ Personnalisation des outils existants : Adaptation sur mesure des outils que vous utilisez déjà (CRM, newsletters, etc.). \n\n✿ Option CMS Premium : Intégration d’un système de gestion de contenu premium pour une gestion autonome facile (en option).",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "16",
+        "formule":"prenium",
+        "title": "Optimisation technique et SEO avancé",
+        "txt":"✿ Optimisation maximale des performances : Accélération de la vitesse du site grâce à un travail technique sur les serveurs, le code et les fichiers. \n\n✿ Stratégie SEO complète : Analyse poussée de vos performances SEO, suivi d’un plan d’action pour améliorer votre référencement. \n\n✿ Réécriture complète des contenus : Chaque contenu est optimisé pour le référencement, avec une stratégie de mots-clés avancée.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "17",
+        "formule":"prenium",
+        "title": "Support, formation et suivi personnalisé",
+        "txt":"✿ Support dédié pendant la refonte : Accompagnement sur chaque étape de la refonte pour s’assurer que tout fonctionne parfaitement. \n\n✿ Formation complète : Formation approfondie sur les nouvelles fonctionnalités et le CMS si intégré. \n\n✿ Suivi après lancement : Analyse des performances après la refonte, avec des ajustements et optimisations si nécessaires.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "18",
+        "formule":"prenium",
+        "title": "Conclusion : L'Excellence au Service de Votre Site !",
+        "txt":"La Formule Premium est conçue pour ceux qui souhaitent un accompagnement sur mesure et une optimisation continue de leur site. Avec un audit complet, des conseils stratégiques personnalisés, et une gestion proactive du contenu, vous serez assuré que votre site reste à jour et compétitif. \n\n Prêt à bénéficier d’un accompagnement complet ? \n\n Faites le premier pas vers une transformation réussie. Contactez-nous dès maintenant pour discuter de vos besoins et découvrir comment nous pouvons vous aider !",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard formuladetailscard--conclusion"
+    }
+   
+   
+]
