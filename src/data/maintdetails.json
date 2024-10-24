@@ -1,0 +1,159 @@
+[
+    {
+        "id": "1",
+        "formule":"starter",
+        "title": "Surveillance continue et mises à jour de sécurité",
+        "txt":"✿ Mises à jour régulières : Votre site reçoit des mises à jour techniques pour le protéger des nouvelles menaces. \n\n✿ Surveillance 24/7 : Suivi constant pour détecter et prévenir toute tentative de piratage ou bug technique.\n\n✿ Correction des failles de sécurité : Interventions rapides pour patcher les éventuelles vulnérabilités.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "2",
+        "formule":"starter",
+        "title": "Corrections des bugs mineurs",
+        "txt":"✿ Maintenance corrective : Si de petits problèmes surviennent (liens brisés, dysfonctionnement d’une fonctionnalité), ils sont corrigés sans coût supplémentaire. \n\n✿ Interventions rapides : Des actions rapides pour que votre site reste fonctionnel à tout moment",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "3",
+        "formule":"starter",
+        "title": "Sauvegardes régulières pour protéger vos données",
+        "txt":"✿ Sauvegardes automatiques : Configuration de sauvegardes régulières pour s’assurer que toutes vos données soient protégées. \n\n✿ Restauration facile : En cas de perte de données ou de problème technique, votre site peut être restauré rapidement.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "4",
+        "formule":"starter",
+        "title": "Rapports de maintenance mensuels",
+        "txt":"✿ Transparence totale : Chaque mois, vous recevez un rapport sur les actions réalisées sur votre site. \n\n✿ Suivi des mises à jour : Vous êtes informé des mises à jour effectuées et des interventions réalisées.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "5",
+        "formule":"starter",
+        "title": "Assistance technique légère",
+        "txt":"✿ Assistance incluse : Une petite assistance technique est incluse pour vous aider à résoudre des questions mineures. \n\n✿ Support en cas de problème : Contact rapide avec un support technique pour toute intervention urgente.",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "6",
+        "formule":"starter",
+        "title": "Conclusion : Gardez l'essentiel sous contrôle !",
+        "txt":"La Formule Essentielle est parfaite pour ceux qui recherchent une solution simple et efficace pour maintenir leur site en bon état. Avec un suivi régulier et des interventions sur les aspects de base, vous avez l’assurance que votre site reste accessible et fonctionnel. C’est une solution idéale pour les sites qui n’ont pas besoin de changements fréquents mais qui doivent toujours rester performants. \n\n Optez pour cette formule si vous voulez l’essentiel, sans complications. \n\n Assurez-vous dès maintenant que votre site reste performant et sécurisé !",
+        "class": "formuladetailscard formuladetailscard--conclusion"
+    },
+    
+    {
+        "id": "7",
+        "formule":"middle",
+        "title": "Sécurité renforcée et optimisation des performances",
+        "txt":"✿ Optimisation des temps de chargement : Accélération du chargement de vos pages pour une meilleure expérience utilisateur. \n\n✿ Mises à jour de sécurité régulières : Maintien à jour de votre site pour prévenir toute attaque ou vulnérabilité. \n\n✿ Amélioration des performances globales : Réglage des paramètres pour rendre votre site plus fluide et réactif.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "8",
+        "formule":"middle",
+        "title": "Maintenance technique complète",
+        "txt":"✿ Mises à jour des plugins et extensions : Garantir que toutes vos fonctionnalités et extensions soient toujours à jour. \n\n✿ Surveillance de la compatibilité : S'assurer que toutes les mises à jour n’entraînent pas de conflit avec le reste de votre site.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "9",
+        "formule":"middle",
+        "title": "Suivi des performances SEO",
+        "txt":"✿ Analyse SEO de base : Vérification des aspects techniques du SEO, comme la vitesse de chargement et la structure des pages. \n\n✿ Recommandations SEO : Petites recommandations pour améliorer le référencement de votre site sans coûts supplémentaires.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "10",
+        "formule":"middle",
+        "title": "Sauvegardes avancées et restauration rapide",
+        "txt":"✿Sauvegardes renforcées : Des sauvegardes plus fréquentes et plus complètes pour sécuriser vos données. \n\n✿ Restauration immédiate : En cas de problème grave, votre site peut être restauré en quelques minutes.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "11",
+        "formule":"middle",
+        "title": "Support technique étendu",
+        "txt":"✿ Assistance prioritaire : Accès à un support technique prioritaire pour répondre à vos questions et résoudre vos problèmes rapidement. \n\n✿ Ajustements sur demande : Possibilité de demander des modifications mineures au niveau de la performance ou des fonctionnalités.",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--green"
+    },
+
+    {
+        "id": "12",
+        "formule":"middle",
+        "title": "Conclusion : Allez plus loin avec la tranquillité d'esprit !",
+        "txt":"La Formule Avancée offre un service de maintenance complet pour ceux qui veulent aller plus loin dans l’optimisation de leur site. Vous bénéficiez non seulement d’une surveillance régulière, mais aussi d’améliorations continues qui garantissent une expérience utilisateur optimale. Cette formule est idéale pour les entreprises ou les sites qui évoluent fréquemment et qui ont besoin d’un suivi technique de qualité. \n\n Choisissez la tranquillité d’esprit avec une prise en charge plus approfondie. \n\n Profitez d’une maintenance avancée pour garder toujours une longueur d’avance !",
+        "page": "/offreCreation#middle",
+        "class": "formuladetailscard formuladetailscard--conclusion"
+    },
+
+    {
+        "id": "13",
+        "formule":"prenium",
+        "title": "Audit complet et suivi des performances",
+        "txt":"✿ Analyse approfondie : Un audit technique complet de votre site est réalisé pour identifier les points d’amélioration potentiels. \n\n✿ Surveillance continue des performances : Mesure des performances techniques, du SEO et de la sécurité, avec des actions correctives en temps réel.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "14",
+        "formule":"prenium",
+        "title": "Accompagnement personnalisé pour l’évolution de votre site",
+        "txt":"✿ Conseils stratégiques : Un accompagnement personnalisé vous est proposé pour faire évoluer votre site en fonction de vos objectifs. \n\n✿ Améliorations fonctionnelles : Ajout de nouvelles fonctionnalités ou ajustement des existantes pour répondre à vos nouveaux besoins.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "15",
+        "formule":"prenium",
+        "title": "Optimisation SEO avancée",
+        "txt":"✿Audit SEO complet : Analyse détaillée des performances SEO de votre site pour identifier les points à améliorer. \n\n✿ Recommandations stratégiques : Proposition de stratégies SEO adaptées pour renforcer votre visibilité en ligne. \n\n✿ Suivi des résultats SEO : Un suivi régulier est effectué pour ajuster les optimisations en fonction des résultats obtenus.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "16",
+        "formule":"prenium",
+        "title": "Modifications et gestion de contenu",
+        "txt":"✿ Mises à jour régulières du contenu : Ajout ou modification de textes, images ou vidéos pour que votre site reste toujours pertinent. \n\n✿ Gestion de nouveaux contenus : Création et mise en ligne de nouveaux articles, pages ou sections selon vos besoins.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "17",
+        "formule":"prenium",
+        "title": "Support VIP et sécurité renforcée",
+        "txt":"✿ Support premium : Un accès à une assistance prioritaire et complète pour répondre à toutes vos questions techniques ou fonctionnelles. \n\n✿ Surveillance de la sécurité avancée : Protection supplémentaire contre les cyberattaques et surveillance renforcée pour garantir la sécurité de vos données.",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard"
+    },
+
+    {
+        "id": "18",
+        "formule":"prenium",
+        "title": "Conclusion : L’excellence pour un site toujours au top !",
+        "txt":"Avec la Formule Premium, vous avez accès à une gestion proactive et personnalisée de votre site web. En plus d’assurer la sécurité et les performances de votre plateforme, cette formule inclut des optimisations régulières et des mises à jour stratégiques pour rester toujours à jour avec les dernières innovations. C’est la solution idéale pour les entreprises qui voient leur site comme un outil stratégique.  \n\n Si vous voulez ce qui se fait de mieux, cette formule est faite pour vous.  \n\nFaites le choix du haut de gamme et transformez votre site en un véritable atout business !",
+        "page": "/offreCreation#prenium",
+        "class": "formuladetailscard formuladetailscard--conclusion"
+    }
+   
+   
+]

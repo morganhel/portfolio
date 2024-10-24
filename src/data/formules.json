@@ -42,7 +42,7 @@
         "stitle": "Sécurité et mises à jour essentielles",
         "price": "50€ / mois",
         "txt1":"Assurez le bon fonctionnement de votre site avec des mises à jour régulières et une protection basique pour une tranquillité d’esprit au quotidien.",
-        "txt2":"✿ Mises à jour régulières : Maintenez votre site à jour avec les dernières versions de sécurité et plugins. \n\n✿ Sauvegardes automatiques : Protégez vos données avec des sauvegardes automatiques régulières. \n\n✿ Surveillance basique : Détection des anomalies pour éviter les problèmes de performance. \n\n✿ Support technique limité : Assistance rapide pour résoudre les problèmes techniques mineurs.",
+        "txt2":"✿ Surveillance et mises à jour de sécurité : Protection contre les failles et les attaques potentielles. \n\n✿ Corrections de bugs mineurs : Intervention rapide en cas de problèmes techniques légers.\n\n✿ Sauvegardes régulières : Mise en place de sauvegardes automatiques pour garantir la sécurité des données.",
         "page": "/offreMaintenance#starter",
         "class": "formulacard"
     },
@@ -54,7 +54,7 @@
         "stitle": "Performance et optimisation",
         "price":"100€ / mois",
         "txt1":"Boostez la performance et la sécurité de votre site avec un suivi complet et des optimisations régulières pour une navigation fluide et sécurisée.",
-        "txt2":"✿ Mises à jour automatiques complètes : Inclut thèmes, plugins et sécurité. \n\n✿ Sauvegardes fréquentes : Restauration rapide en cas de problème. \n\n✿ Surveillance active 24/7 : Détection proactive des anomalies. \n\n✿ Optimisation des performances : Améliorez le temps de chargement et l’expérience utilisateur. \n\n✿ Support technique prioritaire : Réponse rapide aux demandes d’assistance.",
+        "txt2":"✿ Toutes les options de la Formule Essentielle, \n\n+ \n\n✿ Optimisation des performances : Amélioration des temps de chargement et de la fluidité du site. \n\n✿ Maintenance technique complète : Suivi des mises à jour de fonctionnalités et des plugins.\n\n✿ Analyse SEO de base : Vérification et amélioration du référencement du site.",
         "page": "/offreMaintenance#middle",
         "class": "formulacard  formulacard__special"
     },
@@ -67,7 +67,7 @@
         "stitle": "Suivi complet et protection renforcée",
         "price":"150€ / mois",
         "txt1":"Offrez à votre site une surveillance constante et un support illimité pour des performances optimales en toute circonstance.",
-        "txt2":"✿ Mises à jour automatiques complètes : Tout le nécessaire pour un site toujours à jour. \n\n✿  Sauvegardes automatiques : Restauration immédiate de votre site en cas de besoin. \n\n✿  Surveillance continue 24/7 : Protection maximale avec intervention immédiate en cas d’anomalies. \n\n✿ Optimisation continue des performances : Assurez une navigation rapide et fluide pour vos utilisateurs. \n\n✿ Support technique illimité et prioritaire : Assistance complète, quelle que soit la nature du problème. \n\n✿ Rapports mensuels détaillés : Suivi transparent des actions effectuées sur votre site.",
+        "txt2":"✿ Toutes les options des Formules Essentielle et Avancée \n\n+ \n\n✿ Audit complet du site : Analyse approfondie des performances, de la sécurité et du SEO. \n\n✿ Accompagnement personnalisé : Conseils et suivi pour faire évoluer votre site selon vos besoins. \n\n✿ Modifications et ajouts de contenus : Gestion de contenus (texte, images) et mises à jour régulières.",
         "page": "/offreMaintenance#prenium",
         "class": "formulacard"
     },
