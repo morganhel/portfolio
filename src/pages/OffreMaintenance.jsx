@@ -63,16 +63,16 @@ function formuleMaintenance() {
                     <img   className='deroulement__etape__part1--img' src={Icone1} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>1. Audit Initial et Évaluation du Site</h3>
-                        <p>Durant la première étape et afin de vous garantir une bonne maintenance, j'analyse en profondeur votre site pour identifier les éventuels problèmes techniques, les opportunités d’optimisation et les failles de sécurité. Que ce soit pour une maintenance légère ou complète, l’audit est indispensable pour établir un diagnostic et personnaliser notre intervention.</p>
+                        <p>Durant la première étape et afin de vous garantir une bonne maintenance, j'analyse en profondeur votre site pour identifier les éventuels problèmes techniques, les opportunités d’optimisation et les failles de sécurité. <br />Que ce soit pour une maintenance légère ou complète, l’audit est indispensable pour établir un diagnostic et personnaliser notre intervention.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
                         <br /><strong>•	Évaluation de la sécurité </strong> Identification des failles potentielles et vulnérabilités du site.
-                        <br /><strong>•	Analyse des performances : </strong> Mesure des temps de chargement et de la réactivité du site (disponible à partir de la formule Middle).
-                        <br /><strong>•	Diagnostic SEO : </strong> Un audit de base du référencement naturel pour les sites cherchant à améliorer leur visibilité (formule Middle et Premium).
-                        <br /><strong>•	Audit complet : </strong>Analyse approfondie de la structure, du code et de l’optimisation SEO (inclus dans la formule Premium).
+                        <br /><strong>•	Analyse des performances : </strong> Mesure des temps de chargement et de la réactivité du site.
+                        <br /><strong>•	Diagnostic SEO : </strong> Un audit de base du référencement naturel pour les sites cherchant à améliorer leur visibilité.
+                        <br /><strong>•	Audit complet : </strong>Analyse approfondie de la structure, du code et de l’optimisation SEO.
                     </p>
                 </div>
             </article>
@@ -81,16 +81,16 @@ function formuleMaintenance() {
                     <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>2. Mise à Jour et Corrections Techniques</h3>
-                        <p>Après l’audit, j'entame la phase de corrections. C’est une étape clé où je résous les problèmes détectés, mets à jour les systèmes, et installe des solutions de sécurité pour protéger le site.</p>
+                        <p>Après l’audit, j'entame la phase de corrections. <br/> C’est une étape clé où je résous les problèmes détectés, mets à jour les systèmes, et installe des solutions de sécurité pour protéger le site.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Mises à jour de sécurité :</strong> Installation des derniers correctifs et des mises à jour pour protéger le site contre les attaques potentielles (toutes formules).
-                        <br /><strong>•	Corrections de bugs mineurs : </strong> Résolution des petites anomalies techniques identifiées lors de l’audit (toutes formules).
-                        <br /><strong>•	Optimisation des plugins : </strong> Vérification et mise à jour des extensions pour une meilleure performance et compatibilité (formule Middle et plus).
-                        <br /><strong>Refonte partielle si nécessaire :</strong> Ajustements plus profonds pour corriger des problèmes techniques graves (inclus dans la formule Premium).
+                        <br /><strong>•	Mises à jour de sécurité :</strong> Installation des derniers correctifs et des mises à jour pour protéger le site contre les attaques potentielles.
+                        <br /><strong>•	Corrections de bugs mineurs : </strong> Résolution des petites anomalies techniques identifiées lors de l’audit.
+                        <br /><strong>•	Optimisation des plugins : </strong> Vérification et mise à jour des extensions pour une meilleure performance et compatibilité.
+                        <br /><strong>Refonte partielle si nécessaire :</strong> Ajustements plus profonds pour corriger des problèmes techniques graves.
                     </p>
                 </div>
             </article>
@@ -99,15 +99,15 @@ function formuleMaintenance() {
                     <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>3. Sauvegardes et Sécurisation des Données</h3>
-                        <p>Un site performant repose sur la sécurité des données. C'est pourquoi, à ce stade, je mets en place un système de sauvegarde régulier et assure la protection contre les attaques et les pannes.</p>
+                        <p>Un site performant repose sur la sécurité des données. <br />C'est pourquoi, à ce stade, je mets en place un système de sauvegarde régulier et assure la protection contre les attaques et les pannes.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Sauvegardes régulières : </strong> Automatisation des sauvegardes hebdomadaires ou mensuelles pour garantir la restauration du site en cas de problème (toutes formules).
-                        <br /><strong>•	Protection contre les attaques :</strong> Installation d'outils de surveillance et de pare-feux pour sécuriser le site contre les intrusions (toutes formules).
-                        <br /><strong>•	Contrôle des sauvegardes :</strong> Test régulier pour s’assurer de la bonne fonctionnalité des sauvegardes et de la capacité de restauration (formule Middle et plus).
+                        <br /><strong>•	Sauvegardes régulières : </strong> Automatisation des sauvegardes hebdomadaires ou mensuelles pour garantir la restauration du site en cas de problème.
+                        <br /><strong>•	Protection contre les attaques :</strong> Installation d'outils de surveillance et de pare-feux pour sécuriser le site contre les intrusions.
+                        <br /><strong>•	Contrôle des sauvegardes :</strong> Test régulier pour s’assurer de la bonne fonctionnalité des sauvegardes et de la capacité de restauration.
                     </p>
                 </div>
             </article>
@@ -122,10 +122,10 @@ function formuleMaintenance() {
                 <div className='deroulement__etape__part2'>
                 <p>Ce que comprend cette étape :</p>
                 <p>
-                <br /><strong>•	Suivi des temps de chargement :</strong> Surveillance continue des temps de chargement et ajustements pour maintenir la rapidité du site (formule Middle et Premium).
-                <br /><strong>•	Optimisation de la base de données :</strong> Nettoyage des données inutiles pour garantir des performances optimales (formule Middle et plus).
-                <br /><strong>•	Tests de compatibilité :</strong> Vérification régulière pour s’assurer que le site fonctionne correctement sur différents navigateurs et appareils (toutes formules).
-                <br /><strong>•	Amélioration du SEO :</strong> Ajustements du SEO technique pour maintenir ou améliorer la visibilité du site sur les moteurs de recherche (formule Premium).</p>
+                <br /><strong>•	Suivi des temps de chargement :</strong> Surveillance continue des temps de chargement et ajustements pour maintenir la rapidité du site.
+                <br /><strong>•	Optimisation de la base de données :</strong> Nettoyage des données inutiles pour garantir des performances optimales.
+                <br /><strong>•	Tests de compatibilité :</strong> Vérification régulière pour s’assurer que le site fonctionne correctement sur différents navigateurs et appareils.
+                <br /><strong>•	Amélioration du SEO :</strong> Ajustements du SEO technique pour maintenir ou améliorer la visibilité du site sur les moteurs de recherche.</p>
                 </div>
             </article>
             <article className='deroulement__etape'>
@@ -139,10 +139,10 @@ function formuleMaintenance() {
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Consultations régulières :</strong> Rencontre périodique pour discuter de l’évolution du site et des améliorations possibles (formule Premium).
-                        <br /><strong>•	Rapports mensuels de performance :</strong> Envoi de rapports détaillés pour suivre l’état du site et les progrès réalisés (formule Middle et Premium).
-                        <br /><strong>•	Modifications de contenu :</strong> Gestion des mises à jour de contenu (textes, images, etc.) selon les besoins du client (formule Premium).
-                        <br /><strong>•	Conseils en SEO et marketing digital :</strong> Recommandations pour améliorer la visibilité du site et attirer davantage de trafic (formule Premium).</p>
+                        <br /><strong>•	Consultations régulières :</strong> Rencontre périodique pour discuter de l’évolution du site et des améliorations possibles.
+                        <br /><strong>•	Rapports mensuels de performance :</strong> Envoi de rapports détaillés pour suivre l’état du site et les progrès réalisés.
+                        <br /><strong>•	Modifications de contenu :</strong> Gestion des mises à jour de contenu (textes, images, etc.) selon les besoins du client.
+                        <br /><strong>•	Conseils en SEO et marketing digital :</strong> Recommandations pour améliorer la visibilité du site et attirer davantage de trafic.</p>
                 </div>
             </article>
         </section>
