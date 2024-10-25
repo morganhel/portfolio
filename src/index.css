@@ -921,6 +921,9 @@ h4 {
   flex-direction: column;
   gap: 50px;
 }
+.deroulement__etape__part1--content h3 {
+  color: #9d97cf;
+}
 .deroulement__etape__part1--content p {
   font-size: 16px;
   text-align: justify;

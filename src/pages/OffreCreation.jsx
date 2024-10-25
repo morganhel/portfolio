@@ -55,23 +55,23 @@ function formuleCreation() {
         </section>
         <section className='deroulement'>
             <h2 className='deroulement__title'>COMMENT CA SE DEROULE ?</h2>
-            <p>La création d'un site vitrine est un projet essentiel pour tout entrepreneur cherchant à établir ou renforcer sa présence en ligne. Avec mon offre de création, chaque étape est conçue pour vous accompagner, du premier concept jusqu'à la mise en ligne, en passant par la conception visuelle, le développement technique et les tests finaux. Découvrez le déroulement complet de l’offre de création de site vitrine, intégrant les options des trois formules pour un site unique, performant et à votre image.</p>
+            <p className='deroulement__intro'>Dans chaque projet de création de site vitrine, mon objectif est de construire non seulement un site performant et esthétique, mais aussi de mettre en place une relation étroite et de confiance avec vous. <br />Je m’engage à comprendre chaque aspect de votre marque et de vos besoins pour proposer une approche réellement personnalisée, adaptée à vos attentes spécifiques et à vos ambitions en ligne. <br />Chaque étape, de la conception jusqu'à la mise en ligne, est réalisée en collaboration avec vous, car je crois que l’implication et les échanges réguliers sont essentiels pour créer un site qui vous ressemble.<br/><br/>Suivez le processus complet que j’ai conçu, étape par étape, pour garantir un résultat qui reflète pleinement votre vision et qui répond aux exigences de votre marché.</p>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
                     <img   className='deroulement__etape__part1--img' src={Icone1} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>1. Analyse des besoins : Parfaitement comprendre vos attentes pour mieux créer</h3>
-                        <p>La première étape dans la création de votre site vitrine est cruciale : l’analyse de vos besoins.À travers plusieurs échanges, je prends le temps de comprendre vos objectifs, votre public cible et les fonctionnalités essentielles. Cette phase me permet de poser des bases solides pour un site parfaitement adapté à votre activité.</p>
+                        <p>La première étape dans la création de votre site vitrine est cruciale : l’analyse de vos besoins. <br />À travers plusieurs échanges, je prends le temps de comprendre vos objectifs, votre public cible et les fonctionnalités essentielles. <br/>Cette phase me permet de poser des bases solides pour un site parfaitement adapté à votre activité.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Multiples échanges :</strong> Plusieurs réunions pour approfondir la compréhension de vos attentes, affiner les objectifs, et clarifier vos besoins spécifiques.
+                        <br /><strong>•	Multiples échanges :</strong> Plusieurs réunions à des moments clés de cette étape, pour approfondir la compréhension de vos attentes, affiner les objectifs, et clarifier vos besoins spécifiques.
                         <br /><strong>•	Identification des objectifs : </strong> Définir la finalité du site (générer des leads, améliorer la visibilité, vendre en ligne, etc.).
                         <br /><strong>•	Définition du public cible :</strong> Comprendre qui sont vos visiteurs et comment adapter le site à leurs attentes.
                         <br /><strong>•	Étude de la concurrence :</strong> Analyse des sites concurrents pour mieux appréhender le marché et en tirer des bonnes pratiques.
-                        <br /><strong>•	Création de wireframes :</strong> Élaboration de maquettes fonctionnelles (wireframes) pour visualiser la structure et l’agencement des pages.
+                        <br /><strong>•	Création de wireframes :</strong> Élaboration de maquettes fonctionnelles pour visualiser la structure et l’agencement des pages.
                         <br /><strong>•	Identification des fonctionnalités clés :</strong> Définir les fonctionnalités essentielles pour une expérience utilisateur optimale (formulaires, galerie d’images, blog, etc.).
                     </p>
                 </div>
@@ -81,7 +81,7 @@ function formuleCreation() {
                     <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>2. Création de la maquette : L’esquisse de votre futur site</h3>
-                        <p>À partir de vos besoins et de votre identité, je réalise une maquette personnalisée pour concevoir un site qui vous ressemble. Le design est pensé pour être à la fois esthétique, ergonomique et responsive, afin d’offrir une expérience fluide sur tous les appareils.</p>
+                        <p>À partir de vos besoins et de votre identité, je réalise une maquette personnalisée pour concevoir un site qui vous ressemble. <br />Le design est pensé pour être à la fois esthétique, ergonomique et responsive, afin d’offrir une expérience fluide sur tous les appareils.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
@@ -99,7 +99,7 @@ function formuleCreation() {
                     <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>3. Développement technique : Transformer le design en un site fonctionnel</h3>
-                        <p>Une fois le design validé, je transforme celui-ci en un site web entièrement fonctionnel. J'intègre les fonctionnalités que nous avons définies ensemble et je m'assure que chaque aspect technique est optimisé pour une navigation fluide et une expérience utilisateur agréable. L'objectif est de créer un site web fonctionnel, rapide et bien référencé.</p>
+                        <p>Une fois le design validé, je transforme celui-ci en un site web entièrement fonctionnel. <br />J'intègre les fonctionnalités que nous avons définies ensemble et je m'assure que chaque aspect technique est optimisé pour une navigation fluide et une expérience utilisateur agréable. <br />L'objectif est de créer un site web fonctionnel, rapide et bien référencé.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
@@ -117,15 +117,15 @@ function formuleCreation() {
                     <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>4. Tests et vérifications : S’assurer que tout est parfait</h3>
-                        <p>Avant la mise en ligne, je réalise une série de tests rigoureux pour garantir que votre site est totalement fonctionnel. Ces vérifications me permettent de corriger d’éventuels bugs et de m’assurer que tout est prêt pour le lancement.</p>
+                        <p>Avant la mise en ligne, je réalise une série de tests rigoureux pour garantir que votre site est totalement fonctionnel. <br />Ces vérifications me permettent de corriger d’éventuels bugs et de m’assurer que tout est prêt pour le lancement.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                 <p>Ce que comprend cette étape :</p>
                 <p>
-                    <br /><strong>•	Tests de fonctionnalité :</strong> Toutes les fonctionnalités nécessaires, telles que des formulaires de contact, des galeries d’images et d’autres éléments interactifs, sont mises en place pour assurer leur bon fonctionnement.
-                    <br /><strong>•	Tests de compatibilité :</strong> Le site est optimisé pour garantir un chargement rapide et une navigation fluide.
-                    <br /><strong>•	Tests de sécurité :</strong> Les métadonnées et le contenu sont travaillés pour améliorer le référencement naturel sur les moteurs de recherche, augmentant ainsi la visibilité en ligne. À ce stade, je veille à ce que chaque élément soit conforme aux meilleures pratiques SEO.
+                    <br /><strong>•	Tests de fonctionnalité :</strong> Vérification des formulaires, boutons et interactions du site.
+                    <br /><strong>•	Tests de compatibilité :</strong> Analyse de l’affichage et du fonctionnement sur différents navigateurs et appareils.
+                    <br /><strong>•	Tests de sécurité :</strong> Vérification de la protection contre les éventuelles failles de sécurité.
                     <br /><strong>•	Tests de performance :</strong> Mesure des temps de chargement et optimisation finale.
                 </p>
                 </div>
@@ -135,13 +135,13 @@ function formuleCreation() {
                     <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>5. Formation et mise en ligne : Préparer et déployer votre site</h3>
-                        <p>Une fois que tout est validé, je procède à la mise en ligne de votre site pour le rendre accessible au public. Si vous avez choisi l’option prenium je vous forme à l’utilisation et la gestion de votre site, afin que vous soyez totalement autonome pour la mise à jour du contenu et la gestion quotidienne.</p>
+                        <p>Une fois que tout est validé, je procède à la mise en ligne de votre site pour le rendre accessible au public. <br />Si vous avez choisi l’option prenium je vous forme à l’utilisation et la gestion de votre site, afin que vous soyez totalement autonome pour la mise à jour du contenu et la gestion quotidienne.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Mise en ligne du site :</strong> Toutes les fonctionnalités nécessaires, telles que des formulaires de contact, des galeries d’images et d’autres éléments interactifs, sont mises en place pour assurer leur bon fonctionnement.
+                        <br /><strong>•	Mise en ligne du site :</strong> Publication du site sur votre domaine avec une vérification finale de son bon fonctionnement.
                         <br /><strong>•	Assistance technique initiale :</strong> Support technique pendant la phase de lancement pour corriger rapidement d’éventuels ajustements de dernière minute.
                         <br /><strong>•	Formation à l’utilisation du site :</strong> Sessions de formation pour vous apprendre à utiliser le CMS, à gérer le contenu et les fonctionnalités du site.
                     </p>
@@ -152,7 +152,7 @@ function formuleCreation() {
                     <img   className='deroulement__etape__part1--img ' src={Icone6} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>6. Suivi de 3 mois : Vous accompagner après la mise en ligne</h3>
-                        <p>Mon engagement ne s'arrête pas à la mise en ligne. Pendant les 3 mois qui suivent, je vous propose un suivi personnalisé pour m’assurer que tout fonctionne bien et apporter les ajustements nécessaires en fonction de vos besoins.</p>
+                        <p>Mon engagement ne s'arrête pas à la mise en ligne. <br />Pendant les 3 mois qui suivent, je vous propose un suivi personnalisé pour m’assurer que tout fonctionne bien et apporter les ajustements nécessaires en fonction de vos besoins.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
