@@ -78,7 +78,7 @@ function formuleMaintenance() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 2'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>2. Mise à Jour et Corrections Techniques</h3>
                         <p>Après l’audit, j'entame la phase de corrections. <br/> C’est une étape clé où je résous les problèmes détectés, mets à jour les systèmes, et installe des solutions de sécurité pour protéger le site.</p>
@@ -96,7 +96,7 @@ function formuleMaintenance() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 3'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>3. Sauvegardes et Sécurisation des Données</h3>
                         <p>Un site performant repose sur la sécurité des données. <br />C'est pourquoi, à ce stade, je mets en place un système de sauvegarde régulier et assure la protection contre les attaques et les pannes.</p>
@@ -113,7 +113,7 @@ function formuleMaintenance() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 4'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>4. Suivi de Performance et Optimisation Continue</h3>
                         <p>Un site performant garantit une meilleure expérience utilisateur et un meilleur référencement. Cette étape vise à analyser et optimiser les performances du site pour réduire les temps de chargement.</p>
@@ -130,7 +130,7 @@ function formuleMaintenance() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 5'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>5. Accompagnement et Conseils Personnalisé</h3>
                         <p>La dernière étape de mon offre de maintenance, et particulièrement dans la Formule Premium, est l'accompagnement stratégique pour faire évoluer votre site selon vos besoins. Cela inclut des conseils pour améliorer l’efficacité de votre site, ainsi que des recommandations pour maximiser ses performances à long terme.</p>

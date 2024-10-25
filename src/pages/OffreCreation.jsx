@@ -78,7 +78,7 @@ function formuleCreation() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 2'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>2. Création de la maquette : L’esquisse de votre futur site</h3>
                         <p>À partir de vos besoins et de votre identité, je réalise une maquette personnalisée pour concevoir un site qui vous ressemble. <br />Le design est pensé pour être à la fois esthétique, ergonomique et responsive, afin d’offrir une expérience fluide sur tous les appareils.</p>
@@ -96,7 +96,7 @@ function formuleCreation() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 3'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>3. Développement technique : Transformer le design en un site fonctionnel</h3>
                         <p>Une fois le design validé, je transforme celui-ci en un site web entièrement fonctionnel. <br />J'intègre les fonctionnalités que nous avons définies ensemble et je m'assure que chaque aspect technique est optimisé pour une navigation fluide et une expérience utilisateur agréable. <br />L'objectif est de créer un site web fonctionnel, rapide et bien référencé.</p>
@@ -114,7 +114,7 @@ function formuleCreation() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 4'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>4. Tests et vérifications : S’assurer que tout est parfait</h3>
                         <p>Avant la mise en ligne, je réalise une série de tests rigoureux pour garantir que votre site est totalement fonctionnel. <br />Ces vérifications me permettent de corriger d’éventuels bugs et de m’assurer que tout est prêt pour le lancement.</p>
@@ -132,7 +132,7 @@ function formuleCreation() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 5'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>5. Formation et mise en ligne : Préparer et déployer votre site</h3>
                         <p>Une fois que tout est validé, je procède à la mise en ligne de votre site pour le rendre accessible au public. <br />Si vous avez choisi l’option prenium je vous forme à l’utilisation et la gestion de votre site, afin que vous soyez totalement autonome pour la mise à jour du contenu et la gestion quotidienne.</p>
@@ -149,7 +149,7 @@ function formuleCreation() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone6} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone6} alt='Illustration étape 6'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>6. Suivi de 3 mois : Vous accompagner après la mise en ligne</h3>
                         <p>Mon engagement ne s'arrête pas à la mise en ligne. <br />Pendant les 3 mois qui suivent, je vous propose un suivi personnalisé pour m’assurer que tout fonctionne bien et apporter les ajustements nécessaires en fonction de vos besoins.</p>

@@ -26,17 +26,18 @@ function formuleRefonte() {
         <h1>REFONTE DE VOTRE SITE ACTUEL</h1>
         <section className='formules'>
             <h2 className='formules__title'>QU'EST CE QUE JE VOUS PROPOSE ?</h2>
-            <p className='formules__content--center'>Mettez votre activité en lumière avec un site vitrine unique, moderne et optimisé pour capter l'attention de vos clients.</p>
-            <p>Je crée des sites qui reflètent votre identité et mettent en avant vos services de façon claire et attractive.</p>
+            <p className='formules__content--center'>Offrez une nouvelle vie à votre site web grâce à notre service de refonte et d’optimisation.</p>
+            <p>Je modernise votre site et le rends plus efficace, tout en améliorant son design et sa visibilité en ligne.</p>
                 <p><strong>Ce que vous obtenez :</strong></p>
                 <p className='formules__content--point'>
                 ✿ Design personnalisé pour votre marque.
-                    <br />✿ Structure claire et intuitive pour vos visiteurs.
-                    <br />✿ Optimisation SEO pour améliorer votre visibilité.
-                    <br />✿ Site responsive, adapté à tous les appareils.
-                    <br />✿ Intégration des fonctionnalités essentielles (formulaire de contact, galeries, etc.).
+                    <br />✿ Refonte complète du design pour une image plus moderne.
+                    <br />✿ Réorganisation de la navigation pour une meilleure expérience utilisateur.
+                    <br />✿ Optimisation SEO pour améliorer votre positionnement dans les moteurs de recherche.
+                    <br />✿ Amélioration des performances pour un chargement plus rapide.
+                    <br />✿ Ajout de nouvelles fonctionnalités pour enrichir l’expérience client.
                 </p>
-            <p className='formules__content--center formules__content--center--color'>Ne laissez pas votre présence en ligne au hasard – démarquez-vous dès aujourd’hui avec un site vitrine sur mesure !</p>
+            <p className='formules__content--center formules__content--center--color'>Redonnez du dynamisme à votre site et attirez plus de clients dès maintenant !</p>
             <div className='formules__content--choice'>
                 {CreaFormules.map((formule)=>{
                     return (
@@ -56,27 +57,27 @@ function formuleRefonte() {
         </section>
         <section className='deroulement'>
             <h2 className='deroulement__title'>COMMENT CA SE DEROULE ?</h2>
-            <p className='deroulement__description'>L’offre de refonte est idéale pour redonner un nouveau souffle à votre site web en le modernisant, en améliorant ses performances et en optimisant son expérience utilisateur. Que vous choisissiez une formule de base ou une solution sur-mesure, chaque étape de ce processus est conçue pour maximiser l’impact de votre site et répondre à vos objectifs. Voici un aperçu détaillé du déroulement complet de l’offre de refonte, intégrant les trois formules pour vous donner une vue claire de ce qui vous attend.</p>
+            <p className='deroulement__description'>La refonte d’un site web est bien plus qu’une simple mise à jour visuelle. C’est une occasion de repenser et d’optimiser l’ensemble de votre présence en ligne pour mieux répondre aux besoins de vos visiteurs et de votre entreprise. <br />En tant que partenaire de confiance, je m’efforce d’établir une relation de proximité avec chacun de mes clients, où vos attentes et vos objectifs sont au centre de chaque décision. <br />Chaque étape du processus de refonte est abordée de manière collaborative, afin que votre site soit à la fois performant, fonctionnel et fidèle à votre image. <br /><br />Découvrez en détail les étapes que j’ai conçues pour assurer une refonte complète et réussie, de l’analyse initiale aux ajustements finaux, en passant par une optimisation globale.</p>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
                     <img   className='deroulement__etape__part1--img' src={Icone1} alt='Illustration étape 1'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>1. Analyse Complète et Diagnostic Initial</h3>
-                        <p>La refonte débute par une analyse approfondie de votre site existant afin d’identifier les points à améliorer et les failles techniques. Cette étape est cruciale pour établir une stratégie de refonte adaptée à vos objectifs.</p>
+                        <p>Cette étape initiale est consacrée à une analyse approfondie de votre site actuel. <br />Elle permet d’identifier les points forts et les axes d’amélioration, que ce soit en matière de design, de performance ou d’expérience utilisateur. <br />Cet audit complet constitue le point de départ pour établir ensemble les priorités de la refonte.</p>
                     </div>
                 </div>
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Audit du design et de l’ergonomie :</strong> Analyse de l’aspect visuel du site, de sa navigation et de l'expérience utilisateur (toutes formules).
-                        <br /><strong>•	Évaluation technique :</strong> Identification des problèmes de performance, des bugs, et des besoins en sécurité (formule Essentielle et plus).
-                        <br /><strong>•	Analyse SEO :</strong> Vérification du référencement actuel du site et des possibilités d'amélioration (à partir de la formule Avancée).
-                        <br /><strong>•	Recommandations personnalisées :</strong> Conseils stratégiques pour moderniser le site et optimiser ses performances (incluse dans la formule Premium).</p>
+                        <br /><strong>•	Audit du design et de l’ergonomie :</strong> Analyse de l’aspect visuel du site, de sa navigation et de l'expérience utilisateur.
+                        <br /><strong>•	Évaluation technique :</strong> Identification des problèmes de performance, des bugs, et des besoins en sécurité.
+                        <br /><strong>•	Analyse SEO :</strong> Vérification du référencement actuel du site et des possibilités d'amélioration.
+                        <br /><strong>•	Recommandations personnalisées :</strong> Conseils stratégiques pour moderniser le site et optimiser ses performances.</p>
                 </div>
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone2} alt='Illustration étape 2'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>2. Définition des Objectifs et Création du Plan de Refonte</h3>
                         <p>Une fois l’audit réalisé, l’étape suivante consiste à définir clairement les objectifs de la refonte et à concevoir un plan d’action. Cela permet de garantir que le projet avance dans la bonne direction et que chaque aspect du site est pris en compte.</p>
@@ -85,16 +86,16 @@ function formuleRefonte() {
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Définition des objectifs :</strong> Clarification des besoins en termes de design, fonctionnalités, et performance (toutes formules).
-                        <br /><strong>•	Proposition de wireframes (croquis) :</strong> Création de maquettes basse-fidélité pour visualiser la structure du futur site (formule Avancée et Premium).
-                        <br /><strong>•	Plan d’action détaillé :</strong> Étapes précises de la refonte avec délais et priorités (toutes formules).
-                        <br /><strong>•	Échanges réguliers :</strong> Points réguliers avec le client pour valider les avancées et ajuster les priorités (à partir de la formule Avancée).
+                        <br /><strong>•	Définition des objectifs :</strong> Clarification des besoins en termes de design, fonctionnalités, et performance.
+                        <br /><strong>•	Proposition de wireframes (croquis) :</strong> Création de maquettes basse-fidélité pour visualiser la structure du futur site.
+                        <br /><strong>•	Plan d’action détaillé :</strong> Étapes précises de la refonte avec délais et priorités.
+                        <br /><strong>•	Échanges réguliers :</strong> Points réguliers avec le client pour valider les avancées et ajuster les priorités.
                     </p>
 </div>
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone3} alt='Illustration étape 3'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>3. Création de la maquette :</h3>
                         <p>À partir de ce qui est ressorti de l'étape 1, je réalise une maquette personnalisée pour concevoir un site qui vous ressemble. Le design est pensé pour être à la fois esthétique, ergonomique et responsive, afin d’offrir une expérience fluide sur tous les appareils.</p>
@@ -112,7 +113,7 @@ function formuleRefonte() {
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone4} alt='Illustration étape 4'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>4. Refonte Technique et Optimisation des Performances</h3>
                         <p>Après validation du design, le développement du site commence. La phase technique de la refonte consiste à reconstruire votre site en améliorant ses fondations, en corrigeant les erreurs existantes et en veillant à une optimisation des performances.</p>
@@ -121,15 +122,15 @@ function formuleRefonte() {
                 <div className='deroulement__etape__part2'>
                 <p>Ce que comprend cette étape :</p>
                 <p>
-                    <br /><strong>•	Reconstruction du code :</strong> Nettoyage et optimisation du code pour améliorer la rapidité et la fluidité du site (toutes formules).
-                    <br /><strong>•	Optimisation de la sécurité :</strong> Mise en place des dernières technologies pour protéger votre site contre les menaces (toutes formules).
-                    <br /><strong>•	Amélioration des temps de chargement :</strong> Optimisation des ressources pour accélérer les temps de réponse (à partir de la formule Avancée).
-                    <br /><strong>•	Révision des fonctionnalités :</strong> Mise à jour ou ajout de nouvelles fonctionnalités en fonction des besoins (formule Premium).</p>
+                    <br /><strong>•	Reconstruction du code :</strong> Nettoyage et optimisation du code pour améliorer la rapidité et la fluidité du site.
+                    <br /><strong>•	Optimisation de la sécurité :</strong> Mise en place des dernières technologies pour protéger votre site contre les menaces.
+                    <br /><strong>•	Amélioration des temps de chargement :</strong> Optimisation des ressources pour accélérer les temps de réponse.
+                    <br /><strong>•	Révision des fonctionnalités :</strong> Mise à jour ou ajout de nouvelles fonctionnalités en fonction des besoins.</p>
                 </div>
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone5} alt='Illustration étape 5'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>5. Refonte du Design et Expérience Utilisateur</h3>
                         <p>Une fois les aspects techniques revus, il est temps de se concentrer sur l’aspect visuel et l’expérience utilisateur de votre site. Cela comprend la refonte de l’interface pour la rendre plus attrayante et intuitive.</p>
@@ -138,17 +139,17 @@ function formuleRefonte() {
                 <div className='deroulement__etape__part2'>
                     <p>Ce que comprend cette étape :</p>
                     <p>
-                        <br /><strong>•	Modernisation du design :</strong> Actualisation de l’identité visuelle du site, selon les tendances actuelles et vos préférences (toutes formules).
-                        <br /><strong>Optimisation mobile :</strong> Garantir que le site soit entièrement responsive et fonctionne parfaitement sur tous les appareils (toutes formules).
-                        <br /><strong>Amélioration de la navigation :</strong> Réorganisation des menus et des sections pour une navigation plus fluide (à partir de la formule Avancée).
-                        <br /><strong>Personnalisation avancée du design :</strong> Création d’un design sur-mesure avec des éléments graphiques uniques (formule Premium).</p>
+                        <br /><strong>•	Modernisation du design :</strong> Actualisation de l’identité visuelle du site, selon les tendances actuelles et vos préférences.
+                        <br /><strong>Optimisation mobile :</strong> Garantir que le site soit entièrement responsive et fonctionne parfaitement sur tous les appareils.
+                        <br /><strong>Amélioration de la navigation :</strong> Réorganisation des menus et des sections pour une navigation plus fluide.
+                        <br /><strong>Personnalisation avancée du design :</strong> Création d’un design sur-mesure avec des éléments graphiques uniques.</p>
                 </div>
             </article>
             <article className='deroulement__etape'>
                 <div className='deroulement__etape__part1 reverse'>
-                    <img   className='deroulement__etape__part1--img ' src={Icone6} alt='Illustration étape 1'/>
+                    <img   className='deroulement__etape__part1--img ' src={Icone6} alt='Illustration étape 6'/>
                     <div  className='deroulement__etape__part1--content'>
-                        <h3>Mise en Ligne et Tests</h3>
+                        <h3>6. Mise en Ligne et Tests</h3>
                         <p>Avant la mise en ligne définitive, plusieurs tests rigoureux sont effectués pour s’assurer que tout fonctionne correctement. Cette étape permet d'identifier et de corriger les derniers bugs avant que votre nouveau site ne soit accessible à vos visiteurs.</p>
                     </div>
                 </div>
@@ -164,7 +165,7 @@ function formuleRefonte() {
                 </div>
             </article>
             <article className='deroulement__etape'>
-                <div className='deroulement__etape__part1 reverse'>
+                <div className='deroulement__etape__part1'>
                     <img   className='deroulement__etape__part1--img ' src={Icone7} alt='Illustration étape 7'/>
                     <div  className='deroulement__etape__part1--content'>
                         <h3>7. Suivi Post-Lancement</h3>
@@ -182,7 +183,7 @@ function formuleRefonte() {
         </section>
         <section className='details'>
             <h2 className='details__title'>ENCORE PLUS DE DETAILS ?</h2>
-            <div className='details__formule'>
+            <article className='details__formule' id="starter">
                 <h3 className='details__formule--title'>FORMULE STARTER :
                     <br />SIMPLICITE ET EFFICACITE EN UNE SEULE PAGE
                 </h3>
@@ -197,8 +198,8 @@ function formuleRefonte() {
                         )
                     })}
                 </div>
-            </div>
-            <div className='details__formule'>
+            </article>
+            <article className='details__formule' id="middle">
                 <h3 className='details__formule--title'>FORMULE MIDDLE :
                     <br />UN SITE VITRINE STRUCTURE ET POLYVALENT POUR VOTRE ENTREPRISE
                 </h3>
@@ -213,9 +214,9 @@ function formuleRefonte() {
                         )
                     })}
                 </div>
-            </div>
+            </article>
 
-            <div className='details__formule'>
+            <article className='details__formule' id="prenium">
                 <h3 className='details__formule--title'>FORMULE PRENIUM :
                     <br />L'EXCELLENCE POUR VOTRE SITE VITRINE
                 </h3>
@@ -230,7 +231,7 @@ function formuleRefonte() {
                         )
                     })}
                 </div>
-            </div>
+            </article>
 
         </section>
         </>
