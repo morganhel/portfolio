@@ -12,9 +12,11 @@
     background: radial-gradient(circle, rgba(157,151,207,1) 30%, 	rgb(128, 115, 191) 100%);
     box-shadow: 0 0 15px 5px rgb(128, 115, 191);
 
+    @media (max-width: $bp-t) {
+    }
+
     @media (min-width: $bp-m) and (max-width: $bp-t) {
-        flex-direction: row;
-        width: 100%;
+        width: 300px;
     }
 
     &__header{

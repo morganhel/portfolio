@@ -40,7 +40,7 @@
 
         @media (max-width: $bp-t) {
             width: auto;
-            padding: 0;
+            padding: 0 0 80px 0;
             margin: 10px;
         }
 
@@ -51,7 +51,7 @@
             font-family: 'Times New Roman', Times, serif;
 
             @media (max-width: $bp-t) {
-                font-size: 30px;
+                font-size: 25px;
                 text-align: center;
             }
         }

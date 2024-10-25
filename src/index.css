@@ -45,6 +45,11 @@ h1 {
   color: #9d97cf;
   margin: 10px 0 20px 0;
 }
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 40px;
+  }
+}
 
 h2 {
   text-align: center;
@@ -85,6 +90,7 @@ h4 {
 @media (max-width: 767.98px) {
   .header {
     height: auto;
+    flex-direction: column;
   }
 }
 .header__logo {
@@ -92,7 +98,7 @@ h4 {
 }
 @media (max-width: 767.98px) {
   .header__logo {
-    height: 30px;
+    height: 20px;
   }
 }
 .header__nav {
@@ -104,7 +110,7 @@ h4 {
   .header__nav {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px;
+    gap: 5px;
     margin-top: 15px;
   }
 }
@@ -112,7 +118,7 @@ h4 {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   font-size: 20px;
-  color: black;
+  color: #3E618B;
   list-style: none;
   height: 40px;
   padding: 16px 15px;
@@ -120,6 +126,7 @@ h4 {
 @media (max-width: 767.98px) {
   .header__nav--link {
     padding: 5px 15px;
+    font-size: 15px;
   }
 }
 .header__nav--link:hover {
@@ -140,6 +147,12 @@ h4 {
   margin: 15px 0 0 50px;
   padding: 15px 0;
 }
+@media (max-width: 767.98px) {
+  .dropdown-menu {
+    margin: 0;
+    padding: 0;
+  }
+}
 
 .dropdown-item {
   width: 100%;
@@ -152,12 +165,17 @@ h4 {
   flex-direction: column;
   gap: 30px;
 }
+@media (max-width: 767.98px) {
+  .dropdown:hover .dropdown-menu {
+    gap: 10px;
+  }
+}
 
 .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: #3E618B;
   padding: 50px 0;
 }
 .footer__txt {
@@ -421,13 +439,13 @@ h4 {
 }
 @media (max-width: 1024px) {
   .banner__content {
-    margin: 25px;
+    margin: 10px;
   }
 }
 @media (max-width: 1024px) {
   .banner__content {
     width: auto;
-    padding: 0;
+    padding: 0 0 80px 0;
     margin: 10px;
   }
 }
@@ -438,7 +456,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .banner__content--title {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
   }
 }
@@ -456,8 +474,7 @@ h4 {
 }
 @media (min-width: 767.98px) and (max-width: 1024px) {
   .offercard {
-    flex-direction: row;
-    width: 100%;
+    width: 300px;
   }
 }
 .offercard__header {
@@ -641,7 +658,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .presentation {
-    margin: 25px;
+    margin: 10px;
   }
 }
 .presentation__content {
@@ -692,6 +709,11 @@ h4 {
 .presentation__details {
   font-size: 18px;
 }
+@media (max-width: 1024px) {
+  .presentation__details {
+    text-align: center;
+  }
+}
 .presentation__details--color {
   color: #9d97cf;
   margin: 0 150px;
@@ -714,7 +736,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .realisations {
-    margin: 25px;
+    margin: 10px;
   }
 }
 .realisations__content {
@@ -749,7 +771,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .competences {
-    margin: 25px;
+    margin: 10px;
   }
 }
 .competences__content {
@@ -813,11 +835,6 @@ h4 {
   gap: 40px;
   background-color: #9d97cf;
 }
-@media (max-width: 1024px) {
-  .offres {
-    margin: 25px;
-  }
-}
 .offres__content {
   display: flex;
   gap: 30px;
@@ -839,7 +856,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .contact {
-    margin: 25px;
+    margin: 10px;
   }
 }
 .contact__content {
@@ -875,7 +892,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .formules {
-    margin: 25px;
+    margin: 10px;
   }
 }
 .formules__content--center {
@@ -899,6 +916,11 @@ h4 {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 1024px) {
+  .formules__content--choice {
+    flex-direction: column;
+  }
+}
 
 .deroulement {
   display: flex;
@@ -912,7 +934,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .deroulement {
-    margin: 25px;
+    padding: 20px;
   }
 }
 .deroulement h3, .deroulement p, .deroulement strong {
@@ -922,6 +944,11 @@ h4 {
   color: #eddeea;
   text-align: center;
   padding: 0 150px;
+}
+@media (max-width: 1024px) {
+  .deroulement__intro {
+    padding: 0;
+  }
 }
 .deroulement__title {
   color: #eddeea;
@@ -936,8 +963,19 @@ h4 {
   align-items: center;
   gap: 100px;
 }
+@media (max-width: 1024px) {
+  .deroulement__etape__part1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 .deroulement__etape__part1--img {
   width: 30%;
+}
+@media (max-width: 1024px) {
+  .deroulement__etape__part1--img {
+    width: 80%;
+  }
 }
 .deroulement__etape__part1--content {
   display: flex;
@@ -947,6 +985,12 @@ h4 {
 .deroulement__etape__part1--content h3 {
   color: #9d97cf;
 }
+@media (max-width: 1024px) {
+  .deroulement__etape__part1--content h3 {
+    font-size: 30px;
+    text-align: center;
+  }
+}
 .deroulement__etape__part1--content p {
   font-size: 16px;
   text-align: justify;
@@ -955,9 +999,19 @@ h4 {
   padding: 0 150px;
   text-align: justify;
 }
+@media (max-width: 1024px) {
+  .deroulement__etape__part2 {
+    padding: 20px 50px;
+  }
+}
 
 .reverse {
   flex-direction: row-reverse;
+}
+@media (max-width: 1024px) {
+  .reverse {
+    flex-direction: column;
+  }
 }
 
 .details {
@@ -971,7 +1025,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .details {
-    margin: 25px;
+    margin: 10px;
   }
 }
 .details__formule {
@@ -989,4 +1043,10 @@ h4 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
+}
+@media (max-width: 1024px) {
+  .details__formule--content {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=index.css.map */
