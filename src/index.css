@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Mulish&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gruppo&family=Mulish&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:wght@300&display=swap");
@@ -128,6 +129,28 @@ h4 {
 .header__nav--link:active {
   color: white;
   background-color: #9d97cf;
+}
+
+/* Style pour le menu déroulant */
+.dropdown-menu {
+  display: none; /* Par défaut, le menu déroulant est caché */
+  position: absolute;
+  background-color: #e2cade;
+  list-style: none;
+  margin: 15px 0 0 50px;
+  padding: 15px 0;
+}
+
+.dropdown-item {
+  width: 100%;
+  padding: auto;
+}
+
+/* Afficher le menu déroulant au survol */
+.dropdown:hover .dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .footer {

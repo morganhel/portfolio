@@ -1,5 +1,6 @@
 import CV from "../../assets/pdf/CV.pdf";
 import LogoSmall from '../../assets/images/MyLogo/LOGO_carré_petit.svg'
+import { NavLink } from "react-router-dom";
 
 function Header() {
     return (
@@ -8,7 +9,16 @@ function Header() {
             <nav >
                 <ul className='header__nav'>
                     <li><a href="../#presentation" className='header__nav--link'>PRESENTATION</a></li>
-                    <li><a href="../#offres" className='header__nav--link'>SERVICES</a></li>
+                    <li className="nav-item dropdown">
+                        <a href="../#offres" className='header__nav--link dropdown-title'>SERVICES</a>
+                        <ul className="dropdown-menu">
+                            <li><NavLink to="/#offres" className='header__nav--link dropdown-item'>MES OFFRES</NavLink></li>
+                            <li><NavLink to="/offreCreation" className='header__nav--link dropdown-item'>CREATION</NavLink></li>
+                            <li><NavLink to="/offreMaintenance" className='header__nav--link dropdown-item'>MAINTENANCE</NavLink></li>
+                            <li><NavLink to="/offreRefonte" className='header__nav--link dropdown-item'>REFONTE</NavLink></li>
+                        </ul>
+                    
+                    </li>
                     <li><a href="../#realisations" className='header__nav--link'>PROJETS</a></li>
                     <li><a href="../#contact" className='header__nav--link'>CONTACT</a></li>
                     {/* <li><a href={CV} className='header__nav--link'>CV</a></li> */}

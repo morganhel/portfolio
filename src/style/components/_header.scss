@@ -62,3 +62,25 @@
         }
     }
 }
+
+/* Style pour le menu déroulant */
+.dropdown-menu {
+    display: none; /* Par défaut, le menu déroulant est caché */
+    position: absolute;
+    background-color: $color-second-dark;
+    list-style: none;
+    margin: 15px 0 0 50px;
+    padding:15px 0;
+  }
+  
+  .dropdown-item {
+    width: 100%;
+    padding: auto;
+  }
+  
+  /* Afficher le menu déroulant au survol */
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
