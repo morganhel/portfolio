@@ -472,9 +472,10 @@ h4 {
   background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
   box-shadow: 0 0 15px 5px rgb(128, 115, 191);
 }
-@media (min-width: 767.98px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .offercard {
-    width: 300px;
+    width: 80%;
+    min-width: 300px;
   }
 }
 .offercard__header {
@@ -554,10 +555,9 @@ h4 {
 .formulacard__special .formulacard__content--txt2 {
   font-size: 16px;
 }
-@media (min-width: 767.98px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .formulacard {
-    flex-direction: row;
-    width: 100%;
+    width: 95%;
   }
 }
 .formulacard__title {
@@ -597,10 +597,10 @@ h4 {
   gap: 40px;
   background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
 }
-@media (min-width: 767.98px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .formuladetailscard {
-    flex-direction: row;
-    width: 100%;
+    width: 95%;
+    height: auto;
   }
 }
 .formuladetailscard__title {
@@ -615,6 +615,11 @@ h4 {
   text-align: justify;
   margin: 0 50px;
   font-size: 14px;
+}
+@media (max-width: 1024px) {
+  .formuladetailscard__txt {
+    margin: 0 10px 20px 10px;
+  }
 }
 .formuladetailscard--conclusion {
   background: none;

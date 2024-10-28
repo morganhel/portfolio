@@ -13,11 +13,10 @@
     box-shadow: 0 0 15px 5px rgb(128, 115, 191);
 
     @media (max-width: $bp-t) {
+        width:80%;
+        min-width: 300px;
     }
 
-    @media (min-width: $bp-m) and (max-width: $bp-t) {
-        width: 300px;
-    }
 
     &__header{
         position: relative;

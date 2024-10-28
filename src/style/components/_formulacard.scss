@@ -38,9 +38,8 @@
         }
     }
 
-    @media (min-width: $bp-m) and (max-width: $bp-t) {
-        flex-direction: row;
-        width: 100%;
+    @media (max-width: $bp-t) {
+        width:95%;
     }
 
 
