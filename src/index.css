@@ -15,9 +15,10 @@
   color: #3E618B;
 }
 
-body {
+html, body {
   box-sizing: border-box;
   margin: auto;
+  width: 100%;
   overflow-x: hidden;
   margin: 0;
   padding: 0;

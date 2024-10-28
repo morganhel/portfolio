@@ -16,7 +16,7 @@
         "txt1":"Gardez votre site sécurisé, rapide et toujours performant !",
         "txt2":"✿ Mises à jour régulières pour garder votre site en sécurité \n\n✿ Sauvegardes automatiques pour protéger vos données \n\n✿ Surveillance des performances et résolution des bugs \n\n✿ Support technique disponible pour répondre à vos besoins \n\n✿ Vous vous concentrez sur votre business, on s’occupe du reste",
         "txt3":"Ne laissez pas votre site vieillir ! Découvrez nos formules de maintenance pour qu'il reste toujours à la pointe.",
-        "page": "/offreMaintenance"
+        "page": "/offreMaintenance#header"
     },
 
     {
@@ -26,6 +26,6 @@
         "txt1":"Redonnez vie à votre site pour qu’il soit à la hauteur de vos ambitions !",
         "txt2":"✿ Amélioration du design pour un look plus moderne et professionnel \n\n✿ Optimisation des temps de chargement et des performances globales \n\n✿ Refonte de l’architecture du site pour une meilleure navigation \n\n✿ SEO repensé pour améliorer votre visibilité sur les moteurs de recherche \n\n✿ Ajout de nouvelles fonctionnalités selon vos besoins en constante évolution",
         "txt3":"Redonnez un nouveau souffle à votre site ! Parcourez nos options pour transformer votre présence en ligne.",
-        "page": "/offreRefonte"
+        "page": "/offreRefonte#header"
     }
 ]

@@ -10,9 +10,10 @@
     color: $color-third;
 }
 
-body{
+html,body{
     box-sizing: border-box;
     margin: auto;
+    width: 100%;
     overflow-x: hidden;
     margin:0;
     padding:0;
