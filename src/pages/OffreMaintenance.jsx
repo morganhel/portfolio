@@ -9,9 +9,11 @@ import Icone2 from '../assets/images/Icones/maintenance/2.svg';
 import Icone3 from '../assets/images/Icones/maintenance/3.svg';
 import Icone4 from '../assets/images/Icones/maintenance/4.svg';
 import Icone5 from '../assets/images/Icones/maintenance/5.svg';
+import ScrollTo from '../hook/ScrollTo';
 
 
 function formuleMaintenance() {
+    ScrollTo();
 
     const CreaFormules =  Formules.filter(formule => formule.offre === "maint")
 
@@ -148,7 +150,7 @@ function formuleMaintenance() {
         </section>
         <section className='details'>
             <h2 className='details__title'>ENCORE PLUS DE DETAILS ?</h2>
-            <div className='details__formule'>
+            <div className='details__formule' id="starter">
                 <h3 className='details__formule--title'>FORMULE STARTER :
                     <br />TRANQUILLITE DE BASE POUR VOTRE SITE
                 </h3>
@@ -164,7 +166,7 @@ function formuleMaintenance() {
                     })}
                 </div>
             </div>
-            <div className='details__formule'>
+            <div className='details__formule' id='middle'>
                 <h3 className='details__formule--title'>FORMULE MIDDLE :
                     <br />OPTIMISATION POUR DES PERFORMANCES ACCRUES
                 </h3>
@@ -181,7 +183,7 @@ function formuleMaintenance() {
                 </div>
             </div>
 
-            <div className='details__formule'>
+            <div className='details__formule' id='prenium'>
                 <h3 className='details__formule--title'>FORMULE PRENIUM :
                     <br />SUIVI PERSONNALISE ET EVOLUTION CONTINUE
                 </h3>

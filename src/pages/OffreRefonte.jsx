@@ -11,8 +11,10 @@ import Icone4 from '../assets/images/Icones/refonte/4.svg';
 import Icone5 from '../assets/images/Icones/refonte/5.svg';
 import Icone6 from '../assets/images/Icones/refonte/6.svg';
 import Icone7 from '../assets/images/Icones/refonte/7.svg';
+import ScrollTo from '../hook/ScrollTo';
 
 function formuleRefonte() {
+    ScrollTo();
 
     const CreaFormules =  Formules.filter(formule => formule.offre === "refo")
 

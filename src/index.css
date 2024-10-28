@@ -82,7 +82,7 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 2;
+  z-index: 6;
   position: sticky;
   top: 0;
   background: radial-gradient(circle, rgb(237, 222, 234) 0%, rgb(226, 202, 222) 100%);
@@ -432,8 +432,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
   padding-right: 100px;
 }
@@ -490,7 +490,7 @@ h4 {
   font-size: 35px;
   font-weight: 600;
   color: #eddeea;
-  z-index: 5;
+  z-index: 2;
 }
 .offercard__header--img {
   position: absolute;
@@ -652,8 +652,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
 }
 @media (max-width: 1024px) {
@@ -730,8 +730,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
 }
 @media (max-width: 1024px) {
@@ -765,8 +765,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
 }
 @media (max-width: 1024px) {
@@ -850,8 +850,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
 }
 @media (max-width: 1024px) {
@@ -884,8 +884,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
   align-items: normal;
   gap: 20px;
@@ -1019,8 +1019,8 @@ h4 {
   flex-direction: column;
   align-items: center;
   max-width: 1440px;
-  margin: 25px auto;
-  padding: 0 40px 50px 40px;
+  margin: 0 auto;
+  padding: 80px 40px 50px 40px;
   gap: 40px;
 }
 @media (max-width: 1024px) {
@@ -1035,6 +1035,7 @@ h4 {
   margin-bottom: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid #3E618B;
+  padding-top: 60px;
 }
 .details__formule--title {
   font-size: 30px;

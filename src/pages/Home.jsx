@@ -10,8 +10,22 @@ import ContactForm from '../components/contactForm/ContactForm';
 import Linkedin from '../assets/images/Logo/linkedin.webp';
 import OfferCard from '../components/offercard/OfferCard';
 import Offres from '../data/offres.json';
+import ScrollTo from '../hook/ScrollTo';
 
 function Home() {
+  // const location = useLocation();
+
+  // useEffect(()=>{
+  //   const hash  = location.hash;
+  //   if (hash) {
+  //     const element = document.querySelector(hash);
+  //     if (element) {
+  //       element.scrollIntoView({behavior: "instant"});
+  //     }
+  //   }
+  // }, [location]);
+
+  ScrollTo();
 
   return (
     <>

@@ -10,14 +10,18 @@ import Icone3 from '../assets/images/Icones/creation/3.svg';
 import Icone4 from '../assets/images/Icones/creation/4.svg';
 import Icone5 from '../assets/images/Icones/creation/5.svg';
 import Icone6 from '../assets/images/Icones/creation/6.svg';
+import ScrollTo from '../hook/ScrollTo';
 
 function formuleCreation() {
+    ScrollTo ();
 
-    const CreaFormules =  Formules.filter(formule => formule.offre === "crea")
+    const CreaFormules =  Formules.filter(formule => formule.offre === "crea");
 
-    const StarterDetails = CreaDetails.filter(part => part.formule === "starter")
-    const MiddleDetails = CreaDetails.filter(part => part.formule === "middle")
-    const PreniumDetails = CreaDetails.filter(part => part.formule === "prenium")
+    const StarterDetails = CreaDetails.filter(part => part.formule === "starter");
+    const MiddleDetails = CreaDetails.filter(part => part.formule === "middle");
+    const PreniumDetails = CreaDetails.filter(part => part.formule === "prenium");
+
+
 
     return(
         <>
@@ -169,7 +173,7 @@ function formuleCreation() {
         </section>
         <section className='details'>
             <h2 className='details__title'>ENCORE PLUS DE DETAILS ?</h2>
-            <div className='details__formule'>
+            <div className='details__formule' id="starter">
                 <h3 className='details__formule--title'>FORMULE STARTER :
                     <br />SIMPLICITE ET EFFICACITE EN UNE SEULE PAGE
                 </h3>
@@ -185,7 +189,7 @@ function formuleCreation() {
                     })}
                 </div>
             </div>
-            <div className='details__formule'>
+            <div className='details__formule' id="middle">
                 <h3 className='details__formule--title'>FORMULE MIDDLE :
                     <br />UN SITE VITRINE STRUCTURE ET POLYVALENT POUR VOTRE ENTREPRISE
                 </h3>
@@ -202,7 +206,7 @@ function formuleCreation() {
                 </div>
             </div>
 
-            <div className='details__formule'>
+            <div className='details__formule' id="prenium">
                 <h3 className='details__formule--title'>FORMULE PRENIUM :
                     <br />L'EXCELLENCE POUR VOTRE SITE VITRINE
                 </h3>

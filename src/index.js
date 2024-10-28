@@ -7,12 +7,14 @@ import OffreMaintenance from './pages/OffreMaintenance';
 import OffreRefonte from './pages/OffreRefonte';
 import Footer from './components/footer/Footer';
 import './index.css';
+import ScrollTo from './hook/ScrollTo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <ScrollTo />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/offreCreation" element={<OffreCreation />} />
