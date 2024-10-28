@@ -15,7 +15,7 @@
   color: #3E618B;
 }
 
-html, body {
+body {
   box-sizing: border-box;
   margin: auto;
   width: 100%;
@@ -78,6 +78,7 @@ h4 {
 }
 
 .header {
+  width: 100%;
   height: 40px;
   padding: 10px;
   display: flex;

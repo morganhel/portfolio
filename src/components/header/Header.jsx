@@ -10,7 +10,7 @@ function Header() {
                 <ul className='header__nav'>
                     <li><a href="../#presentation" className='header__nav--link'>PRESENTATION</a></li>
                     <li className="nav-item dropdown">
-                        <a href="../#offres" className='header__nav--link dropdown-title'>SERVICES</a>
+                        <span className='header__nav--link dropdown-title'>SERVICES</span>
                         <ul className="dropdown-menu">
                             <li><NavLink to="/#offres" className='header__nav--link dropdown-item'>MES OFFRES</NavLink></li>
                             <li><NavLink to="/offreCreation" className='header__nav--link dropdown-item'>CREATION</NavLink></li>
