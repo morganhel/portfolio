@@ -29,9 +29,10 @@ function Home() {
 
   return (
     <>
-    <Banner />
-    <Header />
+    {/* <Banner /> */}
+    
     <main>
+      <Header />
       <section className='presentation' id='presentation'>
         <h2>UN PEU DE MOI</h2>
         <div className='presentation__content'>
