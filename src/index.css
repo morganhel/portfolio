@@ -110,8 +110,7 @@ h4 {
   font-size: 20px;
   color: #3E618B;
   list-style: none;
-  height: 40px;
-  padding: 16px 15px;
+  padding: 5px 15px;
 }
 @media (max-width: 767.98px) {
   .header__nav--link {
@@ -134,8 +133,10 @@ h4 {
   position: absolute;
   background-color: #e2cade;
   list-style: none;
-  margin: 15px 0 0 50px;
-  padding: 15px 0;
+  margin: 5px 0 0 50px;
+  padding: 5px 0;
+  flex-direction: column;
+  gap: 10px;
 }
 @media (max-width: 767.98px) {
   .dropdown-menu {
@@ -152,13 +153,6 @@ h4 {
 /* Afficher le menu déroulant au survol */
 .dropdown:hover .dropdown-menu {
   display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-@media (max-width: 767.98px) {
-  .dropdown:hover .dropdown-menu {
-    gap: 10px;
-  }
 }
 
 .footer {

@@ -12,10 +12,10 @@ function Header() {
                     <li className="nav-item dropdown">
                         <span className='header__nav--link dropdown-title'>SERVICES</span>
                         <ul className="dropdown-menu">
-                            <li><NavLink to="/#offres" className='header__nav--link dropdown-item'>MES OFFRES</NavLink></li>
-                            <li><NavLink to="/offreCreation" className='header__nav--link dropdown-item'>CREATION</NavLink></li>
-                            <li><NavLink to="/offreMaintenance" className='header__nav--link dropdown-item'>MAINTENANCE</NavLink></li>
-                            <li><NavLink to="/offreRefonte" className='header__nav--link dropdown-item'>REFONTE</NavLink></li>
+                            <li><NavLink to="/#offres" className='header__nav--link dropdown-item'>MES SERVICES</NavLink></li>
+                            <li><NavLink to="/offreCreation" className='header__nav--link dropdown-item'>✿ CREATION</NavLink></li>
+                            <li><NavLink to="/offreMaintenance" className='header__nav--link dropdown-item'>✿ MAINTENANCE</NavLink></li>
+                            <li><NavLink to="/offreRefonte" className='header__nav--link dropdown-item'>✿ REFONTE</NavLink></li>
                         </ul>
                     
                     </li>
