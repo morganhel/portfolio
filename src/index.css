@@ -430,8 +430,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .banner__content {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 @media (max-width: 1024px) {
@@ -677,8 +677,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .presentation {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 .presentation__content {
@@ -754,8 +754,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .realisations {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 .realisations__content {
@@ -790,8 +790,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .competences {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 .competences__content {
@@ -854,6 +854,11 @@ h4 {
   gap: 40px;
   background-color: #9d97cf;
 }
+@media (max-width: 1024px) {
+  .offres {
+    padding: 120px 10px 0 10px;
+  }
+}
 .offres__content {
   display: flex;
   gap: 30px;
@@ -875,8 +880,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .contact {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 .contact__content {
@@ -911,8 +916,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .formules {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 .formules__content--center {
@@ -956,6 +961,11 @@ h4 {
   gap: 40px;
   padding: 40px;
   background-color: #3E618B;
+}
+@media (max-width: 1024px) {
+  .deroulement {
+    padding: 120px 10px 0 10px;
+  }
 }
 @media (min-width: 1600px) {
   .deroulement {
@@ -1062,8 +1072,8 @@ h4 {
 }
 @media (max-width: 1024px) {
   .details {
-    margin: 10px;
-    padding: 10px;
+    margin: 0 10px;
+    padding: 120px 10px;
   }
 }
 .details__formule {
