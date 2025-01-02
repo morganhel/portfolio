@@ -1,6 +1,6 @@
 import React from 'react';
 import { ReactTyped} from "react-typed";
-import BigLogoW from "../../assets/images/MyLogo/LOGOCARRE.svg"
+import BigLogoW from "../../assets/images/MyLogo/LOGOCARRE.webp"
 
 function Banner(){
     return(

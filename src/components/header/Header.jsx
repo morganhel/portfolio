@@ -21,7 +21,6 @@ function Header() {
                     </li>
                     <li><a href="../#realisations" className='header__nav--link'>PROJETS</a></li>
                     <li><a href="../#contact" className='header__nav--link'>CONTACT</a></li>
-                    {/* <li><a href={CV} className='header__nav--link'>CV</a></li> */}
                 </ul>
             </nav>
         </header>

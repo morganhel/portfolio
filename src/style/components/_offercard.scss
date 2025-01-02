@@ -2,7 +2,7 @@
 
 
 .offercard{
-    width: 400px;
+    width: 300px;
     border-radius: 75px 25px;
     display: flex;
     flex-direction: column;
@@ -12,8 +12,13 @@
     background: radial-gradient(circle, rgba(157,151,207,1) 30%, 	rgb(128, 115, 191) 100%);
     box-shadow: 0 0 15px 5px rgb(128, 115, 191);
 
+    @media (min-width: $bp-ld) {
+        width:400px;
+    }
+
     @media (max-width: $bp-t) {
-        width:80%;
+        width:100%;
+        max-width: 400px;
         min-width: 300px;
     }
 
@@ -24,11 +29,11 @@
         align-items: center;
         justify-content: center;
         margin:10px;
-        height: 150px;
+        height: 100px;
 
         &--title{
             text-align: center;
-            font-size: 35px;
+            font-size: 26px;
             font-weight: 600;
             color: $color-second;
             z-index:2;
@@ -37,7 +42,7 @@
 
         &--img{
             position: absolute;
-            width:50%;
+            width:40%;
         }
 
 
@@ -53,7 +58,7 @@
         &--txt1{
             color: $color-second;
             text-align: center;
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 600;
             color: $color-third;
         }
@@ -61,14 +66,16 @@
         &--txt2{
             color: $color-second;
             text-align: justify;
-            margin: 0 20px 0 50px;
+            font-size: 13px;
+            // margin: 0 20px;
         }
 
         &--txt3{
             color: $color-second;
             text-align: center;
-            font-size: 18px;
+            font-size: 15px;
             font-weight: 500;
+            // margin: 0 30px;
         }
     }
 }
