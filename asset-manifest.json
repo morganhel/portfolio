@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.eac62117.css",
-    "main.js": "/static/js/main.9f62d8f0.js",
+    "main.css": "/static/css/main.f391da9b.css",
+    "main.js": "/static/js/main.27f96d97.js",
     "static/media/3.svg": "/static/media/3.dcb990dd451207ec7ed3757182c99a7a.svg",
     "static/media/1.svg": "/static/media/1.6776751d25c17f449813619db90fdb75.svg",
     "static/media/2.svg": "/static/media/2.cf9f81f6383c1038508de5edda4ea5b4.svg",
     "static/media/5.svg": "/static/media/5.43c981cb87451295ac7e0a6fe9985fe0.svg",
     "static/media/6.svg": "/static/media/6.43c981cb87451295ac7e0a6fe9985fe0.svg",
     "static/media/4.svg": "/static/media/4.f00acc9e8d33ed4e71c75076cc0cafea.svg",
-    "static/media/CV.pdf": "/static/media/CV.1b3b8001e40563ed40c3.pdf",
     "static/media/7.svg": "/static/media/7.43c981cb87451295ac7e0a6fe9985fe0.svg",
+    "static/media/CV.pdf": "/static/media/CV.5935ddac8d10ead8b44e.pdf",
     "static/media/linkedin.webp": "/static/media/linkedin.2fc01d5cc03139cd0de0.webp",
     "static/media/Me-min.webp": "/static/media/Me-min.67924bde9aa8836c65df.webp",
     "static/media/github.webp": "/static/media/github.e7c4530d9798e92cc7ae.webp",
-    "static/media/LOGOCARRE.svg": "/static/media/LOGOCARRE.3301f44f358582a615e3ba64a17366bc.svg",
-    "static/media/LOGO_carré_petit.svg": "/static/media/LOGO_carré_petit.afb1876dec71b5d68a026e8547bec3cd.svg",
+    "static/media/LOGOCARRE.webp": "/static/media/LOGOCARRE.ea4ee673ba115df1279f.webp",
     "index.html": "/index.html",
-    "main.eac62117.css.map": "/static/css/main.eac62117.css.map",
-    "main.9f62d8f0.js.map": "/static/js/main.9f62d8f0.js.map"
+    "static/media/LOGO_carré_petit.svg": "/static/media/LOGO_carré_petit.afb1876dec71b5d68a026e8547bec3cd.svg",
+    "main.f391da9b.css.map": "/static/css/main.f391da9b.css.map",
+    "main.27f96d97.js.map": "/static/js/main.27f96d97.js.map"
   },
   "entrypoints": [
-    "static/css/main.eac62117.css",
-    "static/js/main.9f62d8f0.js"
+    "static/css/main.f391da9b.css",
+    "static/js/main.27f96d97.js"
   ]
 }
