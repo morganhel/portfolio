@@ -12,10 +12,17 @@
     gap:40px;
     background: radial-gradient(circle, rgba(157,151,207,1) 30%, 	rgb(128, 115, 191) 100%);
 
+    @media (max-width: $bp-t){
+        width: 350px;
+        height: auto;
+        gap:10px;
+        padding-bottom: 20px;
+    }
 
-    @media (max-width: $bp-t) {
+    @media (max-width: $bp-m) {
         width: 95%;
         height: auto;
+        gap: 20px;
     }
 
 

@@ -4,11 +4,12 @@
     align-items: center;
     max-width: 1440px;
     margin: 0 auto;
-    padding:80px 40px 50px 40px;
+    padding:40px 40px;
     gap:40px;
 
     @media (max-width: $bp-t) {
         margin:10px;
+        padding: 10px;
     }
 }
 

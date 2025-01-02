@@ -12,7 +12,6 @@
     justify-content: space-between;
     padding:20px;
     gap:15px;
-    // border-radius: 25px;
     background: radial-gradient(circle, rgba(157,151,207,1) 30%, 	rgb(128, 115, 191) 100%);
 
     &__special{
@@ -39,7 +38,13 @@
     }
 
     @media (max-width: $bp-t) {
-        width:95%;
+        width:100%;
+        max-width: 400px;
+        min-width: 300px;
+    }
+
+    @media (max-width: $bp-m) {
+        height: auto;
     }
 
 
