@@ -91,12 +91,15 @@ h4 {
   }
 }
 .header__logo {
-  height: 80%;
+  height: 130%;
 }
 @media (max-width: 767.98px) {
   .header__logo {
     height: 20px;
   }
+}
+.header__logo--img {
+  height: 100%;
 }
 .header__nav {
   display: flex;

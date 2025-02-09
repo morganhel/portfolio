@@ -1,19 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
+import ScrollTo from './hook/ScrollTo';
 import Home from './pages/Home';
 import OffreCreation from './pages/OffreCreation';
 import OffreMaintenance from './pages/OffreMaintenance';
 import OffreRefonte from './pages/OffreRefonte';
 import Footer from './components/footer/Footer';
 import './index.css';
-import ScrollTo from './hook/ScrollTo';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <ScrollToTop />
       <ScrollTo />
       <Routes>
         <Route path="/" element={<Home />} />

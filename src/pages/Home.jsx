@@ -69,7 +69,7 @@ function Home() {
           })}
           </div>
       </section>
-      <section className='realisations' id='realisations'>
+      {/* <section className='realisations' id='realisations'>
         <h2>MES DERNIERS PROJETS</h2>
         <div className='realisations__content'>
           {Projets.map((projet)=>{
@@ -86,8 +86,8 @@ function Home() {
             )
           })}
         </div>
-        {/* <button className='realisations__button'>VOIR PLUS DE PROJETS</button> */}
-      </section>
+        <button className='realisations__button'>VOIR PLUS DE PROJETS</button>
+      </section> */}
       {/* <section className='competences' id='competences'>
         <h2>MES COMPETENCES</h2>
         <div className='competences__content'>

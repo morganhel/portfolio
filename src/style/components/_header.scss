@@ -19,9 +19,14 @@
 
 
     &__logo{
-        height: 80%;
+        height: 130%;
+
         @media (max-width: $bp-m) {
             height: 20px;
+        }
+
+        &--img{
+            height: 100%;
         }
     }
 
