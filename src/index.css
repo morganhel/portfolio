@@ -302,7 +302,7 @@ h4 {
   border-radius: 1.5rem;
   padding: 2rem;
   width: 500px;
-  margin: 2rem auto;
+  margin: 0;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
   font-family: "Inter", sans-serif;
 }
@@ -1119,6 +1119,7 @@ h4 {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  padding: 0 2rem;
 }
 @media (max-width: 1024px) {
   .contact__content {
@@ -1133,7 +1134,6 @@ h4 {
   align-items: center;
   gap: 30px;
 }
-
 .formules {
   display: flex;
   flex-direction: column;

@@ -151,12 +151,17 @@
 
     &__content{
         @include content;
+        padding: 0 2rem;
 
         &--link{
             display: flex;
             flex-direction: column;
             align-items: center;
             gap:30px;
+
+            @media (max-width: $bp-t) {
+                
+            }
 
             
         }
