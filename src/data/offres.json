@@ -3,9 +3,9 @@
         "id": "1",
         "img": "../assets/images/Icones/Pageweb.svg",
         "title": "Création de votre site vitrine",
-        "txt1":"Faites briller votre présence en ligne avec un site vitrine personnalisé !",
-        "txt2":"✿ Design élégant et professionnel qui vous reflète \n\n✿ Site entièrement responsive, adapté à tous les appareils \n\n✿ Optimisation de la navigation pour une meilleure expérience utilisateur \n\n✿ Représentation fidèle de votre marque et de votre identité visuelle \n\n✿ Facile à mettre à jour, avec des bases solides pour votre croissance en ligne",
-        "txt3":"Votre site idéal est à portée de clic ! Explorez mes formules de création et choisissez celle qui donnera vie à votre projet.",
+        "txt1":"Faites rayonner votre présence en ligne avec un site à votre image.",
+        "txt2":"✿ Design élégant & personnalisé \n\n✿ Adapté mobile, tablette & ordi \n\n✿ Adapté mobile, tablette & ordi \n\n✿ Fidèle à votre identité visuelle \n\n✿ Prêt à évoluer avec votre activité",
+        "txt3":"Votre site idéal, construit pas à pas selon vos besoins.",
         "page": "/offreCreation#header"
     },
 
@@ -13,9 +13,9 @@
         "id": "2",
         "img": "../assets/images/Icones/Maintenance.svg",
         "title": "Maintenance de votre nouveau site",
-        "txt1":"Gardez votre site sécurisé, rapide et toujours performant !",
-        "txt2":"✿ Mises à jour régulières pour garder votre site en sécurité \n\n✿ Sauvegardes automatiques pour protéger vos données \n\n✿ Surveillance des performances et résolution des bugs \n\n✿ Support technique disponible pour répondre à vos besoins \n\n✿ Vous vous concentrez sur votre business, je m’occupe du reste",
-        "txt3":"Ne laissez pas votre site vieillir ! Découvrez mes formules de maintenance pour qu'il reste toujours à la pointe.",
+        "txt1":"Un site toujours sécurisé, rapide et fonctionnel.",
+        "txt2":"✿ Mises à jour régulières\n\n✿ Sauvegardes automatiques \n\n✿ Résolution des bugs et surveillance\n\n✿ Support technique réactif \n\n✿ Vous gérez votre activité, je gère votre site",
+        "txt3":"Une maintenance souple et personnalisable, selon votre rythme.",
         "page": "/offreMaintenance#header"
     },
 
@@ -23,9 +23,9 @@
         "id": "3",
         "img": "../assets/images/Icones/Optimisation.svg",
         "title": "Optimisation ou refonte de votre site actuel",
-        "txt1":"Redonnez vie à votre site pour qu’il soit à la hauteur de vos ambitions !",
-        "txt2":"✿ Amélioration du design pour un look plus moderne et professionnel \n\n✿ Optimisation des temps de chargement et des performances globales \n\n✿ Refonte de l’architecture du site pour une meilleure navigation \n\n✿ SEO repensé pour améliorer votre visibilité sur les moteurs de recherche \n\n✿ Ajout de nouvelles fonctionnalités selon vos besoins en constante évolution",
-        "txt3":"Redonnez un nouveau souffle à votre site ! Parcourez mes options d'optimisation pour transformer votre présence en ligne.",
+        "txt1":"Redonnez vie à votre site pour qu’il vous ressemble vraiment.",
+        "txt2":"✿ Design modernisé & impactant \n\n✿ Temps de chargement optimisés \n\n✿ Architecture repensée \n\n✿ SEO amélioré \n\n✿ Nouvelles fonctionnalités si besoin",
+        "txt3":"Une refonte modulable selon votre site et vos objectifs.",
         "page": "/offreRefonte#header"
     }
 ]

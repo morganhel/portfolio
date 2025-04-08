@@ -11,15 +11,18 @@ function OfferCard ({img,title,txt1,txt2,txt3,page}){
             </div>
             <div className="offercard__content">
                 <p className="offercard__content--txt1" key={title}>{txt1}</p>
+                <div>
                 {paragraphes2.map((paragraphe2,index) => (
                             <p className="offercard__content--txt2" key={index}>{paragraphe2}</p>
                         ))}
+
+                </div>
                 <p className="offercard__content--txt3">{txt3}</p>
-                <Button 
+            </div>
+            <Button 
                     txt="DECOUVRIR LES FORMULES"
                     lien={page}
                     bclass="button" />
-            </div>
         </article>
     )
 }

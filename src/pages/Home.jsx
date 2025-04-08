@@ -39,17 +39,15 @@ function Home() {
         <div className='presentation__content'>
           <img className='presentation__content__photo' src={Me} alt="Morgan" />
           <div className='presentation__content__txt'>
-            <p>Je m'appelle Morgan et je suis ravie de vous rencontrer ici. 
-            <br />Je suis une <strong>créatrice de sites vitrines</strong> passionnée, engagée à accompagner les entrepreneurs et les petites entreprises dans la création d'une présence en ligne authentique et percutante. 
-            <br />Mon objectif ? Vous aider à vous démarquer sur le web tout en restant fidèle à vos valeurs et à vos ambitions.</p>
-            <p>En tant que jeune maman, j'ai entrepris un changement de parcours professionnel pour me recentrer et me reconnecter avec moi-même. C'est ainsi que j'ai redécouvert ma passion pour le développement web.</p>
-            <p>Si vous souhaitez en savoir un peu plus sur mon parcours et mes compétences, on se retrouve juste ici → 
+            <p>Je m'appelle Morgan <strong>créatrice de sites vitrines</strong> passionnée et engagée !</p>
+            <p>J'accompagne les entrepreneur.euse.s, artisan.e.s et les petites structure dans la création d'une présence en ligne authentique, alignée avec leurs valeurs.</p>
+            <p>Je me suis reconvertie dans le développement web après être devenue maman, animée par l’envie de redonner du sens à ma vie pro et de créer avec cœur.</p>
+            <p>Envie d’en savoir plus sur mon parcours ? Consultez mon {''}
               <a href={CV} className='link' target="_blank" rel="noreferrer">CV</a></p>
-            <p>Que vous soyez un entrepreneur en herbe ou une petite entreprise établie, je suis là pour vous guider à chaque étape, de la conception à la mise en ligne, dans une démarche de proximité et de confiance. Je crois profondément que chaque entreprise mérite une vitrine en ligne qui reflète son identité et ses objectifs, et je mets mon expertise au service de cette vision, en privilégiant une relation humaine et authentique.</p>
             </div>
         </div>
-        <p className='presentation__details presentation__details--color'>Si vous recherchez une approche personnalisée, une collaboration étroite et des résultats à la hauteur de vos attentes, je suis là pour vous aider à concrétiser vos ambitions en ligne.</p>
-        <p  className='presentation__details'>N'hésitez pas à me <a href="../#contact"  className='link'>CONTACTER</a> pour discuter de votre projet et commencer cette belle aventure ensemble !</p>
+        <p className='presentation__details presentation__details--color'>Mon approche ? De la proximité, de l’écoute et des solutions sur mesure, pour que votre site reflète pleinement votre identité et vos ambitions.</p>
+        <p  className='presentation__details'>Un projet en tête ? <a href="../#contact"  className='link'>Contactez-moi</a>, je serai ravie d’en discuter avec vous.</p>
       </section>
       <section className='offres' id='offres'>
         <h2 className='offres__title'>MES SERVICES</h2>

@@ -434,7 +434,7 @@ h4 {
 @media (max-width: 1024px) {
   .banner__content {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
 @media (max-width: 1024px) {
@@ -462,8 +462,9 @@ h4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   padding: 20px;
-  gap: 15px;
+  gap: 50px;
   background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
   box-shadow: 0 0 15px 5px rgb(128, 115, 191);
 }
@@ -502,18 +503,16 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 18px;
+  gap: 40px;
 }
 .offercard__content--txt1 {
-  color: #eddeea;
   text-align: center;
   font-size: 15px;
   font-weight: 600;
   color: #3E618B;
 }
 .offercard__content--txt2 {
-  color: #eddeea;
-  text-align: justify;
+  color: #3E618B;
   font-size: 13px;
 }
 .offercard__content--txt3 {
@@ -524,37 +523,16 @@ h4 {
 }
 
 .formulacard {
-  width: 350px;
-  height: 750px;
+  width: 450px;
   border-radius: 75px 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  gap: 15px;
-  background: radial-gradient(circle, rgb(157, 151, 207) 30%, rgb(128, 115, 191) 100%);
-}
-.formulacard__special {
-  width: 400px;
-  height: 800px;
+  gap: 40px;
   background: radial-gradient(circle, rgb(138, 201, 184) 30%, rgb(72, 157, 135) 100%);
   box-shadow: 1.2rem 1.2rem 0.3rem rgba(29, 30, 28, 0.26);
-}
-.formulacard__special h3 {
-  font-size: 50px;
-}
-.formulacard__special h4 {
-  font-size: 38px;
-}
-.formulacard__special .formulacard__header--price {
-  font-size: 45px;
-}
-.formulacard__special .formulacard__content--txt1 {
-  font-size: 20px;
-}
-.formulacard__special .formulacard__content--txt2 {
-  font-size: 16px;
 }
 @media (max-width: 1024px) {
   .formulacard {
@@ -570,12 +548,8 @@ h4 {
 }
 .formulacard__title {
   text-align: center;
-  font-size: 35px;
   font-weight: 400;
   color: #eddeea;
-}
-.formulacard__stitle {
-  text-align: center;
 }
 .formulacard__price {
   font-family: "Raleway", sans-serif;
@@ -585,14 +559,51 @@ h4 {
 .formulacard__content--txt1 {
   color: #eddeea;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   color: #3E618B;
 }
-.formulacard__content--txt2 {
-  color: #eddeea;
-  text-align: justify;
+.formulacard__content--txt2 p {
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.options__title {
+  color: #3E618B;
+}
+.options__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+.options__table thead {
+  background-color: #3E618B;
+  font-weight: bold;
+}
+.options__table thead th {
+  padding: 0.5rem 1rem;
+  text-align: left;
   font-size: 14px;
+  color: #eddeea;
+}
+.options__table tbody tr {
+  background-color: #e2cade;
+}
+.options__table tbody tr td {
+  padding: 0.5rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  font-size: 12px;
+}
+.options .bold {
+  font-weight: 500;
 }
 
 .formuladetailscard {
@@ -681,7 +692,7 @@ h4 {
 @media (max-width: 1024px) {
   .presentation {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
 .presentation__content {
@@ -705,7 +716,8 @@ h4 {
 .presentation__content__photo {
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 50%;
 }
 @media (max-width: 1024px) {
@@ -758,7 +770,7 @@ h4 {
 @media (max-width: 1024px) {
   .realisations {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
 .realisations__content {
@@ -794,7 +806,7 @@ h4 {
 @media (max-width: 1024px) {
   .competences {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
 .competences__content {
@@ -859,7 +871,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .offres {
-    padding: 120px 10px 0 10px;
+    padding: 20px 10px;
   }
 }
 .offres__content {
@@ -884,7 +896,7 @@ h4 {
 @media (max-width: 1024px) {
   .contact {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
 .contact__content {
@@ -920,7 +932,7 @@ h4 {
 @media (max-width: 1024px) {
   .formules {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
 .formules__content--center {
@@ -944,14 +956,26 @@ h4 {
   }
 }
 .formules__content--choice {
-  gap: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 50px;
 }
 @media (max-width: 1024px) {
   .formules__content--choice {
     flex-direction: column;
+  }
+}
+.formules__exemple {
+  margin: 40px 0 40px 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media (max-width: 1024px) {
+  .formules__exemple {
+    margin: 0 0 0 20px;
+    text-align: justify;
   }
 }
 
@@ -967,7 +991,7 @@ h4 {
 }
 @media (max-width: 1024px) {
   .deroulement {
-    padding: 120px 10px 0 10px;
+    padding: 20px 10px;
   }
 }
 @media (min-width: 1600px) {
@@ -979,9 +1003,6 @@ h4 {
   .deroulement {
     padding: 20px;
   }
-}
-.deroulement h3, .deroulement p, .deroulement strong {
-  color: #eddeea;
 }
 .deroulement__intro {
   color: #eddeea;
@@ -996,75 +1017,25 @@ h4 {
 .deroulement__title {
   color: #eddeea;
 }
-.deroulement__etape {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.deroulement__etape__part1 {
-  display: flex;
-  align-items: center;
-  gap: 100px;
+.deroulement__img1 {
+  width: 100%;
 }
 @media (max-width: 767.98px) {
-  .deroulement__etape__part1 {
-    flex-direction: column;
-    gap: 10px;
+  .deroulement__img1 {
+    display: none;
   }
 }
-.deroulement__etape__part1--img {
-  width: 30%;
+.deroulement__img2 {
+  display: none;
 }
 @media (max-width: 767.98px) {
-  .deroulement__etape__part1--img {
-    width: 80%;
-  }
-}
-.deroulement__etape__part1--content {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-.deroulement__etape__part1--content h3 {
-  color: #9d97cf;
-}
-@media (max-width: 1024px) {
-  .deroulement__etape__part1--content h3 {
-    font-size: 30px;
-    text-align: center;
-  }
-}
-.deroulement__etape__part1--content p {
-  font-size: 16px;
-  text-align: justify;
-}
-.deroulement__etape__part2 {
-  padding: 0 200px 0 100px;
-  text-align: justify;
-}
-@media (max-width: 1024px) {
-  .deroulement__etape__part2 {
-    padding: 20px 100px 20px 50px;
-  }
-}
-@media (max-width: 767.98px) {
-  .deroulement__etape__part2 {
-    padding: 20px 10px;
-    font-size: 15px;
-    text-align: left;
+  .deroulement__img2 {
+    display: flex;
+    width: 100%;
   }
 }
 
-.reverse {
-  flex-direction: row-reverse;
-}
-@media (max-width: 767.98px) {
-  .reverse {
-    flex-direction: column;
-  }
-}
-
-.details {
+.faq {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1074,38 +1045,26 @@ h4 {
   gap: 40px;
 }
 @media (max-width: 1024px) {
-  .details {
+  .faq {
     margin: 0 10px;
-    padding: 120px 10px;
+    padding: 5px 10px;
   }
 }
-.details__formule {
+.faq__questions {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  margin-bottom: 50px;
-  padding-bottom: 50px;
-  border-bottom: 1px solid #3E618B;
+  justify-content: flex-start;
+  gap: 20px;
 }
-.details__formule--title {
-  font-size: 25px;
-  text-align: center;
-}
-.details__formule--content {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
+.faq__questions--q {
+  display: flex;
+  align-items: baseline;
+  gap: 30px;
 }
 @media (max-width: 1024px) {
-  .details__formule--content {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 767.98px) {
-  .details__formule--content {
-    display: flex;
+  .faq__questions--q {
     flex-direction: column;
-    align-items: center;
+    gap: 10px;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -3,39 +3,17 @@
 
 
 .formulacard{
-    width: 350px;
-    height: 750px;
+    width: 450px;
     border-radius: 75px 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding:20px;
-    gap:15px;
-    background: radial-gradient(circle, rgba(157,151,207,1) 30%, 	rgb(128, 115, 191) 100%);
+    gap:40px;
+    background: radial-gradient(circle, rgb(138, 201, 184) 30%, rgb(72, 157, 135) 100%);
+    box-shadow: 1.2rem 1.2rem 0.3rem rgba(29, 30, 28, 0.26);
 
-    &__special{
-        width:400px;
-        height: 800px;
-        background: radial-gradient(circle, rgb(138, 201, 184) 30%, rgb(72, 157, 135) 100%);
-        box-shadow: 1.2rem 1.2rem 0.3rem rgba(29, 30, 28, 0.26);
-
-        h3{
-            font-size: 50px;
-        }
-        h4{
-            font-size: 38px;
-        }
-        .formulacard__header--price{
-            font-size: 45px;
-        }
-        .formulacard__content--txt1{
-            font-size:20px;
-        }
-        .formulacard__content--txt2{
-            font-size:16px;
-        }
-    }
 
     @media (max-width: $bp-t) {
         width:100%;
@@ -50,14 +28,11 @@
 
     &__title{
         text-align: center;
-        font-size: 35px;
+
         font-weight: 400;
         color: $color-second;
     }
 
-    &__stitle{
-        text-align:center;
-    }
 
     &__price{
         font-family: "Raleway", sans-serif;
@@ -71,16 +46,70 @@
         &--txt1{
             color: $color-second;
             text-align: center;
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
             color: $color-third;
         }
 
         &--txt2{
-            color: $color-second;
-            text-align: justify;
-            font-size: 14px;
+
+            p{
+            font-size: 16px;
+            }
         }
     }
+
+}
+
+
+.options{
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+
+    &__title{
+      color: $color-third;
+    }
+
+
+&__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  
+    thead {
+      background-color: $color-third;
+      font-weight: bold;
+  
+      th {
+        padding: 0.5rem 1rem;
+        text-align: left;
+        font-size: 14px;
+        color: $color-second;
+      }
+    }
+  
+    tbody {
+      tr {
+          background-color: $color-second-dark;
+  
+        td {
+          padding: 0.5rem 1rem;
+          text-align: left;
+          border-bottom: 1px solid #eee;
+          font-size: 12px;
+  
+        }
+
+      }
+    }
+  }
+
+  .bold{
+    font-weight: 500;
+  }
 
 }

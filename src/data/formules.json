@@ -2,11 +2,10 @@
     {
         "id": "1",
         "offre":"crea",
-        "title": "STARTER",
-        "stitle": "L'essentiel, simplement",
+        "title": "OFFRE DE BASE",
         "price": "500 €",
-        "txt1":"Simplifiez votre présence en ligne avec un site vitrine élégant et efficace, le tout en une seule page !",
-        "txt2":"✿ Design attractif et responsive : Création d'une page unique optimisée pour tous les appareils. \n\n✿ Présentation des services : Mise en avant claire et concise de vos services ou produits. \n\n✿ Formulaire de contact : Intégration d'un formulaire pour faciliter la prise de contact. \n\n✿ Référencement de base : Optimisation pour un meilleur positionnement sur les moteurs de recherche.",
+        "txt1":"Idéale pour poser les bases d'une présence en ligne professionnelle.",
+        "txt2":"✿ 1 page (accueil ou présentation) \n\n✿ Design adapté à votre image (couleurs, polices, ambiance) \n\n✿ Affichage adapté aux mobiles et tablettes \n\n✿ Formulaire de contact simple \n\n✿ SEO de base : structure lisible, balises optimisées  \n\n✿ Mentions légales et politique de confidentialité \n\n✿ Hébergement inclus pendant 1 an \n\n✿ 3 mois de maintenance offerte  ",
         "page": "/offreCreation#starter",
         "class": "formulacard"
     },
