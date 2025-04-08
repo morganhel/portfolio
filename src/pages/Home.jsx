@@ -8,6 +8,8 @@ import Skills from '../data/skills.json';
 import Thumbnail from '../components/thumbnail/Thumbnail';
 import ContactForm from '../components/contactForm/ContactForm';
 import Linkedin from '../assets/images/Logo/linkedin.webp';
+import Insta from '../assets/images/Logo/insta.png';
+import Facebook from '../assets/images/Logo/facebook.png'
 import OfferCard from '../components/offercard/OfferCard';
 import Offres from '../data/offres.json';
 import ScrollTo from '../hook/ScrollTo';
@@ -119,11 +121,17 @@ function Home() {
           <ContactForm />
           <div className='contact__content--link'>
             <h3>Retrouvez moi ici ↓ </h3>
-            <a href="https://github.com/morganhel">
-              <Thumbnail logo={Skills[7].logo} name={Skills[7].name}/>
-            </a>
-            <a href='https://www.linkedin.com/in/morgan-heleine-230a13138/'>
+            <a href='https://www.linkedin.com/in/morgan-heleine-230a13138/' target="_blank" rel="noopener noreferrer">
               <Thumbnail logo={Linkedin} name='LINKEDIN'/>
+            </a>
+            <a href="https://www.instagram.com/morganh_dev/" target="_blank" rel="noopener noreferrer">
+              <Thumbnail logo={Insta} name='INSTAGRAM'/>
+            </a>
+            <a href='https://www.facebook.com/profile.php?id=61571570433444' target="_blank" rel="noopener noreferrer">
+              <Thumbnail logo={Facebook} name='FACEBOOK'/>
+            </a>
+            <a href="https://github.com/morganhel" target="_blank" rel="noopener noreferrer">
+              <Thumbnail logo={Skills[7].logo} name={Skills[7].name}/>
             </a>
           </div>
         </div>

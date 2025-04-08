@@ -1,47 +1,149 @@
-.contactForm{
-    border: 1px solid black;
-    width:500px;
-    // background-color: rgba(229,205,205,1);
-    background-color: $color-second-dark;
-    margin: 0;
-    box-shadow: $shadow;
+.contact-form {
+    background: #fff;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 500px;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    font-family: 'Inter', sans-serif;
 
     @media (max-width: $bp-m) {
-        width: auto;
+        width: 100%;
     }
-
-    &__title{
-        text-align: center;
-        padding: 8px;
-        border-bottom: 1px solid black;
+  
+    &__title {
+      text-align: center;
+      font-size: 1.6rem;
+      margin-bottom: 1.5rem;
+      color: #333;
     }
-
-    &__content{
-        padding: 20px;
-        display: flex;
-        gap:20px;
-        flex-direction: column;
-        
-
-        &--input{
-            border: 2px solid rgba(0, 0, 0, 0.6);
-            background-image:none;
-            background-color: $color-second;
-            box-shadow: none;
-            padding: 5px;
+  
+    &__fields {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+  
+      input,
+      select,
+      textarea {
+        padding: 0.8rem 1.2rem;
+        border: 1px solid #ddd;
+        border-radius: 0.75rem;
+        font-size: 1rem;
+        font-family: inherit;
+        transition: border-color 0.2s ease;
+        background-color: #fdfdfd;
+  
+        &::placeholder {
+          color: $color-third;
+          opacity: 1;
         }
-
-        .button{
-            margin-top: 10px;
-            align-self: flex-end;
-            cursor: pointer;
-            font-weight: 500;
+  
+        &:focus {
+          border-color: #c8a2c8;
+          outline: none;
         }
-
-        textarea{
-            min-height: 50px;
-            resize:vertical;
+      }
+  
+      textarea {
+        min-height: 120px;
+        resize: vertical;
+      }
+  
+      select {
+        background-color: #fdfdfd;
+        color: $color-third;
+      }
+  
+      .submit {
+        margin-top: 1rem;
+        padding: 0.8rem 1rem;
+        background-color: #c8a2c8;
+        color: #fff;
+        border: none;
+        border-radius: 999px;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+  
+        &:hover {
+          background-color: #a27ca2;
         }
-
+      }
     }
-}
+  
+    .success-message {
+      text-align: center;
+      padding: 1rem;
+      color: #2e7d32;
+      font-weight: 500;
+      background: #e9f7ef;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+  
+    .error-message {
+      color: #801515;
+      font-size: 0.9rem;
+      text-align: center;
+      margin-top: -0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .modal-confirm__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal-confirm__content {
+    background: white;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  
+    h3 {
+      color: #2e7d32;
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    p {
+      color: #555;
+      font-size: 1rem;
+    }
+  }
+  
+  .modal-confirm__close {
+    position: absolute;
+    top: 1rem;
+    right: 1.2rem;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #888;
+    cursor: pointer;
+  
+    &:hover {
+      color: #444;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
