@@ -114,15 +114,12 @@
         justify-content: flex-start;
         gap:20px;
 
+
         &--q{
             display: flex;
+            flex-direction: column;
             align-items: baseline;
-            gap : 30px;
-
-            @media (max-width: $bp-t) {
-                flex-direction: column;
-                gap: 10px;
-            }
+            gap : 15px;
         }
     }
 }

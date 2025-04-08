@@ -1059,12 +1059,7 @@ h4 {
 }
 .faq__questions--q {
   display: flex;
+  flex-direction: column;
   align-items: baseline;
-  gap: 30px;
-}
-@media (max-width: 1024px) {
-  .faq__questions--q {
-    flex-direction: column;
-    gap: 10px;
-  }
+  gap: 15px;
 }/*# sourceMappingURL=index.css.map */
